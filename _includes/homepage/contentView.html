@@ -1,0 +1,18 @@
+<article class="skew-top-white">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 hidden-xs hidden-sm">
+        {% include homepage/innerNav.html %}
+      </div>
+
+      <div
+        {% if page.title == 'Current Release' %}
+          class="col-md-7 col-lg-6"
+        {% else %}
+          class="col-md-5 col-md-offset-1"
+        {% endif %} >
+        {{ content }}
+      </div>
+    </div>
+  </div>
+</article>

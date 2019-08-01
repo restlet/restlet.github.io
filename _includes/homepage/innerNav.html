@@ -1,0 +1,44 @@
+<nav>
+  <ul class="content-nav">
+    <li  {% if page.title == 'Overview' %}class="active" {% endif %} >
+      <a href="/">Overview</a>
+    </li>
+    <li {% if page.title == 'Features' %}class="active" {% endif %} >
+      <a href="/features">Features</a>
+    </li>
+    <li {% if page.title == 'Download' %}class="active" {% endif %} >
+      <a href="/downloads/current/">Download</a>
+      <ul>
+        <li {% if page.title == 'Current Release' %}class="active" {% endif %} >
+          <a href="/downloads/current/">Current Release</a>
+        </li>
+        <li {% if page.title == 'Other Releases' %}class="active" {% endif %} >
+          <a href="/downloads/past/">Other Releases</a>
+        </li>
+        <li {% if page.title == 'Legal Terms' %}class="active" {% endif %} >
+          <a href="/downloads/legal-terms/">Legal Terms</a>
+        </li>
+        <li {% if page.title == 'FAQ' %}class="active" {% endif %} >
+          <a href="/downloads/faq/">FAQ</a>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <a href="/documentation/tutorials/2.3">Documentation</a>
+      <ul>
+        <li>
+          <a href="/documentation/user-guide/2.3">User guide</a>
+        </li>
+        <li>
+          <a href="/documentation/tutorials/2.3">Tutorials</a>
+        </li>
+        <li>
+          <a href="/documentation/jdocs/2.3">Javadocs</a>
+        </li>
+        <li>
+          <a href="/documentation/snapshot/changelog">Changelog</a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</nav>

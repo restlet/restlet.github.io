@@ -1,0 +1,81 @@
+<div class="sidebar-wrapper hidden-xs hidden-sm">
+  <aside class="section-bg-mako text-white">
+    <nav class="documentation-sidebar" aria-label="Documentation navigation" role="navigation">
+      <ul id="accordion" class="nav documentation-nav">
+        <li>
+          <a href="#submenu-1" class="accordion-toggle toggle-switch">
+            <img src="/assets/images/restlet_white_32.svg">Framework
+          </a>
+          <ul id="submenu-1" class="nav panel-switch" role="menu">
+            <li>
+              <a href="#subsubmenu-1" class="accordion-toggle toggle-switch">User guide</a>
+              <ul id="subsubmenu-1" class="nav panel-switch lowest-lewel" role="menu">
+
+
+                <li>
+                  <a href="/documentation/user-guide/2.3/introduction/overview"
+                     {% if page.section == 'guide-introduction' %}class="active" {% endif %} >
+                    Part 1 - Introduction
+                  </a>
+                </li>
+
+                <li>
+                  <a href="/documentation/user-guide/2.3/core/overview"
+                     {% if page.section == 'guide-core' %}class="active" {% endif %} >
+                    Part 2 - Core Restlet
+                  </a>
+                </li>
+
+                <li>
+                  <a href="/documentation/user-guide/2.3/editions/overview"
+                     {% if page.section == 'guide-editions' %}class="active" {% endif %} >
+                    Part 3 - Restlet Editions
+                  </a>
+                </li>
+
+                <li>
+                  <a href="/documentation/user-guide/2.3/extensions/overview"
+                     {% if page.section == 'guide-extensions' %}class="active" {% endif %} >
+                    Part 4 - Restlet Extensions
+                  </a>
+                </li>
+
+                <li>
+                  <a href="/documentation/user-guide/2.3/appendices/overview"
+                     {% if page.section == 'guide-appendices' %}class="active" {% endif %} >
+                    Appendices
+                  </a>
+                </li>
+
+              </ul>
+            </li>
+
+
+            <li>
+              <a href="/documentation/tutorials/2.3/overview"
+                 {% if page.section == 'tutorials' %}class="active" {% endif %} >
+                Tutorials
+              </a>
+            </li>
+
+
+            <li>
+              <a href="/documentation/jdocs/2.3">
+                    Javadocs
+              </a>
+            </li>
+
+            <li>
+              <a target="_blank" href="/documentation/2.3/changelog">
+                Change Log
+              </a>
+            </li>
+
+          </ul>
+        </li>
+
+      </ul>
+    </nav>
+  </aside>
+
+</div>

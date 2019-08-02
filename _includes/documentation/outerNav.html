@@ -10,38 +10,42 @@
             <li>
               <a href="#subsubmenu-1" class="accordion-toggle toggle-switch">User guide</a>
               <ul id="subsubmenu-1" class="nav panel-switch lowest-lewel" role="menu">
-
+                {% if page.version %}
+                  {% assign effective_version = page.version %}
+                {% else %}
+                  {% assign effective_version = site.default_doc_version %}
+                {% endif %}
 
                 <li>
-                  <a href="/documentation/user-guide/2.3/introduction/overview"
+                  <a href="/documentation/user-guide/{{ effective_version }}/introduction/overview"
                      {% if page.section == 'guide-introduction' %}class="active" {% endif %} >
                     Part 1 - Introduction
                   </a>
                 </li>
 
                 <li>
-                  <a href="/documentation/user-guide/2.3/core/overview"
+                  <a href="/documentation/user-guide/{{ effective_version }}/core/overview"
                      {% if page.section == 'guide-core' %}class="active" {% endif %} >
                     Part 2 - Core Restlet
                   </a>
                 </li>
 
                 <li>
-                  <a href="/documentation/user-guide/2.3/editions/overview"
+                  <a href="/documentation/user-guide/{{ effective_version }}/editions/overview"
                      {% if page.section == 'guide-editions' %}class="active" {% endif %} >
                     Part 3 - Restlet Editions
                   </a>
                 </li>
 
                 <li>
-                  <a href="/documentation/user-guide/2.3/extensions/overview"
+                  <a href="/documentation/user-guide/{{ effective_version }}/extensions/overview"
                      {% if page.section == 'guide-extensions' %}class="active" {% endif %} >
                     Part 4 - Restlet Extensions
                   </a>
                 </li>
 
                 <li>
-                  <a href="/documentation/user-guide/2.3/appendices/overview"
+                  <a href="/documentation/user-guide/{{ effective_version }}/appendices/overview"
                      {% if page.section == 'guide-appendices' %}class="active" {% endif %} >
                     Appendices
                   </a>
@@ -52,7 +56,7 @@
 
 
             <li>
-              <a href="/documentation/tutorials/2.3/overview"
+              <a href="/documentation/tutorials/{{ effective_version }}/overview"
                  {% if page.section == 'tutorials' %}class="active" {% endif %} >
                 Tutorials
               </a>
@@ -60,13 +64,13 @@
 
 
             <li>
-              <a href="/documentation/jdocs/2.3">
+              <a href="/documentation/jdocs/{{ effective_version }}">
                     Javadocs
               </a>
             </li>
 
             <li>
-              <a target="_blank" href="/documentation/2.3/changelog">
+              <a target="_blank" href="/documentation/{{ effective_version }}/changelog">
                 Change Log
               </a>
             </li>

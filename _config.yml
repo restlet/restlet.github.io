@@ -64,31 +64,7 @@ defaults:
     values:
       section: guide-introduction
   - scope:
-      path: "/documentation/user-guide/*/introduction"
-    values:
-      section: guide-introduction
-  - scope:
-      path: "/documentation/user-guide/*/core"
-    values:
-      section: guide-core
-  - scope:
-      path: "/documentation/user-guide/*/editions"
-    values:
-      section: guide-editions
-  - scope:
-      path: "/documentation/user-guide/*/extensions"
-    values:
-      section: guide-extensions
-  - scope:
-      path: "/documentation/user-guide/*/appendices"
-    values:
-      section: guide-appendices
-  - scope:
       path: "/documentation/tutorials"
-    values:
-      section: tutorials
-  - scope:
-      path: "/documentation/tutorials/*/"
     values:
       section: tutorials
   - scope:

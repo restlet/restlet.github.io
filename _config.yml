@@ -68,6 +68,6 @@ defaults:
     values:
       section: tutorials
   - scope:
-      path: "/documentation/jdocs/"
+      path: "/documentation/javadocs/"
     values:
       section: javadoc

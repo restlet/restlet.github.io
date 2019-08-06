@@ -17,7 +17,7 @@
               <ul>
                 {% for child in children_list %}
                   {% if child.parent == node.title %}
-                    <li class="{% if page.url == child.url or page.parent == child.title %} active{% endif %}">
+                    <li class="{% if page.url == child.url %} active{% endif %}">
                       {% if page.url == child.url or page.parent == child.title %}
                         {% assign second_level_url = child.url | absolute_url %}
                       {% endif %}

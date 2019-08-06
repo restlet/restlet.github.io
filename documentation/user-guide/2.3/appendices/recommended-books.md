@@ -8,9 +8,7 @@ No list of recommended resources will be exhaustive but this list comprises a re
 
 # Restlet in action (Manning)
 
-[ ![Restlet in action (Manning)][1]][2]
-[1]: images/restlet-in-action-120.png
-[2]: http://www.amazon.com/gp/product/193518234X/ref=as_li_tf_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=193518234X&linkCode=as2&tag=restlet-20
+[ ![Restlet in action (Manning)](images/restlet-in-action-120.png)](https://www.amazon.com/gp/product/193518234X/ref=as_li_tf_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=193518234X&linkCode=as2&tag=restlet-20)
 
 Restlet in Action gets you started with the Restlet Framework
 and the REST architecture style. You'll create and deploy applications
@@ -30,9 +28,7 @@ sample RESTful email app.
 
 # RESTful Web Services (O'Reilly)
 
-[ ![RESTful Web Services (O'Reilly)][3]][4]
-[3]: images/restful-web-services.png
-[4]: http://www.amazon.com/gp/redirect.html?ie=UTF8&amp;location=http%3A%2F%2Fwww.amazon.com%2FRestful-Web-Services-Leonard-Richardson%2Fdp%2F0596529260%3Fie%3DUTF8%26s%3Dbooks%26qid%3D1173381194%26sr%3D8-1&amp;tag=restlet-20&amp;linkCode=ur2&amp;camp=1789&amp;creative=9325
+[ ![RESTful Web Services (O'Reilly)](images/restful-web-services.png)](https://www.amazon.com/gp/redirect.html?ie=UTF8&amp;location=http%3A%2F%2Fwww.amazon.com%2FRestful-Web-Services-Leonard-Richardson%2Fdp%2F0596529260%3Fie%3DUTF8%26s%3Dbooks%26qid%3D1173381194%26sr%3D8-1&amp;tag=restlet-20&amp;linkCode=ur2&amp;camp=1789&amp;creative=9325)
 
 In this milestone book, <a href="http://www.crummy.com/">Leonard
 Richardson</a> and <a href="http://www.intertwingly.net/blog/">Sam
@@ -50,9 +46,7 @@ and django. A must read for all REST and Restlet enthousiasts!
 
 # Java Concurrency in Practice (Addison-Wesley)
 
-[ ![Java Concurrency in Practice (Addison-Wesley)][5]][6]
-[5]: images/java-concurrency-in-practice.png
-[6]: http://www.amazon.com/gp/redirect.html?ie=UTF8&location=http%3A%2F%2Fwww.amazon.com%2Fgp%2Fproduct%2F0321349601&tag=restlet-20&linkCode=ur2&camp=1789&creative=9325
+[ ![Java Concurrency in Practice (Addison-Wesley)](images/java-concurrency-in-practice.png)](https://www.amazon.com/gp/redirect.html?ie=UTF8&location=http%3A%2F%2Fwww.amazon.com%2Fgp%2Fproduct%2F0321349601&tag=restlet-20&linkCode=ur2&camp=1789&creative=9325)
 
 RESTful Web applications are very scalable in nature and the
 Restlet framework lets you fully take advantage of this REST
@@ -68,9 +62,7 @@ Performance, and Testing, Advanced Topics.
 
 # Effective Java, Second Edition (Addison-Wesley)
 
-[ ![Effective Java, Second Edition (Addison-Wesley)][7]][8]
-[7]: images/effective-java.png
-[8]: http://www.amazon.com/gp/product/0201310058?ie=UTF8&tag=restlet-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=0201310058
+[ ![Effective Java, Second Edition (Addison-Wesley)](images/effective-java.png)](https://www.amazon.com/gp/product/0201310058?ie=UTF8&tag=restlet-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=0201310058)
 
 While Restlet was designed to perfectly match the REST concepts,
 great care was also taken when transposing those concepts into a clean
@@ -87,9 +79,7 @@ as every Java programmer should have this gem on his bookshelf!
 
 # Java and XML, Third Edition (O'Reilly)
 
-[ ![Java and XML (O'Reilly)][9]][10]
-[9]: images/java-and-xml.png
-[10]: http://www.amazon.com/gp/redirect.html?ie=UTF8&location=http%3A%2F%2Fwww.amazon.com%2FJava-XML-Brett-McLaughlin%2Fdp%2F059610149X%3Fie%3DUTF8%26s%3Dbooks%26qid%3D1178275118%26sr%3D8-1&tag=restlet-20&linkCode=ur2&camp=1789&creative=9325
+[ ![Java and XML (O'Reilly)](images/java-and-xml.png)](https://www.amazon.com/gp/redirect.html?ie=UTF8&location=http%3A%2F%2Fwww.amazon.com%2FJava-XML-Brett-McLaughlin%2Fdp%2F059610149X%3Fie%3DUTF8%26s%3Dbooks%26qid%3D1178275118%26sr%3D8-1&tag=restlet-20&linkCode=ur2&camp=1789&creative=9325)
 
 If you are new to XML or to XML used in Java, this is a useful
 hands on book to read. In its third edition published in December
@@ -103,9 +93,7 @@ Restlet framework which has extensive support for XML.
 
 # Programming for PaaS (O'Reilly)
 
-[ ![Java and XML (O'Reilly)][11]][12]
-[11]: images/programming-for-paas.png
-[12]: http://www.amazon.com/Programming-PaaS-Lucas-Carlson/dp/1449334903
+[ ![Java and XML (O'Reilly)](images/programming-for-paas.png)](https://www.amazon.com/Programming-PaaS-Lucas-Carlson/dp/1449334903)
 
 Platform-as-a-Service (PaaS) is gaining serious traction among web and mobile developers, but as new PaaS providers emerge and existing vendors upgrade their features, it’s hard to keep track of what PaaS has to offer. This thorough introduction takes you through the PaaS model from a developer’s point of view, and breaks down the types of services that Google App Engine, Windows Azure, Heroku, Cloud Foundry, and others deliver.
 

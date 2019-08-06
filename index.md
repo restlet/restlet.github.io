@@ -27,5 +27,5 @@ APIs built using Restlet Framework can be deployed on any platform but close int
             <path d="M1038.51,95.15q-3.14,3.45-7.1,7.65t-8.26,8.62q-4.31,4.41-8.57,8.67t-8,7.91a90.83,90.83,0,0,1,9.23,7.5q4.87,4.46,9.53,9.53t8.77,10.34a87.29,87.29,0,0,1,6.84,10h-11.56a99.32,99.32,0,0,0-7-9.58q-4-4.81-8.36-9.23t-8.92-8.16a78.91,78.91,0,0,0-8.77-6.39V165.4h-9.83V95.15h9.83v31q3.55-3.35,7.81-7.55t8.41-8.46q4.15-4.26,7.85-8.16t6.24-6.84h11.86Z" fill="#fff"></path>
         </g>
     </svg>
-    <a href="/open-source/downloads/current/" class="m-button m-button-border">Download</a>
+    <a href="/downloads/current/" class="m-button m-button-border">Download</a>
 </div>

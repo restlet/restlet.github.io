@@ -1,3 +1,8 @@
+---
+section: tutorials
+version: '1.1'
+nav_exclude: true
+---
 
 Welcome to the Restlet Framework Tutorials.
 

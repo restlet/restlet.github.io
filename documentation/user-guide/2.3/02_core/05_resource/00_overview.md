@@ -29,7 +29,7 @@ Annotation | Description
 Those annotations are specific to the Restlet API and shouldn't be
 confused with those of the JAX-RS API. For support of the JAX-RS API by
 the Restlet Framework, you should look at [the provided
-extension](guide:///extensions/jaxrs "JAX-RS extension").
+extension](/documentation/user-guide/{{ page.version }}/extensions/jaxrs "JAX-RS extension").
 
 ## Annotations parameter
 

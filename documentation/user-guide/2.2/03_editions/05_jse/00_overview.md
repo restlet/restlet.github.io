@@ -6,7 +6,7 @@ Standard Edition).
 This edition is aimed for development and deployment of Restlet
 applications inside a regular Java virtual machine using the internal
 HTTP server of the Restlet Engine, or a pluggable one such as Jetty.
-[This page](guide:///core/base/connectors "Connectors")
+[This page](/documentation/user-guide/{{ page.version }}/core/base/connectors "Connectors")
 contains a detailed list of available HTTP server connectors.
 
 # Getting started
@@ -123,7 +123,7 @@ file.
 
 We hope you that enjoyed these first steps and encourage you to check
 [the equivalent page in the Java EE
-edition](guide:///editions/jee/overview "Restlet edition for Java EE")
+edition](/documentation/user-guide/{{ page.version }}/editions/jee/overview "Restlet edition for Java EE")
 for deployments of the same application in Servlet containers. This can
 also be a convenient way to deploy your Restlet application in an
 existing Java EE application server available in your organization.

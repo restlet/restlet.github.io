@@ -5,7 +5,7 @@ with classes, interfaces and enumerations that together provide a
 framework. This framework will guide you on the path to RESTful design
 and development. But be aware that you still need to understand REST in
 order to fully take advantage of the [Restlet features](../introduction/features).
-For this purpose, we recommend the book "RESTful Web Services" from O'Reilly (more information on the  [books we recommend](guide:///appendices/recommended-books)).
+For this purpose, we recommend the book "RESTful Web Services" from O'Reilly (more information on the  [books we recommend](/documentation/user-guide/{{ page.version }}/appendices/recommended-books)).
  We even wrote a part of it covering Restlet usage.
 
 For a more detailed presentation of the API, we recommend that you have

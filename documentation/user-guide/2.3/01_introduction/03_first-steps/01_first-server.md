@@ -40,4 +40,4 @@ API, [mapping](../../core/http-headers-mapping "Mapping HTTP headers")
 all REST and HTTP concepts to a set of Java classes, interfaces and
 annotations.
 
-[Let's now illustrate how to use this API on the client-side](guide:///introduction/first-steps/first-client "First client").
+[Let's now illustrate how to use this API on the client-side](/documentation/user-guide/{{ page.version }}/introduction/first-steps/first-client "First client").

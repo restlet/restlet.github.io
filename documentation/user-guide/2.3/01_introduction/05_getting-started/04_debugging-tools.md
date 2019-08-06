@@ -8,7 +8,7 @@ necessary.
 A good way to start a debugging session is to put a breakpoint inside
 the handle() method or inside the constructor of your Resource subclass.
 Think also about turning one the access and application
-[loggings](guide:///editions/jse/logging "Logging").
+[loggings](/documentation/user-guide/{{ page.version }}/editions/jse/logging "Logging").
 
 # Tools
 

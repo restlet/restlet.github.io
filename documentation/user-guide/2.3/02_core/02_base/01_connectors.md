@@ -102,19 +102,19 @@ cr.setNext(client);
 
 Extension | Version | Protocols | Asynchronous | Comment
 --------- | ------- | --------- | ------------ | ---------
-[Internal](guide:///core/engine/internal-connectors/overview "Internal connectors") | 2.2 | HTTP, HTTPS, RIAP | No | Recommended for development and lightweight deployments
-[Jetty](guide:///extensions/jetty "Eclipse Jetty extension") | 8.1 | HTTP, HTTPS | No | Recommended for robust and scalable deployments
-[NIO](guide:///extensions/nio "NIO extension") | 2.2 | HTTP, HTTPS | Yes | Fully asynchronous, preview mode
-[Simple](guide:///extensions/simple "Simple Framework extension") | 5.1 | HTTP, HTTPS | No | Recommended for lightweight and scalable deployments
-[Servlet](guide:///extensions/servlet "Servlet extension") | 3.0 | HTTP, HTTPS, AJP | No | Recommended for deployments inside Java EE servers
+[Internal](/documentation/user-guide/{{ page.version }}/core/engine/internal-connectors/overview "Internal connectors") | 2.2 | HTTP, HTTPS, RIAP | No | Recommended for development and lightweight deployments
+[Jetty](/documentation/user-guide/{{ page.version }}/extensions/jetty "Eclipse Jetty extension") | 8.1 | HTTP, HTTPS | No | Recommended for robust and scalable deployments
+[NIO](/documentation/user-guide/{{ page.version }}/extensions/nio "NIO extension") | 2.2 | HTTP, HTTPS | Yes | Fully asynchronous, preview mode
+[Simple](/documentation/user-guide/{{ page.version }}/extensions/simple "Simple Framework extension") | 5.1 | HTTP, HTTPS | No | Recommended for lightweight and scalable deployments
+[Servlet](/documentation/user-guide/{{ page.version }}/extensions/servlet "Servlet extension") | 3.0 | HTTP, HTTPS, AJP | No | Recommended for deployments inside Java EE servers
 
 ### Client connectors
 
 Extension | Version | Protocols | Asynchronous | Proxy | Comment
 --------- | ------- | --------- | ------------ | ----- | -------
-[Internal](guide:///core/engine/internal-connectors/overview "Internal connectors") | 2.2 | CLAP, FILE, FTP, HTTP, HTTPS, RIAP | No | Yes | Recommended for development and lightweight deployments
-[Apache HTTP Client](guide:///extensions/httpclient "Apache HTTP Client extension") | 4.3 | HTTP, HTTPS | No | Yes | Recommended for robust and scalable deployments
-[JavaMail](guide:///extensions/javamail "JavaMail extension") | 1.4 | SMTP, SMTPS, POP, POPS | No |  No | Stable
-[JDBC](guide:///extensions/jdbc "JDBC extension") | 3.0 | JDBC | No | No | Stable
-[Lucene Solr](guide:///extensions/lucene "Lucene extension") | 4.6 | SOLR | No | No | Stable
-[NIO](guide:///extensions/nio "NIO extension") | 2.2 | HTTP, HTTPS | Yes | Yes | Fully asynchronous, preview mode
+[Internal](/documentation/user-guide/{{ page.version }}/core/engine/internal-connectors/overview "Internal connectors") | 2.2 | CLAP, FILE, FTP, HTTP, HTTPS, RIAP | No | Yes | Recommended for development and lightweight deployments
+[Apache HTTP Client](/documentation/user-guide/{{ page.version }}/extensions/httpclient "Apache HTTP Client extension") | 4.3 | HTTP, HTTPS | No | Yes | Recommended for robust and scalable deployments
+[JavaMail](/documentation/user-guide/{{ page.version }}/extensions/javamail "JavaMail extension") | 1.4 | SMTP, SMTPS, POP, POPS | No |  No | Stable
+[JDBC](/documentation/user-guide/{{ page.version }}/extensions/jdbc "JDBC extension") | 3.0 | JDBC | No | No | Stable
+[Lucene Solr](/documentation/user-guide/{{ page.version }}/extensions/lucene "Lucene extension") | 4.6 | SOLR | No | No | Stable
+[NIO](/documentation/user-guide/{{ page.version }}/extensions/nio "NIO extension") | 2.2 | HTTP, HTTPS | Yes | Yes | Fully asynchronous, preview mode

@@ -50,7 +50,7 @@ available and kept synchronized with an automated porting process.
 
 If you can't find an answer to your question in this document, please
 use our [discussion lists](http://restlet.com/participate/)
-and read the [recommended books](guide:///appendices/recommended-books).
+and read the [recommended books](/documentation/user-guide/{{ page.version }}/appendices/recommended-books).
 
 We especially recommend our [Restlet in Action](http://www.amazon.com/gp/product/193518234X/ref=as_li_tf_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=193518234X&linkCode=as2&tag=restlet-20)
 book published by Manning.

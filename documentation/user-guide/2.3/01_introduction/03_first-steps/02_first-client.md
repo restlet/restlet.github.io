@@ -1,6 +1,6 @@
 # Introduction
 
-As we mentioned in the [introduction](guide:///introduction/overview "Part I - Introduction"),
+As we mentioned in the [introduction](/documentation/user-guide/{{ page.version }}/introduction/overview "Part I - Introduction"),
 the Restlet Framework is at the same time a client and a server
 framework. For example, you can easily work with remote resources using
 its HTTP client connector.
@@ -9,7 +9,7 @@ A connector in REST is a software element that enables the communication
 between components, typically by implementing one side of a network
 protocol. Restlet provides several implementations of client connectors
 based on existing open-source projects. The
-[connectors](guide:///core/base/connectors "Connectors")
+[connectors](/documentation/user-guide/{{ page.version }}/core/base/connectors "Connectors")
 section lists all available client and server connectors and explain how
 to use and configure them.
 
@@ -23,7 +23,7 @@ new ClientResource("http://restlet.com").get().write(System.out);
 
 
 If you are running your client behind a proxy, please [check this
-page](guide:///core/base/connectors) to
+page](/documentation/user-guide/{{ page.version }}/core/base/connectors) to
 pick an HTTP client that can be configured. The internal HTTP client
 doesn't support proxies at the moment.
 
@@ -42,5 +42,5 @@ resource.get().write(System.out);
 
 
 After those first two steps, [let's now develop a more complete Restlet
-application](guide:///introduction/first-steps/first-application "First application"),
+application](/documentation/user-guide/{{ page.version }}/introduction/first-steps/first-application "First application"),
 taking advantage of the various editions of the Restlet Framework.

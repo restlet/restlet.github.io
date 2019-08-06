@@ -50,4 +50,4 @@ Java interface, implemented by your ServerResource subclass. The
 advantage of doing this is that your contract is well isolated and can
 be written first. Most importantly, it can be used on the client-side by
 the ClientResource class to remotely call your server resource. See an
-example in this [first application page](guide:///introduction/first-steps/first-application "First application").
+example in this [first application page](/documentation/user-guide/{{ page.version }}/introduction/first-steps/first-application "First application").

@@ -36,7 +36,7 @@ Updated to leverage the recent Jetty 7.0 version now hosted at Eclipse.
 
 # Lucene extension
 
-In addition, a [Lucene extension](guide:///extensions/lucene)has been created to host the Solr client connector contributed by Rémi Dewitte who will lead this extension. There is also a TikaRepresentation available to leverage Lucene Tika subproject when extracting metadata from representations.
+In addition, a [Lucene extension](/documentation/user-guide/{{ page.version }}/extensions/lucene)has been created to host the Solr client connector contributed by Rémi Dewitte who will lead this extension. There is also a TikaRepresentation available to leverage Lucene Tika subproject when extracting metadata from representations.
 
 # Net extension
 
@@ -79,7 +79,7 @@ Improved to support multiple declarations of the ServerServlet in the same Servl
 
 # SLF4J extension
 
-The Restlet logging, based on JULI (java.util.logging), now has an extension mechanism allowing an efficient redirection to alternate mechanisms like log4j as [explained here](guide:///editions/jse/logging). A new SLF4J extension has been added to facilitate the replacement of Restlet’s default logger facade.
+The Restlet logging, based on JULI (java.util.logging), now has an extension mechanism allowing an efficient redirection to alternate mechanisms like log4j as [explained here](/documentation/user-guide/{{ page.version }}/editions/jse/logging). A new SLF4J extension has been added to facilitate the replacement of Restlet’s default logger facade.
 
 # Spring extension
 

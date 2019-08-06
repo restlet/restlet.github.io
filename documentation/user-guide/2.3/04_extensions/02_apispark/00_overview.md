@@ -2,6 +2,6 @@ This extension provides several tools that can we used either in standalone mode
 
 Here are the main two features provided:
 
-* [Introspector](guide:///extensions/apispark/introspector), a tool to extract the web API definition of your Restlet API or JAX-RS API based application and push it to APISpark to provide documentation and tooling.
+* [Introspector](/documentation/user-guide/{{ page.version }}/extensions/apispark/introspector), a tool to extract the web API definition of your Restlet API or JAX-RS API based application and push it to APISpark to provide documentation and tooling.
 
-* [Firewall](guide:///extensions/apispark/firewall), a service that adds rate limitation to your web API.
+* [Firewall](/documentation/user-guide/{{ page.version }}/extensions/apispark/firewall), a service that adds rate limitation to your web API.

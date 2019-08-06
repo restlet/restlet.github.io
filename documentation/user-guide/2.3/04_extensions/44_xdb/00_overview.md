@@ -1,6 +1,6 @@
 # Documentation
 
--   [Architecture - Introduction](guide:///extensions/xdb/introduction "Oracle XDB Restlet Adapter - Architecture - Introduction")
+-   [Architecture - Introduction](/documentation/user-guide/{{ page.version }}/extensions/xdb/introduction "Oracle XDB Restlet Adapter - Architecture - Introduction")
 -   [Installing](./installing "Oracle XDB Restlet Adapter - Installing")
 -   [Testing](./testing "Oracle XDB Restlet Adapter - Testing")
 -   [FAQ](./faq "Oracle XDB Restlet Adapter - FAQ")

@@ -28,7 +28,7 @@ For additional details, please consult the
 
 # Usage example
 
-Please consult [connector configuration documentation](guide:///core/base/connectors)
+Please consult [connector configuration documentation](/documentation/user-guide/{{ page.version }}/core/base/connectors)
 
 ## HTTPS
 

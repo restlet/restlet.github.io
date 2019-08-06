@@ -55,7 +55,7 @@ Restlet was an attempt to build a better Servlet API, aligned with the true Web 
 - Client JDBC connector based on the JDBC API, a custom request XML format and the JDBC [WebRowSet interface](http://docs.oracle.com/javase/7/docs/api/javax/sql/rowset/WebRowSet.html) for XML responses.
 - Client FILE connector supports GET, PUT and DELETE methods on files and directories. In addition, it is able to return directory listings.
 - Client CLAP connector to access to the Classloader resources.
-- Client and server [RIAP connectors](guide:///core/base/connectors) to access to the Restlet internal resources, directly inside the JVM, relatively to the current application or virtual host or component.
+- Client and server [RIAP connectors](/documentation/user-guide/{{ page.version }}/core/base/connectors) to access to the Restlet internal resources, directly inside the JVM, relatively to the current application or virtual host or component.
 - Client SOLR connector to call embedded [Apache Lucene Solr](http://lucene.apache.org/solr/)
   search and indexing engine.
 

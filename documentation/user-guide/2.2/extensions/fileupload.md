@@ -117,4 +117,4 @@ classpath:
 
 -   [Apache FileUpload library](http://commons.apache.org/fileupload/)
 -   [Server connectors](/documentation/user-guide/{{ page.version }}/core/base/connectors)
--   [Sample code of FileUpload extension (zip file)](/technical-resources/restlet-framework/archives/examples/fileupload/${restlet-version-minor}/sample.zip "Usage example of FileUpload extension")
+-   [Sample code of FileUpload extension (zip file)](/technical-resources/restlet-framework/archives/examples/fileupload/{{ page.version }}/sample.zip "Usage example of FileUpload extension")

@@ -13,7 +13,7 @@ We identified four approaches to authorization in a Restlet application.
 When we mentionned LDAP as a permission store, it could be replaced by a
 static file or by any sort of database.
 
-You can find the sources of the code shown [here](/technical-resources/restlet-framework/archives/examples/authorization/${restlet-version-minor}/sources.zip).
+You can find the sources of the code shown [here](/technical-resources/restlet-framework/archives/examples/authorization/{{ page.version }}/sources.zip).
 
 # Coarse-grained authorization
 
@@ -233,7 +233,7 @@ With a resource like this:
 For a call to [http://localhost:9000/v1/resourceTypePublic/resource1/](http://localhost:9000/v1/resourceTypePublic/resource1/)
 you will need to use the owner profile to use POST and just authenticate to use PATCH.
 You will need to use an
-[HTTPS endpoint](http://restlet.com/learn/guide/${restlet-version-minor}/core/security/https)
+[HTTPS endpoint](http://restlet.com/learn/guide/{{ page.version }}/core/security/https)
 to GET this resource.
 
 # Middle-grained authorization

@@ -29,7 +29,7 @@ configuration file by setting a system property like:
 
 For details on the configuration file format, please check the [JDK's
 LogManager](http://docs.oracle.com/javase/7/docs/api/index.html?java/util/logging/LogManager.html)
-class. You can also have a look at the [Restlet ${restlet-version-minor} logging
+class. You can also have a look at the [Restlet {{ page.version }} logging
 documentation](../../editions/jse/logging).
 
 # Default access log format

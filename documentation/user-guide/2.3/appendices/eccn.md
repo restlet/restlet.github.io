@@ -106,7 +106,7 @@ extension. See these two pages to compare:
 
 -   [org.restlet.engine.security package in Restlet 2.0](github://2.0/org.restlet/src/org/restlet/engine/security/)
 -   [org.restlet.engine.security package in Restlet 2.1](github://2.1/org.restlet/src/org/restlet/engine/security/)
--   [org.restlet.engine.security package in Restlet ${restlet-version-minor}](github://org.restlet/src/org/restlet/engine/security/)
+-   [org.restlet.engine.security package in Restlet {{ page.version }}](github://org.restlet/src/org/restlet/engine/security/)
 
 Here are some precisions for version 2.0. Those two classes, do not
 contain or rely on any encryption algorithm:

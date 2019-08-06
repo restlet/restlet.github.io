@@ -14,7 +14,7 @@ Note that this implementation is not final yet.
 
 # Description
 
-To run this example, you need the Restlet libraries. Download a ${restlet-version-minor}
+To run this example, you need the Restlet libraries. Download a {{ page.version }}
 version from
 [restlet.com/downloads/](http://restlet.com/downloads/current).
 (For a general Restlet example take a look at [the first steps

@@ -6,11 +6,11 @@ nav_order: 0
 ---
 # User guide overview
 
-This is the official User Guide for version ${restlet-version-minor} of the Restlet Framework
+This is the official User Guide for version {{ page.version }} of the Restlet Framework
 ([http://restlet.com](http://restlet.com/)).
 
 This document is edited in a collaborative way via this
-[GitHub repository](https://github.com/restlet/restlet-sites/tree/master/modules/com.restlet/tech-doc/restlet-framework/guide/${restlet-version-minor})
+[GitHub repository](https://github.com/restlet/restlet-sites/tree/master/modules/com.restlet/tech-doc/restlet-framework/guide/{{ page.version }})
 as a set of Markdown pages.
 
 We are very happy to have you as a new user and hope that you will have

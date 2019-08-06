@@ -110,7 +110,7 @@ default.
 
 # Restlet API
 
-The Restlet API in version ${restlet-version-minor} has fully refactored its security model
+The Restlet API in version {{ page.version }} has fully refactored its security model
 ([see specifications here](/participate#/172-restlet/212-restlet.html)).
 It is based on some properties of the ClientInfo class: user and roles.
 This model relies on Java security principals in a way similar to JAAS.
@@ -397,4 +397,4 @@ the cookies from being used by script in all modern browsers.
 
 # Sample code
 
-[Security sample](/technical-resources/restlet-framework/archives/examples/authentication/${restlet-version-minor}/sample.zip "Security sample") (application/zip, 2.9 kB)
+[Security sample](/technical-resources/restlet-framework/archives/examples/authentication/{{ page.version }}/sample.zip "Security sample") (application/zip, 2.9 kB)

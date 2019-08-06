@@ -22,7 +22,7 @@ In order to serve HTTP calls, we rely on a production-ready Simple 3.1
 HTTP connector. As you will see below, running basic web sites with
 Restlets is very simple.
 
-This page needs to be updated to use the new Restlet ${restlet-version-minor} API
+This page needs to be updated to use the new Restlet {{ page.version }} API
 
 # <a name="imported-classes"></a>Imported classes
 

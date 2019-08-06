@@ -107,4 +107,4 @@ Using the @Named qualifier trades some type-safety for convenience:
 MyComponent(@Named(FOO) Application fooApp, @Named(BAR) Application barApp) ...
 </code></pre>
 
-[Javadocs](javadocs://jse/ext/org/restlet/ext/guice/package-summary.html).
+[Javadocs](/documentation/javadocs/{{ page.version }}/jse/ext/org/restlet/ext/guice/package-summary.html).

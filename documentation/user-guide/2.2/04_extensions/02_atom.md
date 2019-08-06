@@ -32,7 +32,7 @@ For an usage example, check the source code of the
 org.restlet.example.book.restlet.ch8.resources.FeedResource class.
 
 For additional details, please consult  [the
-Javadocs](javadocs://jse/ext/org/restlet/ext/atom/package-summary.html).
+Javadocs](/documentation/javadocs/{{ page.version }}/jse/ext/org/restlet/ext/atom/package-summary.html).
 
 # Links
 

@@ -2,7 +2,7 @@
 
 It is possible to declare client connectors when the application is
 hosted on a Servlet container. The Javadocs of the Servlet adapter
-([ServerServlet](javadocs://jee/ext/org/restlet/ext/servlet/ServerServlet.html)
+([ServerServlet](/documentation/javadocs/{{ page.version }}/jee/ext/org/restlet/ext/servlet/ServerServlet.html)
 class) answers this question and others related to the configuration of
 Restlet based applications.
 

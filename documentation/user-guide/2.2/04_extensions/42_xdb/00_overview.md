@@ -8,7 +8,7 @@
 -   [XdbRepresentation class](./xdbRepresentation "Oracle XDB Restlet Adapter - XdbRepresentation")
 
 For additional details, please consult the
-[Javadocs](javadocs://jee/ext/org/restlet/ext/xdb/package-summary.html).
+[Javadocs](/documentation/javadocs/{{ page.version }}/jee/ext/org/restlet/ext/xdb/package-summary.html).
 
 # Using XDB Restlet Adapter within Maven projects
 

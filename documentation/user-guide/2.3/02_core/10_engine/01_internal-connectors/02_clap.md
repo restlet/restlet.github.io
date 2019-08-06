@@ -11,4 +11,4 @@ kinds of authority :
     classloader.
 
 [CLAP client commons
-parameters](javadocs://jse/engine/index.html?org/restlet/engine/local/ClapClientHelper.html)
+parameters](/documentation/javadocs/{{ page.version }}/jse/engine/index.html?org/restlet/engine/local/ClapClientHelper.html)

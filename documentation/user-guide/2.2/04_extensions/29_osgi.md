@@ -5,4 +5,4 @@ This extension contains support for the OBAP (OSGi Bundle Access Protocol) pseud
     obap://{bundleSymbolicName}/{pathToResource}
 
 For additional details, please consult the
-[Javadocs](javadocs://osgi/ext/org/restlet/ext/osgi/package-summary.html).
+[Javadocs](/documentation/javadocs/{{ page.version }}/osgi/ext/org/restlet/ext/osgi/package-summary.html).

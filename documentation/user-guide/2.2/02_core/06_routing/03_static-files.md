@@ -37,5 +37,5 @@ ROOT\_URI, In this case, it is set to
 needed. If you want to customize the mapping between file extensions and
 metadata (media type, language or encoding) or if you want to specify a
 different index name, you can use the Application's
-["metadataService"](javadocs://jse/api/org/restlet/service/MetadataService.html)
+["metadataService"](/documentation/javadocs/{{ page.version }}/jse/api/org/restlet/service/MetadataService.html)
 property.

@@ -9,7 +9,7 @@ application. It also knows how to convert this WADL/XML document into a
 user friendly HTML document.
 
 For additional details, please consult the
-[Javadocs](javadocs://jse/ext/org/restlet/ext/wadl/package-summary.html).
+[Javadocs](/documentation/javadocs/{{ page.version }}/jse/ext/org/restlet/ext/wadl/package-summary.html).
 
 # Usage example
 

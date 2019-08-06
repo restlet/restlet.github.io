@@ -18,7 +18,7 @@ questions related to the classification process.
 ## Does Restlet include any encryption technology?
 
 The Restlet Framework has a [cryptographic
-extension](javadocs://jee/ext/org/restlet/ext/crypto/package-summary.html)
+extension](/documentation/javadocs/{{ page.version }}/jee/ext/org/restlet/ext/crypto/package-summary.html)
 (org.restlet.ext.crypto.jar file) that includes all cryptographic
 related features. It is based on regular Java Cryptography APIs
 (javax.crypto) and used for authentication purpose only (so far): 
@@ -53,7 +53,7 @@ extension:
 
 When we encrypt authentication data in a cookie, we give the option to
 change the algorithm and the secret key, [see details
-here](javadocs://jee/ext/org/restlet/ext/crypto/CookieAuthenticator.html).
+here](/documentation/javadocs/{{ page.version }}/jee/ext/org/restlet/ext/crypto/CookieAuthenticator.html).
 
 For the HTTPS support in connectors, the DefaultSslContextFactory uses :
 

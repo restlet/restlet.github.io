@@ -12,7 +12,7 @@ item corresponding to one file uploaded in the posted request, typically
 from a Web form.
 
 For additional details, please consult the
-[Javadocs](javadocs://jse/ext/org/restlet/ext/fileupload/package-summary.html).
+[Javadocs](/documentation/javadocs/{{ page.version }}/jse/ext/org/restlet/ext/fileupload/package-summary.html).
 
 Here is the list of dependencies for this extension:
 

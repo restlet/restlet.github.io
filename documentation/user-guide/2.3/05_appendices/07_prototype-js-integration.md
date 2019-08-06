@@ -19,11 +19,11 @@ This example needs to be updated for Restlet Framework 2.1. Help welcome
 -   Server side: uses db4o to work as store service provider, and expose
     data in RESTful way.
 -   Server handle process:
-    [Application](javadocs://jse/api/org/restlet/Application.html)
+    [Application](/documentation/javadocs/{{ page.version }}/jse/api/org/restlet/Application.html)
     dispatches request to
-    [Router](javadocs://jse/api/org/restlet/routing/Router.html),
+    [Router](/documentation/javadocs/{{ page.version }}/jse/api/org/restlet/routing/Router.html),
     Router finds corresponding reource,
-    [Resource](javadocs://jse/api/org/restlet/resource/Resource.html)
+    [Resource](/documentation/javadocs/{{ page.version }}/jse/api/org/restlet/resource/Resource.html)
     handles request and returns representation.
 
 ## DB4OSimpler.Class
@@ -602,7 +602,7 @@ function callJSON() {
 
 # Links
 
--   [Router](javadocs://jse/api/org/restlet/routing/Router.html)
--   [Application](javadocs://jse/api/org/restlet/Application.html)
--   [Resource](javadocs://jse/api/org/restlet/resource/Resource.html)
+-   [Router](/documentation/javadocs/{{ page.version }}/jse/api/org/restlet/routing/Router.html)
+-   [Application](/documentation/javadocs/{{ page.version }}/jse/api/org/restlet/Application.html)
+-   [Resource](/documentation/javadocs/{{ page.version }}/jse/api/org/restlet/resource/Resource.html)
 -   [db4o](http://www.db4o.com/)

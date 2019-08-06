@@ -11,4 +11,4 @@ Additional work is required to:
 
 
 For additional details, please consult the
-[Javadocs](javadocs://jse/ext/org/restlet/ext/swagger/package-summary.html).
+[Javadocs](/documentation/javadocs/{{ page.version }}/jse/ext/org/restlet/ext/swagger/package-summary.html).

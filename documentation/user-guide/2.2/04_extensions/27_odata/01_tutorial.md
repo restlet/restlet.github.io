@@ -36,7 +36,7 @@ project](http://restlet.org/).
 # Resources
 
 -   [Javadocs of the Restlet extension for OData
-    Services](javadocs://jse/ext/org/restlet/ext/odata/package-summary.html)
+    Services](/documentation/javadocs/{{ page.version }}/jse/ext/org/restlet/ext/odata/package-summary.html)
 -   [MSDN documentation on WCF Data
     Services](http://msdn.microsoft.com/en-us/library/cc907912.aspx)
 

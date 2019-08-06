@@ -215,7 +215,7 @@ This file look like:
 </code></pre>
 
 
-Second option do not require __DBA__ role if you want to update your application class name, for a complete explanation of [restlet.xml](http://restlet.com/schemas/2.3/Component.xsd) file syntax look at [Component java docummentation](javadocs://jse/api/org/restlet/Component.html).
+Second option do not require __DBA__ role if you want to update your application class name, for a complete explanation of [restlet.xml](http://restlet.com/schemas/2.3/Component.xsd) file syntax look at [Component java docummentation](/documentation/javadocs/{{ page.version }}/jse/api/org/restlet/Component.html).
 
 
 * How can I run XDB Restlet adapter behind a proxy?

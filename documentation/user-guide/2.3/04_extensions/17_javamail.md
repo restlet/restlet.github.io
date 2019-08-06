@@ -11,10 +11,10 @@ This connector supports the following protocols: SMTP, SMTPS.
 
 The list of supported specific parameters is available in the Javadocs:
 
--   [JavaMail client Javadocs](javadocs://jse/ext/org/restlet/ext/javamail/JavaMailClientHelper.html)
+-   [JavaMail client Javadocs](/documentation/javadocs/{{ page.version }}/jse/ext/org/restlet/ext/javamail/JavaMailClientHelper.html)
 
 The mail and its properties (sender, recipient, subject, content, etc)
 have to be specified as an XML representation.
 
 For additional details, please consult the
-[Javadocs](javadocs://jse/ext/org/restlet/ext/javamail/package-summary.html).
+[Javadocs](/documentation/javadocs/{{ page.version }}/jse/ext/org/restlet/ext/javamail/package-summary.html).

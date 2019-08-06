@@ -17,13 +17,13 @@ available. A common way is to rely on cookies to identify clients (or
 client sessions) and to check a given user ID or session ID against your
 application state to determine if access should be granted. Restlets
 natively support cookies via the
-[Cookie](javadocs://jse/api/org/restlet/data/Cookie.html)
+[Cookie](/documentation/javadocs/{{ page.version }}/jse/api/org/restlet/data/Cookie.html)
 and
-[CookieSetting](javadocs://jse/api/org/restlet/data/CookieSetting.html)
+[CookieSetting](/documentation/javadocs/{{ page.version }}/jse/api/org/restlet/data/CookieSetting.html)
 objects accessible from a
-[Request](javadocs://jse/api/org/restlet/Request.html)
+[Request](/documentation/javadocs/{{ page.version }}/jse/api/org/restlet/Request.html)
 or a
-[Response](javadocs://jse/api/org/restlet/Response.html).
+[Response](/documentation/javadocs/{{ page.version }}/jse/api/org/restlet/Response.html).
 
 There is another way based on the standard HTTP authentication
 mechanism. By default, the Restlet Engine accepts credentials sent and
@@ -255,7 +255,7 @@ In addition to the parameters that are similar but specific to [each
 type of HTTPS server
 connector](../base/connectors#05),
 it is possible to configure the SSL connectors using an
-[SslContextFactory](javadocs://jse/engine/org/restlet/engine/ssl/SslContextFactory.html	),
+[SslContextFactory](/documentation/javadocs/{{ page.version }}/jse/engine/org/restlet/engine/ssl/SslContextFactory.html	),
 in a way that is common to all three types of HTTPS server connectors
 (Simple, Jetty and Grizzly). Configuring SSL is done in this order:
 
@@ -269,7 +269,7 @@ in a way that is common to all three types of HTTPS server connectors
     passed to its `init` method, so as to initialize the
     SslContextFactory instance via text parameters.\
      The
-    [org.restlet.engine.ssl.DefaultSslContextFactory](javadocs://jse/engine/org/restlet/engine/ssl/DefaultSslContextFactory.html#init%28org.restlet.util.Series%29)
+    [org.restlet.engine.ssl.DefaultSslContextFactory](/documentation/javadocs/{{ page.version }}/jse/engine/org/restlet/engine/ssl/DefaultSslContextFactory.html#init%28org.restlet.util.Series%29)
     is an SslContextFactory that supports a basic set of parameters, and
     will default to the values specified in the `javax.net.ssl.*` system
     properties (see [JSSE Reference

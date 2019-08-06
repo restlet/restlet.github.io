@@ -13,7 +13,7 @@ based on a JAAS pluggable authentication mechanism and more precisely
 based on JAAS login modules.
 
 For additional details, please consult the
-[Javadocs](javadocs://jse/ext/org/restlet/ext/jaas/package-summary.html).
+[Javadocs](/documentation/javadocs/{{ page.version }}/jse/ext/org/restlet/ext/jaas/package-summary.html).
 
 # Authenticating with LDAP
 

@@ -24,7 +24,7 @@ the [JSON](http://google-web-toolkit.googlecode.com/svn/javadoc/2.0/com/google/
 and
 [XML](http://google-web-toolkit.googlecode.com/svn/javadoc/2.0/com/google/gwt/xml/client/package-summary.html)
 modules. You can also check the [full Javadocs of the API
-online](javadocs://gwt/api/).
+online](/documentation/javadocs/{{ page.version }}/gwt/api/).
 
 # Server-side configuration
 

@@ -61,4 +61,4 @@ See sample implementation below:
 </code></pre>
 
 For additional details, please consult the
-[Javadocs](javadocs://jse/ext/org/restlet/ext/raml/package-summary.html).
+[Javadocs](/documentation/javadocs/{{ page.version }}/jse/ext/org/restlet/ext/raml/package-summary.html).

@@ -42,4 +42,4 @@ Example 2. Creating a Proxies to access protected resources
 
 
 For additional details, please consult the
-[Javadocs](javadocs://jse/ext/org/restlet/ext/oauth/package-summary.html).
+[Javadocs](/documentation/javadocs/{{ page.version }}/jse/ext/org/restlet/ext/oauth/package-summary.html).

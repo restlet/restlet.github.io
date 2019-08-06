@@ -13,10 +13,10 @@ on the client-side.
 
 The list of supported specific parameters is available in the javadocs:
 
--   [Jetty server common parameters](javadocs://jse/ext/org/restlet/ext/jetty/JettyServerHelper.html)
--   [HTTP server specific parameters](javadocs://jse/ext/org/restlet/ext/jetty/HttpServerHelper.html)
--   [HTTPS server specific parameters](javadocs://jse/ext/org/restlet/ext/jetty/HttpsServerHelper.html)
--   [Jetty client common parameters](javadocs://jse/ext/org/restlet/ext/jetty/HttpClientHelper.html)
+-   [Jetty server common parameters](/documentation/javadocs/{{ page.version }}/jse/ext/org/restlet/ext/jetty/JettyServerHelper.html)
+-   [HTTP server specific parameters](/documentation/javadocs/{{ page.version }}/jse/ext/org/restlet/ext/jetty/HttpServerHelper.html)
+-   [HTTPS server specific parameters](/documentation/javadocs/{{ page.version }}/jse/ext/org/restlet/ext/jetty/HttpsServerHelper.html)
+-   [Jetty client common parameters](/documentation/javadocs/{{ page.version }}/jse/ext/org/restlet/ext/jetty/HttpClientHelper.html)
 
 Here is the list of dependencies of this connector:
 
@@ -24,7 +24,7 @@ Here is the list of dependencies of this connector:
 -   [Java Servlet](http://www.oracle.com/technetwork/java/javaee/servlet/index.html)
 
 For additional details, please consult the
-[Javadocs](javadocs://jse/ext/org/restlet/ext/jetty/package-summary.html).
+[Javadocs](/documentation/javadocs/{{ page.version }}/jse/ext/org/restlet/ext/jetty/package-summary.html).
 
 # Usage example
 

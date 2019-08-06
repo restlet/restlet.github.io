@@ -33,7 +33,7 @@ a "403 Forbidden" error otherwise.
 This code is self-sufficient so you just need to copy-paste it in a
 MyApiWithRoleAuthorization class, create the resources as shown below
 and run it. Don't forget to add the JSE edition org.restlet.jar
-([download here](http://restlet.com/downloads/current#release=stable&edition=jse))
+([download here](/downloads/current#release=stable&edition=jse))
 in your build path.
 
 Main class for role authorization example:

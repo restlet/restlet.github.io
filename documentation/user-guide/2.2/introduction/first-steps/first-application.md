@@ -29,7 +29,7 @@ between a server application and several kind of clients.
 
 It is based on the following editions of the Restlet Framework : Java SE
 (JSE), Google App Engine (GAE), Google Web Toolkit (GWT) and Android
-which must be downloaded separately from [this page](http://restlet.com/downloads/current).
+which must be downloaded separately from [this page](/downloads/current).
 It has been tested with the following environments:
 
 -   Restlet Framework 2.2 RC 4

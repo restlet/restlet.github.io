@@ -5,14 +5,14 @@ version: '2.3'
 nav_order: 2
 ---
 As we mentioned in the [introduction
-paper](/technical-resources/restlet-framework/guide/2.3/introduction/overview), the Restlet framework is at the
+paper](/documentation/user-guide/2.3/introduction/overview), the Restlet framework is at the
 same time a client and a server framework. For example, Restlet can
 easily work with remote resources using its HTTP client connector. A
 connector in REST is a software element that enables the communication
 between components, typically by implementing one side of a network
 protocol. Restlet provides several implementations of client connectors
 based on existing open-source projects. The
-[connectors](/technical-resources/restlet-framework/guide/2.3/core/base/connectors) section lists all
+[connectors](/documentation/user-guide/2.3/core/base/connectors) section lists all
 available client and server connectors and explain how to use and
 configure them.
 

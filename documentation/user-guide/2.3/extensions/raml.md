@@ -19,7 +19,7 @@ In this scenario, we will add RAML support to a Restlet based API.
 ## Dependencies
 
 Add org.restlet.ext.raml.jar (provided in the "lib" directory of
-[restlet framework](http://restlet.com/downloads/current#release=testing&edition=jse&distribution=zip
+[restlet framework](/downloads/current#release=testing&edition=jse&distribution=zip
 "download restlet framework")) to your classpath.
 
 Make sure you are using the version 2.3 of Restlet and java 1.7.

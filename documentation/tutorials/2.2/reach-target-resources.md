@@ -15,11 +15,11 @@ So far, we introduced features that go beyond the traditional Servlet
 API and introduced our support for REST that justify our Restlet name!
 If haven't done so already, you can learn more about the REST
 architecture style and the best practices to follow when applying it to
-a Web application. There is a related [FAQ entry](/technical-resources/restlet-framework/guide/2.2/appendices/faq#how-to-use-restlet-in-an-applet) that
+a Web application. There is a related [FAQ entry](/documentation/user-guide/2.2/appendices/faq#how-to-use-restlet-in-an-applet) that
 will give you some starting pointers. If you have some experience with a
 traditional MVC framework, you can read more about the relationship to
 Restlet in this other [FAQ
-entry](/technical-resources/restlet-framework/guide/2.2/appendices/faq#how-do-i-implement-the-traditional-mvc-pattern).
+entry](/documentation/user-guide/2.2/appendices/faq#how-do-i-implement-the-traditional-mvc-pattern).
 
 To summarize, a request contains an URI that identifies the target
 resource that is the subject of the call. This information is stored in

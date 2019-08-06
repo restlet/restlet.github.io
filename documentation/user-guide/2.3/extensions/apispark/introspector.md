@@ -136,7 +136,7 @@ You can use the following pom.xml to get the dependencies required for the Intro
 
 
 You must add the following jars (provided in
-[Restlet Framework](http://restlet.com/downloads/current#release=stable&edition=jse&distribution=zip
+[Restlet Framework](/downloads/current#release=stable&edition=jse&distribution=zip
 "download restlet framework"))
 in the "/path/to/your/lib" folder or manually to the classpath.
 

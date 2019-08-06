@@ -16,7 +16,7 @@ Note that this implementation is not final yet.
 
 To run this example, you need the Restlet libraries. Download a {{ page.version }}
 version from
-[restlet.com/downloads/](http://restlet.com/downloads/current).
+[restlet.com/downloads/](/downloads/current).
 (For a general Restlet example take a look at [the first steps
 examples](/documentation/user-guide/{{ page.version }}/introduction/first-steps/overview "First steps")).
 

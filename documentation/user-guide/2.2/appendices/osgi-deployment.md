@@ -11,7 +11,7 @@ OSGi environment such as Eclipse Equinox or Apache Felix. For additional
 coverage of OSGi and Restlet, we recommend you to also read [this developer's page](/participate#/172-restlet/124-restlet.html).
 
 Since Restlet 2.1 RC2, a new edition of Restlet Framework for OSGi
-environements is available as well as an [Eclipse update site](http://restlet.com/downloads/current?distribution=p2&release=stable&edition=osgi).
+environements is available as well as an [Eclipse update site](/downloads/current?distribution=p2&release=stable&edition=osgi).
 
 # Simple example
 

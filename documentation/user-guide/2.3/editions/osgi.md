@@ -17,7 +17,7 @@ In addition, we provide a new distribution channel specific to this OSGi edition
 
 Note that this is only recommended if you intended to develop OSGi applications leveraging Restlet Framework, not applications for other target environments such as Java EE or GAE. In the later cases, you should either manually copy the JAR files in your Eclipse project or rely on our Maven repository using a tool such as m2eclipse.
 
-In order to use the Eclipse update site, please refer to instructions for the "Eclipse" distribution on [the download page](http://restlet.com/downloads/current).
+In order to use the Eclipse update site, please refer to instructions for the "Eclipse" distribution on [the download page](/downloads/current).
 
 # Restlet integration with ECF
 

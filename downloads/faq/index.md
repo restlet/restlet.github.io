@@ -1,6 +1,7 @@
 ---
 title: FAQ
 parent: Download
+layout: homepage
 ---
 **What are the differences between stable, testing and unstable releases?**
 

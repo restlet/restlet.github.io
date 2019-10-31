@@ -56,18 +56,6 @@ defaults:
     values:
       layout: documentation
   - scope:
-      path: "/downloads/*"
-    values:
-      layout: homepage
-  - scope:
-      path: "/documentation/user-guide"
-    values:
-      section: guide-introduction
-  - scope:
-      path: "/documentation/tutorials"
-    values:
-      section: tutorials
-  - scope:
       path: "/documentation/javadocs/"
     values:
       section: javadoc

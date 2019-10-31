@@ -2,97 +2,21 @@
   <div class="m-footer skew-top-black">
     <div class="container">
       <div class="row eq-height">
-        <div class="col-sm-3 col-md-2">
-          <h4>Modules</h4>
-          <ul>
-            <li><a href="https://restlet.com/modules/studio/">Studio</a></li>
-            <li><a href="https://restlet.com/modules/client/">Client</a></li>
-            <li><a href="https://restlet.com/modules/cloud/">Cloud</a></li>
-          </ul>
-        </div>
-        <div class="col-sm-3 col-md-2 footer-submenu">
-          <h4>Use cases</h4>
-          <ul>
-            <li><a class="link-header" href="https://restlet.com/use-cases/api-first/">API-First</a></li>
-            <li><a href="https://restlet.com/use-cases/api-first/rest-apis/">REST APIs</a></li>
-            <li><a href="https://restlet.com/use-cases/api-first/microservices/">Microservices</a></li>
-            <li><a href="https://restlet.com/use-cases/api-first/devops/">DevOps</a></li>
-          </ul>
-          <ul>
-            <li><a class="link-header" href="https://restlet.com/use-cases/activities/">Activities</a></li>
-            <li><a href="https://restlet.com/use-cases/activities/design/">Design</a></li>
-            <li><a href="https://restlet.com/use-cases/activities/document/">Document</a></li>
-            <li><a href="https://restlet.com/use-cases/activities/test/">Test</a></li>
-            <li><a href="https://restlet.com/use-cases/activities/automate/">Automate</a></li>
-            <li><a href="https://restlet.com/use-cases/activities/manage/">Manage</a></li>
-          </ul>
-
-        </div>
-        <div class="col-sm-3 col-md-2">
-          <h4>Pricing</h4>
-          <ul>
-            <li><a href="https://restlet.com/pricing/">Pricing</a></li>
-          </ul>
-        </div>
-        <div class="col-sm-2">
-          <h4>Documentation</h4>
-          <ul>
-            <li><a href="https://restlet.com/documentation/">Overview</a></li>
-            <li><a href="https://restlet.com/documentation/studio/user-guide">Studio</a></li>
-            <li><a href="https://restlet.com/documentation/client/user-guide">Client</a></li>
-            <li><a href="https://restlet.com/documentation/cloud/user-guide">Cloud</a></li>
-            <li><a href="https://restlet.com/documentation/#faq">FAQ</a></li>
-            <li><a href="https://restlet.com/http-status-map/">HTTP Status Map</a></li>
-          </ul>
-          <div class="social-wrapper hidden-xs">
-            <ul class="list-inline social">
-              <li><a href="https://www.facebook.com/restletinc" target="_blank"><i class="fa fa-facebook"></i></a></li>
-              <li><a href="https://twitter.com/restlet" target="_blank"><i class="fa fa-twitter"></i></a></li>
-              <li><a href="https://plus.google.com/b/100184641931376755108/100184641931376755108/posts" target="_blank"><i class="fa fa-google"></i></a></li>
-              <li><a href="https://www.linkedin.com/company/restlet" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-              <li><a href="https://vimeo.com/restlet" target="_blank"><i class="fa fa-vimeo-square"></i></a></li>
-              <li><a href="http://www.slideshare.net/restlet/presentations" target="_blank"><i class="fa fa-slideshare"></i></a></li>
-              <li><a href="https://github.com/restlet/" target="_blank"><i class="fa fa-github"></i></a></li>
-              <li><a href="https://stackoverflow.com/questions/tagged/restlet" target="_blank"><i class="fa fa-stack-overflow"></i></a></li>
-              <li><a href="mailto:contact@restlet.com"><i class="fa fa-envelope"></i></a></li>
-            </ul>
-          </div>
-        </div>
         <div class="col-sm-2">
           <h4>Open Source</h4>
+          {% if page.version %}
+          {% assign effective_version = page.version %}
+          {% else %}
+          {% assign effective_version = site.default_doc_version %}
+          {% endif %}
           <ul>
-            <li><a href="https://restlet.com/">Overview</a></li>
-            <li><a href="https://restlet.com/features">Features</a></li>
-            <li><a href="https://restlet.com/documentation/tutorials/2.3">Tutorials</a></li>
-            <li><a href="https://restlet.com/documentation/user-guide/2.3">User guide</a></li>
-            <li><a href="https://restlet.com/documentation/jdocs/2.3">Javadocs</a></li>
-            <li><a href="https://restlet.com/documentation/2.3/changelog">Changelog</a></li>
+            <li><a href="/">Overview</a></li>
+            <li><a href="/features">Features</a></li>
+            <li><a href="/documentation/tutorials/{{ effective_version }}">Tutorials</a></li>
+            <li><a href="/documentation/user-guide/{{ effective_version }}">User guide</a></li>
+            <li><a href="/documentation/javadocs/{{ effective_version }}">Javadocs</a></li>
+            <li><a href="/documentation/{{ effective_version }}/changelog">Changelog</a></li>
           </ul>
-        </div>
-        <div class="col-sm-3 col-md-2">
-          <h4>Company</h4>
-          <ul>
-            <li><a href="https://restlet.com/company/about-us">About us</a></li>
-            <li><a href="https://restlet.com/company/blog/">Blog</a></li>
-            <li><a href="https://restlet.com/company/case-studies/">Case studies</a></li>
-            <li><a href="https://restlet.com/company/webinars/">Webinars</a></li>
-            <li><a href="https://restlet.com/company/whitepapers/">Whitepapers</a></li>
-            <li><a href="https://restlet.com/company/press-releases/">Press Releases</a></li>
-          </ul>
-          <div class="social-wrapper visible-xs">
-            <ul class="list-inline social">
-              <li><a href="https://www.facebook.com/restletinc" target="_blank"><i class="fa fa-facebook"></i></a></li>
-              <li><a href="https://twitter.com/restlet" target="_blank"><i class="fa fa-twitter"></i></a></li>
-              <li><a href="https://plus.google.com/b/100184641931376755108/100184641931376755108/posts" target="_blank"><i class="fa fa-google"></i></a></li>
-              <li><a href="https://www.linkedin.com/company/restlet" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-              <li><a href="https://vimeo.com/restlet" target="_blank"><i class="fa fa-vimeo-square"></i></a></li>
-              <br>
-              <li><a href="http://www.slideshare.net/restlet/presentations" target="_blank"><i class="fa fa-slideshare"></i></a></li>
-              <li><a href="https://github.com/restlet/" target="_blank"><i class="fa fa-github"></i></a></li>
-              <li><a href="https://stackoverflow.com/questions/tagged/restlet" target="_blank"><i class="fa fa-stack-overflow"></i></a></li>
-              <li><a href="mailto:contact@restlet.com"><i class="fa fa-envelope"></i></a></li>
-            </ul>
-          </div>
         </div>
       </div>
       <div class="row copyright">
@@ -103,11 +27,6 @@
             <li><a href="https://restlet.com/terms/">Terms of Use</a></li>
             <li><a href="https://restlet.com/legal/">Legal Notice</a></li>
           </ul>
-        </div>
-        <div class="col-xs-12 col-md-4">
-          <p class="pull-right">
-            <small>Site built by &nbsp;<a href="http://unomena.com/" target="_blank"><img class="unomena" src="https://restlet.com/static/app/images/shared/unomena.png" alt="UNOMENA logo"></a></small>
-          </p>
         </div>
       </div>
 

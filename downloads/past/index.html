@@ -27,8 +27,8 @@ layout: homepage
           </svg>
         </figure>
         <p><small>Select a version to download below, or view how to configure
-          <a class="text-bostonblue" href="/documentation/user-guide/2.3/introduction/getting-started/maven">Maven</a> or
-          <a class="text-bostonblue" href="/documentation/user-guide/2.3/introduction/getting-started/eclipse">Eclipse</a>.</small></p>
+          <a class="text-bostonblue" href="/documentation/user-guide/{{ site.default_doc_version }}/introduction/getting-started/maven">Maven</a> or
+          <a class="text-bostonblue" href="/documentation/user-guide/{{ site.default_doc_version }}/introduction/getting-started/eclipse">Eclipse</a>.</small></p>
 
         <form id="frmDownload" action="." method="POST" novalidate="novalidate">
 
@@ -46,8 +46,7 @@ layout: homepage
             <select class="form-control" id="id_release" name="release">
               {% for version in site.data.downloads.versions %}
                 {% for release in version[1]["releases"] %}
-                  <div>rrr: {{ release }}</div>
-                  <option value="{{ release[0] }}">{{ release[1]["name"] }}</option>
+                  <option value="{{ release['id'] }}">{{ release["name"] }}</option>
                 {% endfor %}
               {% endfor %}
             </select>
@@ -138,7 +137,9 @@ layout: homepage
 
                 document.querySelector('#frmDownload').addEventListener('submit', function overrideSubmit (event) {
                   event.preventDefault();
-                  window.location = getUrl(branchSelect.value, releaseSelect.value, editionSelect.value);
+                  var releaseIndex = releaseSelect.value;
+                  var releaseId = getReleases(branchSelect.value)[ releaseIndex ][ 'id' ];
+                  window.location = getUrl(branchSelect.value, releaseId, editionSelect.value);
                 });
               })()
             </script>

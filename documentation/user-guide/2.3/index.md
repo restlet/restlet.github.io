@@ -1,4 +1,5 @@
 ---
+section: guide-introduction
 version: '2.3'
 nav_exclude: true
 ---

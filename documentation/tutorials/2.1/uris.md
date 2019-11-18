@@ -44,7 +44,7 @@ router.attach("/search", extractor);
 Note that the Redirector needs three parameters only. The first is the
 parent context, the second one defines how the URI rewriting should be
 done, based on a URI template. This template will be processed by the
-[Template](/learn/javadocs/2.1/jse/api/org/restlet/routing/Template.html)
+[Template]({{ site.data.javadoc.baseUrl }}{{ page.version }}/jse/api/org/restlet/routing/Template.html)
 class. The third parameter defines the type of redirection; here we
 chose the client redirection, for simplicity purpose.
 
@@ -153,5 +153,5 @@ Template.MODE\_STARTS\_WITH constants.
 Please note that the values of the variables are directly extracted from
 the URI and are therefore not percent-decoded. In order to achieve such
 a task, have a look to the
-[Reference\#decode(String)](/learn/javadocs/2.1/jse/api/org/restlet/data/Reference.html#decode(java.lang.String) "Reference#decode(String)")
+[Reference\#decode(String)]({{ site.data.javadoc.baseUrl }}{{ page.version }}/jse/api/org/restlet/data/Reference.html#decode(java.lang.String) "Reference#decode(String)")
 method.

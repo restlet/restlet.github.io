@@ -10,4 +10,4 @@ nav_order: 43
 This extension provides support for XML and XSLT representations.
 
 For additional details, please consult the
-[Javadocs](/documentation/javadocs/{{ page.version }}/jse/ext/org/restlet/ext/xml/package-summary.html).
+[Javadocs]({{ site.data.javadoc.baseUrl }}{{ page.version }}/jse/ext/org/restlet/ext/xml/package-summary.html).

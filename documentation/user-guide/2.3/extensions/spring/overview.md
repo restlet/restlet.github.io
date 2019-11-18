@@ -25,4 +25,4 @@ and the conceptual choices of the Restlet Framework that didn't
 systematize the use of simple POJOs. 
 
 For additional details, please consult the
-[Javadocs](/documentation/javadocs/{{ page.version }}/jse/ext/org/restlet/ext/spring/package-summary.html).
+[Javadocs]({{ site.data.javadoc.baseUrl }}{{ page.version }}/jse/ext/org/restlet/ext/spring/package-summary.html).

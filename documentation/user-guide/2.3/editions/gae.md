@@ -113,7 +113,7 @@ Finally, here is the Servlet configuration file:
 </code></pre>
 
 For more information on Restlet, please check our [documentation
-pages](/documentation/javadocs/{{ page.version }}/jse/).
+pages]({{ site.data.javadoc.baseUrl }}{{ page.version }}/jse/index.html).
 
 # Javadocs
 
@@ -121,8 +121,8 @@ The Javadocs of the Restlet edition for GAE are available online as
 well:
 
 -   [Restlet
-    API](/documentation/javadocs/{{ page.version }}/gae/api/)
+    API]({{ site.data.javadoc.baseUrl }}{{ page.version }}/gae/api/index.html)
 -   [Restlet
-    Extensions](/documentation/javadocs/{{ page.version }}/gae/ext/)
+    Extensions]({{ site.data.javadoc.baseUrl }}{{ page.version }}/gae/ext/index.html)
 -   [Restlet
-    Engine](/documentation/javadocs/{{ page.version }}/gae/engine/)
+    Engine]({{ site.data.javadoc.baseUrl }}{{ page.version }}/gae/engine/index.html)

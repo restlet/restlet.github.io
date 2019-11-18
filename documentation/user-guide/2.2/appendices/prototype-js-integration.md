@@ -25,11 +25,11 @@ This example needs to be updated for Restlet Framework 2.1. Help welcome
 -   Server side: uses db4o to work as store service provider, and expose
     data in RESTful way.
 -   Server handle process:
-    [Application](/documentation/javadocs/{{ page.version }}/jse/api/org/restlet/Application.html)
+    [Application]({{ site.data.javadoc.baseUrl }}{{ page.version }}/jse/api/org/restlet/Application.html)
     dispatches request to
-    [Router](/documentation/javadocs/{{ page.version }}/jse/api/org/restlet/routing/Router.html),
+    [Router]({{ site.data.javadoc.baseUrl }}{{ page.version }}/jse/api/org/restlet/routing/Router.html),
     Router finds corresponding reource,
-    [Resource](/documentation/javadocs/{{ page.version }}/jse/api/org/restlet/resource/Resource.html)
+    [Resource]({{ site.data.javadoc.baseUrl }}{{ page.version }}/jse/api/org/restlet/resource/Resource.html)
     handles request and returns representation.
 
 ## DB4OSimpler.Class
@@ -529,13 +529,13 @@ Running MicroblogApplication,and visit
 http://localhost:8182/www/microblog.html.
 
   -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  [![running\_applicaion](Prototype.js%20integration-52_files/data.html "running_applicaion")](/learn/guide/2.1#/53-restlet/version/default/part/ImageData/data)
-  [Click to enlarge](/learn/guide/2.1#/53-restlet/version/default/part/ImageData/data)
+  [![running\_applicaion](Prototype.js%20integration-52_files/data.html "running_applicaion")](/documentation/user-guide/{{ page.version }}#/53-restlet/version/default/part/ImageData/data)
+  [Click to enlarge](/documentation/user-guide/{{ page.version }}#/53-restlet/version/default/part/ImageData/data)
   -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # Checkout Full Code
 
-[microblog\_sourcecode](/learn/guide/2.1#/54-restlet/version/default/part/AttachmentData/data "microblog_sourcecode")
+[microblog\_sourcecode](/documentation/user-guide/{{ page.version }}#/54-restlet/version/default/part/AttachmentData/data "microblog_sourcecode")
 (application/x-zip, 2.3 MB)
 
 # How to custom Finder to replace TunnelService
@@ -608,8 +608,8 @@ function callJSON() {
 
 # Links
 
--   [Router](/documentation/javadocs/{{ page.version }}/jse/api/org/restlet/routing/Router.html)
--   [Application](/documentation/javadocs/{{ page.version }}/jse/api/org/restlet/Application.html)
--   [Resource](/documentation/javadocs/{{ page.version }}/jse/api/org/restlet/resource/Resource.html)
+-   [Router]({{ site.data.javadoc.baseUrl }}{{ page.version }}/jse/api/org/restlet/routing/Router.html)
+-   [Application]({{ site.data.javadoc.baseUrl }}{{ page.version }}/jse/api/org/restlet/Application.html)
+-   [Resource]({{ site.data.javadoc.baseUrl }}{{ page.version }}/jse/api/org/restlet/resource/Resource.html)
 -   [db4o](http://www.db4o.com/)
 

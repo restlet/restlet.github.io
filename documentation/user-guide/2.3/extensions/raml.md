@@ -22,7 +22,7 @@ Add org.restlet.ext.raml.jar (provided in the "lib" directory of
 [restlet framework](/downloads/current#release=testing&edition=jse&distribution=zip
 "download restlet framework")) to your classpath.
 
-Make sure you are using the version 2.3 of Restlet and java 1.7.
+Make sure you are using the version {{ page.version }} of Restlet and java 1.7.
 
 ## Configuration
 
@@ -68,4 +68,4 @@ See sample implementation below:
 </code></pre>
 
 For additional details, please consult the
-[Javadocs](/documentation/javadocs/{{ page.version }}/jse/ext/org/restlet/ext/raml/package-summary.html).
+[Javadocs]({{ site.data.javadoc.baseUrl }}{{ page.version }}/jse/ext/org/restlet/ext/raml/package-summary.html).

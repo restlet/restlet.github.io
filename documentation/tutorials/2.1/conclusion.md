@@ -16,9 +16,9 @@ Now, here is the hierarchy with the core Representation classes:
 ![](images/representations.png)
 
 Beside this tutorial, your best source of information will be the
-Javadocs available for the [Restlet API](/learn/javadocs/2.1/jse/api/),
-the [Restlet Extensions](/learn/javadocs/2.1/jse/ext/) and the [Restlet
-engine](/learn/javadocs/2.1/jse/engine/). Have also a look at the
+Javadocs available for the [Restlet API]({{ site.data.javadoc.baseUrl }}{{ page.version }}/jse/api/index.html),
+the [Restlet Extensions]({{ site.data.javadoc.baseUrl }}{{ page.version }}/jse/ext/index.html) and the [Restlet
+engine]({{ site.data.javadoc.baseUrl }}{{ page.version }}/jse/engine/index.html). Have also a look at the
 [connectors](connectors) section that lists all available client and
 server connectors and explain how to use and configure them, and the
 [integrations](integrations) section for a list of all available

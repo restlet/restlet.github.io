@@ -19,9 +19,9 @@ This connector supports the following protocols: HTTP, HTTPS, AJP.
 
 The list of supported specific parameters is available in the javadocs:
 
--   [Jetty common parameters](/documentation/javadocs/{{ page.version }}/jse/ext/org/restlet/ext/jetty/JettyServerHelper.html)
--   [HTTP specific parameters](/documentation/javadocs/{{ page.version }}/jse/ext/org/restlet/ext/jetty/HttpServerHelper.html)
--   [HTTPS specific parameters](/documentation/javadocs/{{ page.version }}/jse/ext/org/restlet/ext/jetty/HttpsServerHelper.html)
+-   [Jetty common parameters]({{ site.data.javadoc.baseUrl }}{{ page.version }}/jse/ext/org/restlet/ext/jetty/JettyServerHelper.html)
+-   [HTTP specific parameters]({{ site.data.javadoc.baseUrl }}{{ page.version }}/jse/ext/org/restlet/ext/jetty/HttpServerHelper.html)
+-   [HTTPS specific parameters]({{ site.data.javadoc.baseUrl }}{{ page.version }}/jse/ext/org/restlet/ext/jetty/HttpsServerHelper.html)
 
 Here is the list of dependencies of this connector:
 
@@ -29,7 +29,7 @@ Here is the list of dependencies of this connector:
 -   [Java Servlet](http://www.oracle.com/technetwork/java/javaee/servlet/index.html)
 
 For additional details, please consult the
-[Javadocs](/documentation/javadocs/{{ page.version }}/jse/ext/org/restlet/ext/jetty/package-summary.html).
+[Javadocs]({{ site.data.javadoc.baseUrl }}{{ page.version }}/jse/ext/org/restlet/ext/jetty/package-summary.html).
 
 # Usage example
 

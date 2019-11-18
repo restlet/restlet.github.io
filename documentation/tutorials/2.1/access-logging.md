@@ -29,7 +29,7 @@ LogManager](http://docs.oracle.com/javase/1.5.0/docs/api/index.html?java/util/lo
 class.
 
 You can also have a look at the [Restlet 2.1 logging
-documentation](/learn/guide/2.1/editions/jse/logging).
+documentation](/documentation/user-guide/{{ page.version }}/editions/jse/logging).
 
 # Displaying error pages
 

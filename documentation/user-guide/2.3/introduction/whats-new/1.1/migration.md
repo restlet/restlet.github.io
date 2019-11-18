@@ -125,7 +125,7 @@ help to specify the state of a Resource instance.
     define several applications either with a "/WEB-INF/restlet.xml
     file", or a "org.restlet.component" parameter in the "web.xml". see
     [ServerServlet
-    javadocs](/documentation/javadocs/1.1/all/ext/com/noelios/restlet/ext/servlet/ServerServlet.html)
+    javadocs]({{ site.data.javadoc.baseUrl }}{{ page.version }}/all/ext/com/noelios/restlet/ext/servlet/ServerServlet.html)
     for more details.
 
 # Accessing current objects
@@ -149,9 +149,9 @@ duress. Typical case is when you need to integrate Restlet code with a
 third-party library that doesn't let you pass in your Restlet context or
 objects. For example, you should by default prefer obtaining the current
 context using methods such as
-[Restlet.getContext()](/documentation/javadocs/1.1/all/api/org/restlet/Restlet.html#getContext%28%29)
+[Restlet.getContext()]({{ site.data.javadoc.baseUrl }}{{ page.version }}/all/api/org/restlet/Restlet.html#getContext%28%29)
 or
-[Handler.getContext()](/documentation/javadocs/1.1/all/api/org/restlet/Handler.html#getContext%28%29).
+[Handler.getContext()]({{ site.data.javadoc.baseUrl }}{{ page.version }}/all/api/org/restlet/Handler.html#getContext%28%29).
 
 # Accessing the original resource's reference
 

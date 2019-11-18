@@ -18,9 +18,9 @@ This connector supports the following protocols: HTTP, HTTPS.
 
 The list of supported specific parameters is available in the javadocs:
 
--   [Simple common parameters](/documentation/javadocs/{{ page.version }}/jse/ext/org/restlet/ext/simple/SimpleServerHelper)
--   [HTTP specific parameters](/documentation/javadocs/{{ page.version }}/jse/ext/org/restlet/ext/simple/HttpServerHelper)
--   [HTTPS specific parameters](/documentation/javadocs/{{ page.version }}/jse/ext/org/restlet/ext/simple/HttpsServerHelper)
+-   [Simple common parameters]({{ site.data.javadoc.baseUrl }}{{ page.version }}/jse/ext/org/restlet/ext/simple/SimpleServerHelper)
+-   [HTTP specific parameters]({{ site.data.javadoc.baseUrl }}{{ page.version }}/jse/ext/org/restlet/ext/simple/HttpServerHelper)
+-   [HTTPS specific parameters]({{ site.data.javadoc.baseUrl }}{{ page.version }}/jse/ext/org/restlet/ext/simple/HttpsServerHelper)
 
 For additional details, please consult the
-[Javadocs](/documentation/javadocs/{{ page.version }}/jse/ext/org/restlet/ext/simple/package-summary.html).
+[Javadocs]({{ site.data.javadoc.baseUrl }}{{ page.version }}/jse/ext/org/restlet/ext/simple/package-summary.html).

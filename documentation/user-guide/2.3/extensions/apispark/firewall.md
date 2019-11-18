@@ -85,7 +85,7 @@ There are two kinds of rate limiters :
 * Concurrent rate limiter : Limits the number of concurrent requests.
 * Periodic rate limiter : Limits the number of requests on a given period.
 
-The list of all pre-defined rules is available from the [Javadocs](/documentation/javadocs/{{ page.version }}/jse/ext/org/restlet/ext/apispark/FirewallConfig.html)
+The list of all pre-defined rules is available from the [Javadocs]({{ site.data.javadoc.baseUrl }}{{ page.version }}/jse/ext/org/restlet/ext/apispark/FirewallConfig.html)
 
 Here are sample factories to create a Firewall rule (located in class FirewallConfig).
 

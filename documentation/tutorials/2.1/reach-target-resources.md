@@ -19,7 +19,7 @@ a Web application. There is a related [FAQ entry](/discover/faq#04) that
 will give you some starting pointers. If you have some experience with a
 traditional MVC framework, you can read more about the relationship to
 Restlet in this other [FAQ
-entry](/learn/guide/2.1/appendices/faq#how-do-i-implement-the-traditional-mvc-pattern).
+entry](/documentation/user-guide/{{ page.version }}/appendices/faq#how-do-i-implement-the-traditional-mvc-pattern).
 
 To summarize, a request contains an URI that identifies the target
 resource that is the subject of the call. This information is stored in

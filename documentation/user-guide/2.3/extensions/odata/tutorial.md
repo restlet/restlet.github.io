@@ -43,7 +43,7 @@ project](http://restlet.org/).
 # Resources
 
 -   [Javadocs of the Restlet extension for OData
-    Services](/documentation/javadocs/{{ page.version }}/jse/ext/org/restlet/ext/odata/package-summary.html)
+    Services]({{ site.data.javadoc.baseUrl }}{{ page.version }}/jse/ext/org/restlet/ext/odata/package-summary.html)
 -   [MSDN documentation on WCF Data
     Services](http://msdn.microsoft.com/en-us/library/cc907912.aspx)
 
@@ -715,7 +715,7 @@ Lite.
 ## Access to NTLM secured services
 
 Please refer to [this
-document](/learn/guide/2.1#/13-restlet/27-restlet/46-restlet/112-restlet/364-restlet.html "NTLM authentication")
+document](/documentation/user-guide/{{ page.version }}#/13-restlet/27-restlet/46-restlet/112-restlet/364-restlet.html "NTLM authentication")
 for how to access NTML secured services.
 
 # Support of capability negotiation based on protocol versions

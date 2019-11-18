@@ -233,7 +233,7 @@ With a resource like this:
 For a call to [http://localhost:9000/v1/resourceTypePublic/resource1/](http://localhost:9000/v1/resourceTypePublic/resource1/)
 you will need to use the owner profile to use POST and just authenticate to use PATCH.
 You will need to use an
-[HTTPS endpoint](http://restlet.com/learn/guide/{{ page.version }}/core/security/https)
+[HTTPS endpoint](http://restlet.com/documentation/user-guide/{{ page.version }}/core/security/https)
 to GET this resource.
 
 # Middle-grained authorization

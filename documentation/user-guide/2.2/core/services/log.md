@@ -38,7 +38,7 @@ documentation](/documentation/user-guide/{{ page.version }}/editions/jse/logging
 
 You can update the log format by setting the "responseLogFormat" attribute of the logging service.
 This is a simple template which leverages the variables listed here
-[Template](/documentation/javadocs/{{ page.version }}/jse/api/org/restlet/util/Resolver.html#createResolver%28org.restlet.data.Request,%20org.restlet.data.Response%29).
+[Template]({{ site.data.javadoc.baseUrl }}{{ page.version }}/jse/api/org/restlet/util/Resolver.html#createResolver%28org.restlet.data.Request,%20org.restlet.data.Response%29).
 
 Here is a sample template and a sample log trace.
 
@@ -75,5 +75,5 @@ For example:
 
 As you may have noticed, the log template does not handle data such as the response time, the date of reception of the request.
 In this case, you can programmatically write your own log trace.
-In order to do so, just inherit from the LogService class and override the [getResponseLogMessage(Response, int) method](/documentation/javadocs/{{ page.version }}/jse/api/org/restlet/service/LogService.html#getResponseLogMessage%28org.restlet.Response,%20int%29).
+In order to do so, just inherit from the LogService class and override the [getResponseLogMessage(Response, int) method]({{ site.data.javadoc.baseUrl }}{{ page.version }}/jse/api/org/restlet/service/LogService.html#getResponseLogMessage%28org.restlet.Response,%20int%29).
 The first parameter is the Response object (wich gives your access to the Request object), and the duration of the call.

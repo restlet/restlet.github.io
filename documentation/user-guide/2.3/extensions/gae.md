@@ -17,7 +17,7 @@ At the time of writing, this extension provides an Authenticator filter
 that integrates the GAE UserService and detect if the current request is
 auithenticated using a Google account. For additional details, please
 consult the
-[Javadocs](/documentation/javadocs/{{ page.version }}/gae/ext/org/restlet/ext/gae/package-summary.html).
+[Javadocs]({{ site.data.javadoc.baseUrl }}{{ page.version }}/gae/ext/org/restlet/ext/gae/package-summary.html).
 
 # User example
 

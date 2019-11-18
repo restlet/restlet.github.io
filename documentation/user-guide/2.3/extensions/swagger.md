@@ -28,7 +28,7 @@ Add org.restlet.ext.swagger.jar (provided in the "lib" directory of
 [restlet framework](/downloads/current#release=testing&edition=jse&distribution=zip
 "download restlet framework")) to your classpath.
 
-Make sure you are using the version 2.3 of Restlet and java 1.7.
+Make sure you are using the version {{ page.version }} of Restlet and java 1.7.
 
 ## Configuration
 
@@ -87,4 +87,4 @@ To display the Swagger-UI of your API, go on the page http://petstore.swagger.wo
 You can also clone/fork the [project](https://github.com/wordnik/swagger-ui) and embed it.
 
 For additional details, please consult the
-[Javadocs](/documentation/javadocs/{{ page.version }}/jse/ext/org/restlet/ext/swagger/package-summary.html).
+[Javadocs]({{ site.data.javadoc.baseUrl }}{{ page.version }}/jse/ext/org/restlet/ext/swagger/package-summary.html).

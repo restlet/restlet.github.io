@@ -27,8 +27,8 @@ For details on the configuration file format, please check the [JDK's
 LogManager](http://docs.oracle.com/javase/1.5.0/docs/api/index.html?java/util/logging/LogManager.html)
 class.
 
-You can also have a look at the [Restlet 2.0 logging
-documentation](/learn/guide/2.0#/101-restlet.html).
+You can also have a look at the [Restlet {{ page.version }} logging
+documentation](/documentation/user-guide/{{ page.version }}#/101-restlet.html).
 
 # Displaying error pages
 

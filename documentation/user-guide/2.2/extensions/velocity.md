@@ -18,4 +18,4 @@ template
 engine](http://velocity.apache.org/engine/).
 
 For additional details, please consult the
-[Javadocs](/documentation/javadocs/{{ page.version }}/jse/ext/org/restlet/ext/velocity/package-summary.html).
+[Javadocs]({{ site.data.javadoc.baseUrl }}{{ page.version }}/jse/ext/org/restlet/ext/velocity/package-summary.html).

@@ -17,4 +17,4 @@ TemplateRepresentation class with the matching parameters and to set it
 as the response entity.
 
 For additional details, please consult the
-[Javadocs](/documentation/javadocs/{{ page.version }}/jse/ext/org/restlet/ext/freemarker/package-summary.html).
+[Javadocs]({{ site.data.javadoc.baseUrl }}{{ page.version }}/jse/ext/org/restlet/ext/freemarker/package-summary.html).

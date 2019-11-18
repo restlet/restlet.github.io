@@ -5,7 +5,7 @@ version: '2.1'
 nav_order: 1
 ---
 The Restlet framework is composed of two main parts. First, there is the
-"[Restlet API](/learn/javadocs/2.1/jse/api/)", a neutral API supporting
+"[Restlet API]({{ site.data.javadoc.baseUrl }}{{ page.version }}/jse/api/index.html)", a neutral API supporting
 the concepts of REST and facilitating the handling of calls for both
 client-side and server-side applications. This API is backed by the
 Restlet Engine and both are now shipped in a single JAR

@@ -13,4 +13,4 @@ supporting the formatting of syndicated feeds in various versions of the
 RSS and Atom languages.
 
 For additional details, please consult the
-[Javadocs](/documentation/javadocs/{{ page.version }}/jse/ext/org/restlet/ext/rome/package-summary.html).
+[Javadocs]({{ site.data.javadoc.baseUrl }}{{ page.version }}/jse/ext/org/restlet/ext/rome/package-summary.html).

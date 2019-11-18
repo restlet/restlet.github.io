@@ -2,30 +2,40 @@
   <div class="m-footer skew-top-black">
     <div class="container">
       <div class="row eq-height">
+        {% if page.version %}
+        {% assign effective_version = page.version %}
+        {% else %}
+        {% assign effective_version = site.default_doc_version %}
+        {% endif %}
         <div class="col-sm-2">
-          <h4>Open Source</h4>
-          {% if page.version %}
-          {% assign effective_version = page.version %}
-          {% else %}
-          {% assign effective_version = site.default_doc_version %}
-          {% endif %}
+          <h4>Features</h4>
           <ul>
-            <li><a href="/">Overview</a></li>
             <li><a href="/features">Features</a></li>
-            <li><a href="/documentation/tutorials/{{ effective_version }}">Tutorials</a></li>
-            <li><a href="/documentation/user-guide/{{ effective_version }}">User guide</a></li>
-            <li><a href="/documentation/javadocs/{{ effective_version }}">Javadocs</a></li>
-            <li><a href="/documentation/{{ effective_version }}/changelog">Changelog</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-2">
+          <h4>Downloads</h4>
+          <ul>
+            <li><a href="/downloads/current/">Current Release</a></li>
+            <li><a href="/downloads/past/">Other Releases</a></li>
+            <li><a href="/documentation/tutorials//downloads/legal-terms/">Legal Terms</a></li>
+            <li><a href="/downloads/faq/">FAQ</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-2">
+          <h4>Documentation</h4>
+          <ul>
+            <li><a href="/documentation/user-guide/{{ site.default_doc_version }}">User guide</a></li>
+            <li><a href="/documentation/tutorials/{{ site.default_doc_version }}">Tutorials</a></li>
+            <li><a href="/documentation/javadocs/{{ site.default_doc_version }}">Javadocs</a></li>
+            <li><a href="/documentation/snapshot/changelog">Changelog</a></li>
           </ul>
         </div>
       </div>
       <div class="row copyright">
         <div class="col-xs-12 col-md-8">
           <ul class="list-inline">
-            <li>&copy; 2019 Restlet, Inc.</li>
-            <li><a href="https://www.talend.com/privacy-policies/" target="_blank">Privacy Policy</a></li>
-            <li><a href="https://restlet.com/terms/">Terms of Use</a></li>
-            <li><a href="https://restlet.com/legal/">Legal Notice</a></li>
+            <li>&copy; Talend All rights reserved.</li>
           </ul>
         </div>
       </div>

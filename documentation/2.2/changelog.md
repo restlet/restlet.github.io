@@ -59,7 +59,7 @@ Changes log
         Reported by Alex Harvey.
     - Misc
       - Fixed many links and updated content of the User Guide
-        http://restlet.org/learn/guide/2.2/
+        http://restlet.org/documentation/user-guide/{{ page.version }}/
 
 - 2.2 Release Candidate 4 (03/18/2014)
     - Enhancements

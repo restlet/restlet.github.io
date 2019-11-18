@@ -1,8 +1,8 @@
 baseUrl: https://restlet.com/open-source/download/
 
 currentVersion:
-  branch: 2.3
-  release: 2.3.12
+  branch: 2.4
+  release: 2.4.2
 
 editions:
   - name: Java SE
@@ -24,6 +24,7 @@ versions:
       - {name: '3.0 M1', release_date: '2014-12-19', id: 3.0m1}
   '2.4':
     releases:
+      - {name: 2.4.2, release_date: '2019-11-13', id: 2.4.2}
       - {name: 2.4.0, release_date: '2018-01-09', id: 2.4.0}
   '2.3':
     releases:

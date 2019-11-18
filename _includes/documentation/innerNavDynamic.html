@@ -1,6 +1,6 @@
 <nav class="inner-nav hidden-xs hidden-sm">
   <ul class="content-nav">
-    {% if page.section %}
+    {% if page.section and page.disable_nav != true %}
       {% assign pages_list = site.html_pages | where: "version",page.version | where: "section",page.section | sort:"nav_order" %}
 
       {% for node in pages_list %}

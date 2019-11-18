@@ -59,7 +59,7 @@ Whether you use this class to run your Web API or not, you must create it to run
 
 ### Using maven
 
-You can use the following pom.xml to get the dependencies required for the Introspector. The pom is available [here](http://maven.restlet.com/org/restlet/jse/org.restlet.ext.apispark/2.3.1/org.restlet.ext.apispark-2.3.1.pom).
+You can use the following pom.xml to get the dependencies required for the Introspector. The pom is available [here]({{ site.data.maven.baseUrl }}/org/restlet/jse/org.restlet.ext.apispark/2.3.1/org.restlet.ext.apispark-2.3.1.pom).
 
 * In a terminal, run : "mvn install"
 (* To use it in eclipse, run in your terminal : "mvn eclipse:eclipse")

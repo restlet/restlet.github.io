@@ -17,7 +17,7 @@ Each Restlet Framework project needs at least one dependency: the Restlet core m
   <repository>
     <id>maven-restlet</id>
     <name>Restlet repository</name>
-    <url>https://maven.restlet.com</url>
+    <url>{{ site.data.maven.baseUrl }}</url>
   </repository>
 </repositories>
 
@@ -38,3 +38,5 @@ Each Restlet Framework project needs at least one dependency: the Restlet core m
   </dependency>
 </dependencies>
 ```
+
+[More information](/documentation/user-guide/{{ site.default_doc_version }}/introduction/getting-started/maven)

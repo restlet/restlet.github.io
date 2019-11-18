@@ -71,7 +71,7 @@ embedded Jetty server.
   &lt;repositories&gt;
     &lt;repository&gt;
       &lt;id&gt;restlet&lt;/id&gt;
-      &lt;url&gt;http://maven.restlet.com/&lt;/url&gt;
+      &lt;url&gt;{{ site.data.maven.baseUrl }}/&lt;/url&gt;
     &lt;/repository&gt;
   &lt;/repositories&gt;
   &lt;dependencies&gt;

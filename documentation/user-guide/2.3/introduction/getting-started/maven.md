@@ -27,7 +27,7 @@ the db4o, AsyncWeb or Simple.
 
 That's why it has been decided to launch our dedicated Maven repository.
 It is freely accessible from
-[http://maven.restlet.com](http://maven.restlet.com/)
+[{{ site.data.maven.baseUrl }}]({{ site.data.maven.baseUrl }}/)
 and contains all Restlet JARs and third party dependencies that aren't
 available in the main public Maven repository.
 
@@ -51,7 +51,7 @@ updating the *pom.xml* file and adding the following code to the
 <pre class="language-markup"><code class="language-markup">&lt;repository&gt;
 &nbsp;&nbsp;&lt;id&gt;maven-restlet&lt;/id&gt;
 &nbsp;&nbsp;&lt;name&gt;Public&nbsp;online&nbsp;Restlet&nbsp;repository&lt;/name&gt;
-&nbsp;&nbsp;&lt;url&gt;http://maven.restlet.com&lt;/url&gt;
+&nbsp;&nbsp;&lt;url&gt;{{ site.data.maven.baseUrl }}&lt;/url&gt;
 &lt;/repository&gt;
 </code></pre>
 
@@ -66,7 +66,7 @@ install Maven. Open and edit *conf/settings.xml* file. Add to the
 &nbsp;&nbsp;&nbsp;&nbsp;&lt;repository&gt;
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;id&gt;maven-restlet&lt;/id&gt;
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;name&gt;Public&nbsp;online&nbsp;Restlet&nbsp;repository&lt;/name&gt;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;url&gt;http://maven.restlet.com&lt;/url&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;url&gt;{{ site.data.maven.baseUrl }}&lt;/url&gt;
 &nbsp;&nbsp;&nbsp;&nbsp;&lt;/repository&gt;
 &nbsp;&nbsp;&lt;/repositories&gt;
 &lt;/profile&gt;

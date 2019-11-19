@@ -12,7 +12,8 @@ __Restlet__ framework and __XMLDB Restlet Adapter__ uses __JDK__ logging package
 Due __REST WS__ are started by a background process automatically controlled by Oracle database logging information is at files named $SID_snnn_pid.trc, for example:
 
 
-<pre class="language-bash"><code class="language-bash">-bash-3.2$ more test_s000_10388.trc
+```bash
+-bash-3.2$ more test_s000_10388.trc
 Trace file /u01/app/oracle/diag/rdbms/test/test/trace/test_s000_10388.trc
 Oracle Database 11g Release 11.1.0.6.0 - Production
 ORACLE_HOME = /u01/app/oracle/product/11.1.0.6.0/db_1
@@ -90,8 +91,7 @@ GET
 -    155
 http://null
 -       -
-
-</code></pre>
+```
 
 
 * How many concurrent session are started by Oracle?

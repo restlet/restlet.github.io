@@ -2,7 +2,7 @@
 title: RIAP
 long-title: Restlet Internal Access Protocol
 parent: Internal connectors
-section: guide-code
+section: guide-core
 version: '2.3'
 nav_order: 4
 ---

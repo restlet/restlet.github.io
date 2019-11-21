@@ -1,7 +1,7 @@
 ---
 title: Overview
 parent: Internal connectors
-section: guide-code
+section: guide-core
 version: '2.3'
 nav_order: 0
 ---

@@ -2,7 +2,7 @@
 title: Local
 long-title: Local connectors
 parent: Internal Connectors
-section: guide-code
+section: guide-core
 version: '2.2'
 nav_order: 1
 ---

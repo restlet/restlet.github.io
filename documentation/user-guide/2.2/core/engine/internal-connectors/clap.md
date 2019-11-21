@@ -2,7 +2,7 @@
 title: CLAP
 long-title: CLAP connector
 parent: Internal Connectors
-section: guide-code
+section: guide-core
 version: '2.2'
 nav_order: 2
 ---

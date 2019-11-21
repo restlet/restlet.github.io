@@ -1,6 +1,6 @@
 ---
 title: Mapping HTTP Headers
-section: guide-code
+section: guide-core
 version: '2.2'
 nav_order: 1
 ---

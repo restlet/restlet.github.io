@@ -2,7 +2,7 @@
 title: HTTP
 long-title: HTTP connector (internal)
 parent: Internal Connectors
-section: guide-code
+section: guide-core
 version: '2.2'
 nav_order: 3
 ---

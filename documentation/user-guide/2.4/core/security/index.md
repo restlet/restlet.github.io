@@ -1,6 +1,6 @@
 ---
 title: Security package
-section: guide-code
+section: guide-core
 version: '2.4'
 nav_order: 7
 redirect_to: /documentation/user-guide/2.4/core/security/overview

@@ -17,9 +17,9 @@ jdbc.sysusr=sys
 jdbc.syspwd=change_on_install
 </code></pre>
 
- - __sqlnet.string__ property is a valid Oracle __SQLNet__ connect string to the target database.
- - __jdbc.{username|password}__ are a valid Oracle user name and password to be created for storing Restlet code. Note that in Oracle 11g user name and password are case sensitive by default, so use always uppercase values to work well with the __.sql__ script provided in this installer.
- - __jdbc.{sysusr|syspwd}__ are a valid OracleDBA User account used to create above user schema and other related task only performed by user who have DBA role.
+ -  `sqlnet.string` property is a valid Oracle __SQLNet__ connect string to the target database.
+ - `jdbc.{username|password}` are a valid Oracle user name and password to be created for storing Restlet code. Note that in Oracle 11g user name and password are case sensitive by default, so use always uppercase values to work well with the __.sql__ script provided in this installer.
+ - `jdbc.{sysusr|syspwd}` are a valid OracleDBA User account used to create above user schema and other related task only performed by user who have DBA role.
 
 Also is necessary a valid __ORACLE_HOME__ environment variable defined to a valid Oracle 11g home directory, this variable then is used to locate for example the __SQLPlus__ application.
 

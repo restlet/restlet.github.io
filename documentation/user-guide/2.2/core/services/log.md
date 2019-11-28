@@ -56,7 +56,7 @@ This log format displays the following data:
 1.  Client address (IP)
 2.  Remote user identifier (see RFC 1413)
 3.  Server address (IP) and port
-4.  Method (GET|POST|...)
+4.  Method (GET, POST...)
 5.  Resource reference path (including the leading slash)
 6.  Resource reference query (excluding the leading question mark)
 7.  Response status code

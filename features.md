@@ -453,11 +453,11 @@ Restlet Framework is not only a framework for building APIs but also for running
 # Extensive Connectors Set
 With its connectors, Restlet Framework covers numerous use cases. Connectors available by default include:
 
-Multiple HTTP connectors, based on either Eclipse Jetty, Simple framework, JDK HttpURLConnection class or on Apache HTTP Client.
+Multiple HTTP connectors, based on either [Eclipse Jetty](https://www.eclipse.org/jetty/), [Simple framework](http://www.simpleframework.org/), JDK [HttpURLConnection](http://java.sun.com/j2se/1.5.0/docs/api/java/net/HttpURLConnection.html) class or on [Apache HTTP Client](http://jakarta.apache.org/commons/httpclient/).
 - Client FILE connector supporting GET, PUT and DELETE methods on files and directories, supporting also directory listings.
 - Client CLAP connector to access to the Classloader resources.
 - Client RIAP connector to access to the Restlet internal resources, directly inside the JVM.
-- Client SMTP, SMTPS, POP v3 and POPS v3 connectors, based on JavaMail and custom email XML format.
+- Client SMTP, SMTPS, POP v3 and POPS v3 connectors, based on [JavaMail](https://java.sun.com/products/javamail/) and custom email XML format.
 - Client SOLR connector to call embedded Apache Solr search and indexing engine.
 
 <figure class="text-center">
@@ -542,14 +542,14 @@ Multiple HTTP connectors, based on either Eclipse Jetty, Simple framework, JDK H
 # Available Representations
 Fully aligned with Web standards, Restlet Framework provides the following representations out of the box:
 
-Automated marshalling and unmarshalling between POJOs and representations based on an extensible converter service. Uses Jackson for JSON, XML, YAML, CSV and more or GSON. Also works with a GWT and Java object serialization.
+- Automated marshalling and unmarshalling between POJOs and representations based on an extensible converter service. Uses [Jackson](https://github.com/FasterXML/jackson) for JSON, XML, YAML, CSV and more or GSON. Also works with a GWT and Java object serialization.
 - XML representations (JAXB, DOM or SAX based) with a simple XPath API based on JDK's built-in XPath engine.
-- Integration with the FreeMarker, Velocity and Thymeleaf template engines.
-- Integration with Apache FileUpload to support multi-part forms and easily handle large file uploads from browsers.
+- Integration with the [FreeMarker](https://freemarker.org/), [Velocity](http://jakarta.apache.org/velocity/) and Thymeleaf template engines.
+- Integration with [Apache FileUpload](https://jakarta.apache.org/commons/fileupload/) to support multi-part forms and easily handle large file uploads from browsers.
 - Transformer filter to easily apply XSLT stylesheets on XML representations. It is based on JDK's built-in XSLT engine.
 - Extensible set of core representations based on NIO and BIO classes. Support for Atom standard via a dedicated extension.
 - Support for Atom standard via a dedicated extension.
-- Integration with Apache Lucene Tika to support metadata extraction from any representation.
+- Integration with [Apache Lucene Tika](https://lucene.apache.org/tika/) to support metadata extraction from any representation.
 - Full RDF reading and writing support make Restlet Framework ready for the Semantic Web (Web 3.0).
 
 <figure class="text-center">
@@ -663,8 +663,7 @@ Restlet Framework can be entirely configured in Java via the Restlet API. Config
           <g id="studio_right_64-copy-2" transform="translate(32.000000, 30.000000)">
             <image x="0" y="0" width="58" height="64" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADoAAABACAYAAABLAmSPAAAABGdBTUEAA1teXP8meAAABD9JREFUaAXtWk1oE0EYHcWjrblqK+ZUrR4sVK0FD6tU6smWHuqhggsqeBGKghcPBoqggjYq2EuFFPRSQVM9KEVobqXoIR786ynFVq9p4r2+F7shnd2a3c3MbJL6wevuzH7zfe/tNzPZZCvW1taEAVjIkQZkYx+vaeegO0EcIlKyOo82fegrdEFX4BgIJ4A84NfoyzEcq5yX8oAgaQM5IKxxLGMIlVAZzAKxDKDKGIsxhQqoCBIHkRSgyxibOUQt2MbBIS2GcaPr2BUyht9hq3BMriPvd9AGv5B3yca4HGDamJO5RVAEHdCFBBkgaiMHC/DN368jt/xU1Oo88pNTHKiqw88aTWCucy3qXocbllSAhr/1+4+7MYhrOaBRjFxtwLO6Xp31sg7D3uAMBlqy4EqhXIfJsNHrcFwKnKippNFZozGsiQxwOMDaaATXJZAcBLKO0CwazSbSKcQnnFjb8ScBNKtISCtpG2VFc2jsY08T2xKFhn7YbaQbw6m7JWyHapWd3SdEsfi7atiDBzrEoc79ov/0KXGm72RV/1odlE/d9o6uwJza23aLp0+SJeGBB/scUBdTd3nll+gfOCfevZ/zSTu4W11U1KHd0rJTLMy9Fa2tLU6XsqPyNerFbHkxKwqFovj89XvpMo+TU88EK1lpXNus6vDQ2cpuJefGpi6r1NtzpIRL9oiYnZkWrKBs8wsf5C4lbWNCZbYUPjw0IHeLHys/XX0qOiITSvKFQkGFBl8xIhPKNeu1y+5t2+OLeFAnI5sRRa0Wi2J5+e+0pMDplzOeDxa9PUeDavDlb0Qohd26fc9TWCVLPjjo2HGZw9jUrfZYyB2YT0e6zIhQrrtrV69squH4sW4x+3q6OR4BKZRTUzZWcvzumNC1CTn5jFSUDwq08TtjTt7ykVP6waOJclvXiRGhDnkKvnhhxGmWjy9evRHzCx/LbR0nRoVSwPVNpjB3ZZ1mXCgf/RI3b7g0ffm2KCZTz139qjqMCyVx/qLQ32e5NNx/PFH6luO6oKAjEqHkzarK3164MemawpEJ5cfJZfu8q1a6NqbIhFIhP1sJubI6qqr8pxRXieqkI9KKmrwH/4WavNsmcrGifIfY7LZEofq+BNbP7Utx1yWdLfEimEItgG+Gm824LG0g7+y6eTQs4CHQLDYFIV0AZ6uo/K8U5zyO6ZzhC+IGNXK3AFGJDY3KC+vOORwbxcjVBjw1eXZKzqNo54F6NXJLAOX/KcK5S5erw8tpPUgSx3qzFAjFgao6qjpIQRg0DURtGRCwAN/8fTtKQZkkC5i2PBLaQGDegQdISZiUyU1YAkliQCjOoQZJyZicJHRZGoHjQE1caxosJScZklJlWQSyACUclQSRyJAcSYa1PAbagFJuSoNJ5EiWpINYAs4xQDkv5QElkiRN8tUsA4c4oI2PtsASaYpIAXKF0+izJF8tnP4A4MlgYhsxMK0AAAAASUVORK5CYII="></image>
             <text id="Framework" font-family="Ubuntu" font-size="24" font-weight="normal" letter-spacing="5" fill="#FFFFFF">
-              <tspan x="73" y="41">Framewor</tspan>
-              <tspan x="222.872" y="41">k</tspan>
+              <tspan x="73" y="41">Framework</tspan>
             </text>
           </g>
         </g>

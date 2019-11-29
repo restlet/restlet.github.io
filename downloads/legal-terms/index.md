@@ -6,7 +6,7 @@ layout: homepage
 
 ## Licenses
 
-Restlet is an Open Source project that is distributed under several licenses at the same time. Users can choose one of the following open source licenses:
+Restlet Framework is an Open Source project that is distributed under several licenses at the same time. Users can choose one of the following open source licenses:
 
 - [Apache license 2.0](http://opensource.org/licenses/apache-2.0)
 - [LGPL license 3.0](http://opensource.org/licenses/lgpl-3.0)
@@ -20,7 +20,7 @@ The CDDL license is based on the Mozilla Public License used for the Firefox bro
 
 The EPL license was defined by the Eclipse foundation and has properties similar to the LPGL and CDDL licenses. If you have questions about this license, you can refer to their [EPL FAQ](http://www.eclipse.org/legal/eplfaq.php).
 
-Licenses for special usages, like embedding in proprietary products without the constraint of giving access to the Restlet source code found in the Open Source licenses, or commercial usage of the Restlet trademark can also be [discussed](https://www.talend.com/contact/) with Talend.
+Licenses for special usages, like embedding in proprietary products without the constraint of giving access to the Restlet Framework source code found in the Open Source licenses, or commercial usage of the Restlet trademark can also be [discussed](https://www.talend.com/contact/) with Talend.
 
 ## Trademarks
 "Restlet" is a registered trademark of Talend S.A. and can't be used to endorse or promote products derived from this project without prior written permission from Talend.

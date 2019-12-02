@@ -9,7 +9,7 @@ nav_order: 9
 __This documentation refers to Lucene Web Service with a deprecated URL: `http://dev.lucene-ws.net`__
 
 
-__It seems that Lucene Web Service has moved to http://lucene-ws.sourceforge.net/docs.html and does not have the same API than it was__
+__It seems that Lucene Web Service has moved to [http://lucene-ws.sourceforge.net/docs.html](http://lucene-ws.sourceforge.net/docs.html) and does not have the same API than it was__
 
 
 GET services are implemented because PUT methods are easier to perform using

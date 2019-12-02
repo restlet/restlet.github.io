@@ -54,7 +54,8 @@ If you want to display a definition edited manually, the SwaggerApplication can 
 
 See sample implementation below:
 
-<pre class="language-java"><code class="language-java">@Override
+```java
+@Override
 public SwaggerSpecificationRestlet getSwaggerSpecificationRestlet(
         Context context) {
     return new SwaggerSpecificationRestlet(getContext()) {
@@ -76,7 +77,7 @@ public SwaggerSpecificationRestlet getSwaggerSpecificationRestlet(
         }
     };
 }
-</code></pre>
+```
 
 # Swagger-UI
 

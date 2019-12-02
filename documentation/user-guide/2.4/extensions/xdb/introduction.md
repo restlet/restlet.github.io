@@ -7,7 +7,7 @@ version: '2.4'
 nav_order: 1
 ---
 Oracle XDB Restlet adapter is a [Server connector](/documentation/user-guide/{{ page.version }}/core/base/connectors)
-for [Restlet Framework](http://restlet.com/products/restlet-framework/) it provides to Oracle 11g the availability to support server side __REST Web Services__ (__WS__).
+for [Restlet Framework](/) it provides to Oracle 11g the availability to support server side __REST Web Services__ (__WS__).
 
 For doing that we use the Oracle JVM, an embedded JVM compatible with __JDK__ 1.5 running inside the database, it means using
 same memory space and local access to the __SQL__ resources.

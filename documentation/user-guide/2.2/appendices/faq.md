@@ -92,11 +92,12 @@ s.getContext().getParameters().add("tracing", "true");
 Here is a sample code that illustrates how to configure the HTTP  client
 connector of a resource:
 
-<pre class="language-java"><code class="language-java">Client client = new Client(new Context(), Protocol.HTTP);
+```java
+Client client = new Client(new Context(), Protocol.HTTP);
 client.getContext().getParameters().add("tracing", "true");
 ClientResource resource = new ClientResource("http://localhost:8182/<resource>");
 resource.setNext(client);
-</code></pre>
+```
 
 # <a name="how-do-i-implement-the-traditional-mvc-pattern"></a>How do I implement the traditional MVC pattern?
 

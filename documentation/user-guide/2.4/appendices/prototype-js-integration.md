@@ -44,7 +44,8 @@ you have requirement,you should modify it in concurrent(client/server)
 model by using [Db4o.openServer
 method](http://developer.db4o.com/resources/api/db4o-java/com/db4o/Db4o.html#openServer%28java.lang.String,%20int%29).
 
-<pre class="language-java"><code class="language-java">package com.bjinfotech.util;
+```java
+package com.bjinfotech.util;
 
 import com.db4o.Db4o;
 import com.db4o.ObjectContainer;
@@ -182,7 +183,7 @@ public class DB4OSimpler {
         return ret;
     }
 }
-</code></pre>
+```
 
 ## MicroblogApplication.Class
 
@@ -194,7 +195,8 @@ Microblog):
 think TunnelService is easy for using.But I'd discuss how to using
 custom finder to implement same function.
 
-<pre class="language-java"><code class="language-java">package com.bjinfotech.restlet.practice.demo.microblog;
+```java
+package com.bjinfotech.restlet.practice.demo.microblog;
 
 import org.restlet.Application;
 import org.restlet.Component;
@@ -244,14 +246,15 @@ public class MicroblogApplication {
         component.start();
     }
 }
-</code></pre>
+```
 
 ## microblogAppInterface.js
 
 This is a JavaScript file used in microblog.html file,it call functions
 which was exposed in server side:
 
-<pre class="language-javascript"><code class="language-javascript">var SAVE_MODEL=1;
+```js
+  var SAVE_MODEL=1;
   var UPDATE_MODEL=2;
 
   function switchEditorModel(model){
@@ -342,11 +345,12 @@ which was exposed in server side:
               }
           );
   }
-</code></pre>
+```
 
 ## MicroblogResource.Class
 
-<pre class="language-java"><code class="language-java">package com.bjinfotech.restlet.practice.demo.microblog;
+```java
+ package com.bjinfotech.restlet.practice.demo.microblog;
 
  import java.util.List;
  import java.util.logging.Logger;
@@ -506,11 +510,12 @@ which was exposed in server side:
          getResponse().setEntity(callMethod("delete",jsonParamVal));
      }
  }
-</code></pre>
+```
 
 ## Microblog.Class
 
-<pre class="language-java"><code class="language-java">package com.bjinfotech.restlet.practice.demo.microblog;
+```java
+package com.bjinfotech.restlet.practice.demo.microblog;
 
 public class Microblog {\
    private String subject;\
@@ -521,7 +526,7 @@ public class Microblog {\
    }\
    ...
 }
-</code></pre>
+```
 
 # Running Application
 
@@ -551,16 +556,18 @@ all!
 
 In Application:
 
-<pre class="language-java"><code class="language-java">...
+```java
+...
 Router router = new Router(getContext());
 //It's very easy!
 router.setFinderClass(PrototypeFinder.class);
 ...
-</code></pre>
+```
 
 Custom Finder:
 
-<pre class="language-java"><code class="language-java">public class PrototypeFinder extends Finder {
+```java
+public class PrototypeFinder extends Finder {
        public  PrototypeFinder(Context context, Class targetClass) {
                super(context, targetClass);
        }
@@ -573,11 +580,12 @@ Custom Finder:
                super.handle(request, response);
        }
 }
-</code></pre>
+```
 
 javascript snippet in web page:
 
-<pre class="language-javascript"><code class="language-javascript">...
+```js
+...
 function callJSON() {
        new Ajax.Request('/ajax', {
                parameters: 'name=PUT', method: 'put', putBody: "PUT BODY",
@@ -598,9 +606,8 @@ function callJSON() {
                }
        });
 }
-</code></pre>
-
-         ...
+...
+```      
 
 # Thanks
 

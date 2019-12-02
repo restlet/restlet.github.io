@@ -252,12 +252,13 @@ loaded bundles and before executing your REST request, the registered
 client connector. \
  Here is the code to see all registered client connectors:
 
- <pre class="language-java"><code class="language-java">List<ConnectorHelper<Client>> clients = Engine.getInstance().getRegisteredClients();
+```java
+List<ConnectorHelper<Client>> clients = Engine.getInstance().getRegisteredClients();
 System.out.println("Connectors - "+clients.size());
 for(ConnectorHelper<Client> connectorHelper : clients) {   
     System.out.println("connector = "+connectorHelper.getClass());
 }
-</code></pre>
+```
 
 You can use OSGi bundle listeners to see if necessary bundles are
 loaded. Here is a sample of code:

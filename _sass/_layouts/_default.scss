@@ -404,19 +404,19 @@ pre[class*="language-"] {
   }
 }
 
-code { 
-  padding-left: .25rem; 
-  padding-right: 0; 
-  background: #F9F9F9; 
+code {
+  padding-left: .25rem;
+  padding-right: 0;
+  background: #F9F9F9;
   color: #c25;
   font-size: 12px;
-  padding: 2px 3px 1px; 
-  white-space: normal; 
-  font-family: Consolas,monaco,"Ubuntu Mono",courier,monospace!important; 
-  border: 1px solid #E8E8E8; 
-  border-radius: .3rem; 
-  font-variant-ligatures: none; 
-  tab-size: 4; 
+  padding: 2px 3px 1px;
+  white-space: normal;
+  font-family: Consolas,monaco,"Ubuntu Mono",courier,monospace!important;
+  border: 1px solid #E8E8E8;
+  border-radius: .3rem;
+  font-variant-ligatures: none;
+  tab-size: 4;
 }
 
 pre code {
@@ -524,7 +524,7 @@ pre code {
 
 // Activities
 .activities {
-  
+
   .icon-block {
     img {
       height: 139px;
@@ -583,7 +583,7 @@ blockquote {
 
   .m-card {
     &.m-card-fullwidth {
-      padding: 40px 35px; 
+      padding: 40px 35px;
       @media #{$lg-up} {
         padding: 40px 70px;
       }
@@ -595,12 +595,12 @@ blockquote {
         text-align: center;
       }
       .planPricingEnquiry {
-        margin-top: 30px;  
+        margin-top: 30px;
       }
       +.m-card-fullwidth {
         margin-top: 30px;
         &:last-of-type {
-          padding: 40px 35px 25px 35px; 
+          padding: 40px 35px 25px 35px;
           @media #{$lg-up} {
             padding: 40px 70px 15px 70px;
           }
@@ -611,7 +611,7 @@ blockquote {
             display: block;
             br {
               display: none;
-            } 
+            }
             @media #{$lg-up} {
               display: inline;
               float: right;
@@ -624,7 +624,7 @@ blockquote {
               margin-bottom: 10px;
               @media #{$sm-up} {
                 display: inline-block;
-              } 
+              }
             }
             &:first-of-type {
               float: none;
@@ -666,4 +666,9 @@ blockquote {
     font-size: 0.8em !important;
     padding-right: 0 !important;
   }
+}
+
+code {
+  white-space: pre;
+  overflow: scroll;
 }

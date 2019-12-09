@@ -18,7 +18,7 @@ Additional work is required to:
 - parse a Swagger descriptor in JSON to set up an application
 
 In this scenario, we will add Swagger support to a Restlet based API then display its Swagger-UI.
-You can download [this code](/technical-resources/restlet-framework/archives/examples/swagger/SwaggerApplicationExample.zip) and follow the README to get a sample application and try it out.
+You can download [this code]({{ site.data.downloads.baseUrl }}technical-resources/restlet-framework/archives/examples/swagger/SwaggerApplicationExample.zip) and follow the README to get a sample application and try it out.
 
 # Usage
 

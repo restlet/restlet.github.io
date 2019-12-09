@@ -172,7 +172,7 @@ the query, you cannot rely on the URI template based routing feature
 which is more or less based on regular expressions.\
  In this case you have to define your own router (with the "MODE_CUSTOM"
 routing mode). A sample implementation is available
-[here](/technical-resources/restlet-framework/archives/examples/router/{{ page.version }}/queryRouter.zip "queryRouter")(application/zip, 3.6 kB).
+[here]({{ site.data.downloads.baseUrl }}technical-resources/restlet-framework/archives/examples/router/{{ page.version }}/queryRouter.zip "queryRouter")(application/zip, 3.6 kB).
 
 ## Matching of template variables
 

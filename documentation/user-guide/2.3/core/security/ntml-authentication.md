@@ -48,7 +48,7 @@ Basically, the following steps are required:
  - Set up a dedicated client helper that will handle the NTML requests using
 the Apache HTTP Client and JCIFS libraries.
 
-Here is [a sample implementation](/technical-resources/restlet-framework/archives/examples/security/MyNtlmHttpClientHelper.java) of such
+Here is [a sample implementation]({{ site.data.downloads.baseUrl }}technical-resources/restlet-framework/archives/examples/security/MyNtlmHttpClientHelper.java) of such
 client helper. It extends the one provided by the [Apache HTTP Client extension](../../extensions/httpclient) that must
 be added to your project.
 

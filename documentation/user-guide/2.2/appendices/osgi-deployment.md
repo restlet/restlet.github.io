@@ -146,7 +146,7 @@ engine, for example:
 
 -   Engine.getInstance().getRegisteredClients().add(new HttpServerHelper(null));
 
-An archive of this test project is [available here](/technical-resources/restlet-framework/archives/examples/osgi/{{ page.version }}/org.restlet.example.osgi.test.zip "OsgiUsageTest2") (application/zip, 7 kB).
+An archive of this test project is [available here]({{ site.data.downloads.baseUrl }}technical-resources/restlet-framework/archives/examples/osgi/{{ page.version }}/org.restlet.example.osgi.test.zip "OsgiUsageTest2") (application/zip, 7 kB).
 
 # Standalone Equinox deployment
 

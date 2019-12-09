@@ -59,7 +59,7 @@ In addition to the Redirector, we have another tool to manage cool URIs:
 Routers. They are specialized Restlets that can have other Restlets
 (Finders and Filters for example) attached to them and that can
 automatically delegate calls based on a [URI
-template](http://bitworking.org/projects/URI-Templates/). In general,
+template](https://tools.ietf.org/html/rfc6570). In general,
 you will set a Router as the root of your Application.
 
 Here we want to explain how to handle the following URI patterns:

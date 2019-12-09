@@ -3,6 +3,7 @@ baseUrl: https://download-restlet.at.cloud.talend.com/
 currentVersion:
   branch: 2.4
   release: 2.4.2
+  release_date: '2019-11-13'
 
 editions:
   - name: Java SE

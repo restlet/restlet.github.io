@@ -22,7 +22,7 @@
       <div class="card__body">
         {% assign currentBranch = site.data.downloads.currentVersion.branch %}
         {% assign currentRelease = site.data.downloads.currentVersion.release %}
-        {% assign currentReleaseDate = site.data.downloads.versions[ currentBranch ].releases[ currentRelease ].release_date %}
+        {% assign currentReleaseDate = site.data.downloads.currentVersion.release_date %}
 
         <form id="frmDownloadCurrent" action="." method="GET">
           <button type="submit" class="m-button m-button-block m-button-flat-darkblue" style="margin-bottom: 20px;">Download</button>

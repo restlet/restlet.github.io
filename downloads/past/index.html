@@ -77,7 +77,9 @@ layout: homepage
                 var versions = {{ site.data.downloads.versions | jsonify }};
 
                 function getUrl (branch, release, edition) {
-                  return '{{ site.data.downloads.baseUrl }}' + branch + '/restlet-' + edition + '-' + release + '.zip';
+                  var excludeEdition = branch === '1.0' || branch === '1.1' || branch === '1.2';
+                  var editionFragment = excludeEdition ? '' : edition  + '-';
+                  return '{{ site.data.downloads.baseUrl }}' + branch + '/restlet-' + editionFragment + release + '.zip';
                 }
 
                 function getReleases (branch) {

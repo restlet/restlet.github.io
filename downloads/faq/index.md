@@ -5,7 +5,7 @@ layout: homepage
 ---
 **What are the differences between stable, testing and unstable releases?**
 
-The Restlet Framework is available under three versions, tagged like Debian releases]:
+The Restlet Framework is available under three versions, tagged like Debian releases:
 
 - "Stable" is the release that we recommend for applications in production. The API of this release is frozen and only bug fixes are made. You can download this version from the “Current release” tab above.
 
@@ -33,4 +33,4 @@ More details are available in the [user guide](/documentation/user-guide/{{ site
 
 **Is there a complete documentation available for Restlet Framework?**
 
-Of course! Please visit the [User guide](/documentation/user-guide/{{ site.default_doc_version }}) in the Technical Resources section of this website. You can also check out [Tutorials](/documentation/tutorials/{{ site.default_doc_version }}) or access the Javadocs.
+Of course! Please visit the [User guide](/documentation/user-guide/{{ site.default_doc_version }}) in the Technical Resources section of this website. You can also check out [Tutorials](/documentation/tutorials/{{ site.default_doc_version }}) or access the [Javadocs](/documentation/javadocs/{{ site.default_doc_version }}).

@@ -114,9 +114,7 @@ default.
 
 # Restlet API
 
-The Restlet API in version {{ page.version }} has fully refactored its security model
-([see specifications
-here](/participate#/172-restlet/212-restlet.html)).
+The Restlet API in version {{ page.version }} has fully refactored its security model.
 It is based on some properties of the ClientInfo class: user and roles.
 This model relies on Java security principals in a way similar to JAAS.
 But Restlet security API and JAAS are distinct, and some bridges are

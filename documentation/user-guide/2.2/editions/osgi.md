@@ -7,7 +7,7 @@ nav_order: 6
 ---
 # Introduction
 
-While OSGi has been for a long time an important deployment environment for Restlet developers, including an [innovative project](http://blog.restlet.com/2008/05/05/nasa-launch-restlet-on-osgi-orbit/) lead by NASA JPL, the rise of RESTful web APIs, the addition of an Eclipse Public License option to Restlet Framework and an increased effort from Restlet community led to the addition of this special edition.
+While OSGi has been for a long time an important deployment environment for Restlet developers, the rise of RESTful web APIs, the addition of an Eclipse Public License option to Restlet Framework and an increased effort from Restlet community led to the addition of this special edition.
 
 This edition dedicated to OSGi environments such as Eclipse Equinox and Apache Felix was necessary to make space for more OSGi specific features in the framework. Using our automated Restlet Forge, we are able to automatically deliver this edition, including dedicated Javadocs and distributions as illustrated above.
 
@@ -39,6 +39,3 @@ This org.restlet.ext.osgi extension is lead by Bryan Hunt and has received signi
 
 Step after step, Restlet support for OSGi and the Eclipse ecosystem is growing and we will continue to work in this direction, with plans to add visual tooling for Restlet in Eclipse and to provide more integration with OSGi standard services such as the log service. As always, stay tuned!
 
-# References
-
-Blog post - [Restlet improves OSGi support: new edition and update site](http://blog.restlet.com/2011/11/09/restlet-improves-support-for-osgi-with-new-edition-and-eclipse-update-site/)

@@ -10,10 +10,7 @@ nav_order: 2
 Google provides a Java version of his App Engine solution (GAE). It is a
 PaaS (Platform as a Service) solution that offers massive and flexible
 scalability for your Web applications by hosting them on the Google
-cloud (based on Google computing infrastructure). For more details, you
-can read [our blog
-post](http://blog.restlet.com/2009/04/11/restlet-in-the-cloud-with-google-app-engine/)
-with the official announce.
+cloud (based on Google computing infrastructure).
 
 Due to the restrictions of the GAE, we need to provide an adaptation of
 Restlet for this environment. GAE is based on Java 6, with a restricted
@@ -113,7 +110,7 @@ Finally, here is the Servlet configuration file:
 </code></pre>
 
 For more information on Restlet, please check our [documentation
-pages]({{ site.data.javadoc.baseUrl }}{{ page.version }}/jse/index.html).
+pages](/documentation/javadocs/{{ page.version }}/jse).
 
 # Javadocs
 

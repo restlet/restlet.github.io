@@ -37,5 +37,5 @@ Note that no additional configuration is needed. If you want to
 customize the mapping between file extensions and metadata (media type,
 language or encoding) or if you want to specify a different index name,
 you can use the Application's
-["metadataService"](api/org/restlet/service/MetadataService.html)
+["metadataService"]({{ site.data.javadoc.baseUrl }}{{ page.version }}/jse/api/org/restlet/service/MetadataService.html)
 property.

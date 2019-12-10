@@ -15,12 +15,7 @@ So far, we introduced features that go beyond the traditional Servlet
 API and introduced our support for REST that justify our Restlet name!
 If haven't done so already, you can learn more about the REST
 architecture style and the best practices to follow when applying it to
-a Web application. There is a related [FAQ entry](/discover/faq#04) that
-will give you some starting pointers and we also maintain a [REST search
-engine](http://search.onrest.org) (based on Google) that can be useful.
-If you have some experience with a traditional MVC framework, you can
-read more about the relationship to Restlets in this other [FAQ
-entry](faq#10).
+a Web application.
 
 To summarize, a request contains an URI that identifies the target
 resource that is the subject of the call. This information is stored in

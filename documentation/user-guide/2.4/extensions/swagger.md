@@ -81,7 +81,7 @@ public SwaggerSpecificationRestlet getSwaggerSpecificationRestlet(
 
 # Swagger-UI
 
-To display the Swagger-UI of your API, go on the page http://petstore.swagger.wordnik.com, enter the URL of your Swagger definition and click on explore.
+To display the Swagger-UI of your API, go on the page [https://petstore.swagger.io/](https://petstore.swagger.io/), enter the URL of your Swagger definition and click on explore.
 
 ![swagger-ui](images/swaggerExtensionSwaggerUI.png)
 

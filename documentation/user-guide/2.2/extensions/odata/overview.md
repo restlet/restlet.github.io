@@ -12,7 +12,6 @@ nav_order: 0
 
 # References
 
--   [Blog post - Restlet supports OData, the Open Data Protocol](http://blog.restlet.com/2010/03/15/restlet-supports-odata-the-open-data-protocol/)
 -   [Javadocs - Restlet extension for OData]({{ site.data.javadoc.baseUrl }}{{ page.version }}/jse/ext/org/restlet/ext/odata/package-summary.html)
 -   [Advanced tutorial on the OData extension](/documentation/user-guide/{{ page.version }}/extensions/odata/tutorial "Tutorial")
 -   [OData - Protocol specification](http://docs.oasis-open.org/odata/odata/v4.0/odata-v4.0-part1-protocol.html)

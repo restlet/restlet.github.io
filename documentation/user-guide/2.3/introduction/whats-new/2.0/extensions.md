@@ -56,7 +56,7 @@ New extension leveraging the new NIO framework from JBoss. Provides HTTP and HTT
 
 # OData extension
 
-A new extension for [Microsoft ADO.NET Data Services](http://blog.restlet.com/2009/09/28/restlet-bridges-ado-net-data-services-and-java/) technology (previously known as “project Astoria”) was added, later renamed to WCF Data Services then OData.
+A new extension for Microsoft ADO.NET Data Services technology (previously known as “project Astoria”) was added, later renamed to WCF Data Services then OData.
 
 It provides a high-level client API based on the ClientResource class that lets you access remote OData services, typically hosted in an ASP.NET servers or on the Windows Azure cloud computing platform. The extension contains both a code generator for the representation beans and a runtime layer.
 

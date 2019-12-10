@@ -23,8 +23,6 @@ Another strength of Groovy is its capacity to define new languages in a
 very dynamic and flexible way. Qi Keke has develop a specific DSL for
 Restlet in Groovy. It is now available as an [official Groovy
 Module](http://docs.codehaus.org/display/GROOVY/GroovyRestlet).
-For more information, check the [announce on Restlet's
-blog](http://blog.restlet.com/2008/02/29/groovy-dsl-available-for-restlet/).
 
 The [Kauri
 project](http://kauriproject.org/),

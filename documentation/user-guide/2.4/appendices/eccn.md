@@ -40,7 +40,7 @@ specific schemes.
 
 However, pluggable authenticator helpers can be registered in the
 Restlet engine, such as these ones in the [crypto
-extension](github://org.restlet.ext.crypto/src/org/restlet/ext/crypto/internal/)
+extension](https://github.com/restlet/restlet-framework-java/tree/{{ page.version }}/modules/org.restlet.ext.crypto/src/main/java/org/restlet/ext/crypto/internal)
 (note the "internal" packages are hidden from public Javadocs).
 
 ### **2) org.restlet.engine.http.security package**
@@ -104,9 +104,10 @@ There are the three classes that were moved from the
 org.restlet.engine.security package related to SSL into the Crypto
 extension. See these two pages to compare:
 
--   [org.restlet.engine.security package in Restlet 2.0](github://2.0/org.restlet/src/org/restlet/engine/security/)
--   [org.restlet.engine.security package in Restlet 2.1](github://2.1/org.restlet/src/org/restlet/engine/security/)
--   [org.restlet.engine.security package in Restlet {{ page.version }}](github://org.restlet/src/org/restlet/engine/security/)
+-   [org.restlet.engine.security package in Restlet 2.0](https://github.com/restlet/restlet-framework-java/tree/2.0/modules/org.restlet/src/org/restlet/engine/security/)
+-   [org.restlet.engine.security package in Restlet 2.1](https://github.com/restlet/restlet-framework-java/tree/2.1/modules/org.restlet/src/org/restlet/engine/security/)
+-   [org.restlet.engine.security package in Restlet 2.3](https://github.com/restlet/restlet-framework-java/tree/2.3/modules/org.restlet/src/org/restlet/engine/security/)
+-   [org.restlet.engine.security package in Restlet 2.4](https://github.com/restlet/restlet-framework-java/tree/2.4/modules/org.restlet/src/main/java/org/restlet/engine/security/)
 
 Here are some precisions for version 2.0. Those two classes, do not
 contain or rely on any encryption algorithm:
@@ -116,7 +117,7 @@ contain or rely on any encryption algorithm:
     the key used and parse parameters
 
  So, only DefaultSslContextFactory is interesting here ([see source code
-here](github://org.restlet/src/org/restlet/engine/ssl/DefaultSslContextFactory.java?view=markup)).
+here](https://github.com/restlet/restlet-framework-java/tree/{{ page.version }}/modules/org.restlet/src/main/java/org/restlet/engine/ssl/DefaultSslContextFactory.java?view=markup)).
 
 ## Is there both object and source code for the encryption technology?
 

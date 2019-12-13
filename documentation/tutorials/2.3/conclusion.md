@@ -26,7 +26,7 @@ configure them, and the
 a list of all available extensions providing pluggable features such as
 integration with servlet containers, generation of dynamic
 representations, etc. You can also post your questions and help others
-in our [discussion list](/community/lists).
+in our [discussion list](https://groups.google.com/a/restlet.org/forum/#!forum/framework-discuss).
 
 ### <a name="notes">Notes</a>
 

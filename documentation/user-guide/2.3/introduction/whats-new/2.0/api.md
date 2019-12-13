@@ -87,7 +87,7 @@ API (that we support as a special Restlet extension), we felt it was
 time for us to step-back and propose a better solution, taking the best
 of both experiences.
 
-We initiated a [specification effort](/participate#/172-restlet/226-restlet.html)
+We initiated a specification effort
 in our developers wiki at the beginning of this year, taking into
 account all the enhancement requests, issues and feed-back made by our
 community. Here is the overall architecture:
@@ -141,9 +141,7 @@ The refactoring of the Restlet security model has been the most
 requested change since the Restlet 1.0 release. Fortunately, after a
 long maturation period, it has finally made a huge step forward,
 materialized by the addition of an “org.restlet.security” package. The
-new design is the
-[synthesis](/participate#/172-restlet/212-restlet.html)
-of many contributions and discussions from the community. Care has been
+new design is the synthesis of many contributions and discussions from the community. Care has been
 taken to keep a separation of concern between Components and
 Applications regarding security.
 

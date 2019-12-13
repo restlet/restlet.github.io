@@ -24,7 +24,7 @@ server connectors and explain how to use and configure them, and the
 extensions providing pluggable features such as integration with servlet
 containers, generation of dynamic representations, etc. You can also
 post your questions and help others in our [discussion
-list](/community/lists).
+list](https://groups.google.com/a/restlet.org/forum/#!forum/framework-discuss).
 
 ### <a name="notes">Notes</a>
 

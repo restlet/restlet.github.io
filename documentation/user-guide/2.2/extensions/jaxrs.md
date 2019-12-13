@@ -197,7 +197,7 @@ Application application = new MyJaxRsApplication(comp.getContext());
 </code></pre>
 
 Comments are welcome to the [Restlet mailing
-list](http://restlet.orghttps://groups.google.com/a/restlet.org/forum/#!forum/framework-discuss)
+list](https://groups.google.com/a/restlet.org/forum/#!forum/framework-discuss)
 or directly to Stephan.Koops\<AT\>web.de !
 
 This extension is the result of a (german) [master

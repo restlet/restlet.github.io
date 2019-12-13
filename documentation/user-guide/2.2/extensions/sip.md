@@ -13,9 +13,6 @@ SIP connectors over TCP, reusing the 90% of the logic used by the new
 NIO/HTTP internal connector, providing excellent scalability and
 performance.
 
-For now, you can get more details on the [Restlet/SIP specifications
-page](/participate#/257-restlet/300-restlet.html).
-
 # Features
 
 -   SIP transport over TCP

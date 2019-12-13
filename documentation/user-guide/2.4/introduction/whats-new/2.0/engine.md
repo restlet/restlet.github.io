@@ -22,8 +22,7 @@ createClapReference(Package) methods to help building shorter CLAP URIs.
 ## Internal HTTP connectors
 
 The internal HTTP connectors were replaced with new ones based
-supporting [the new asynchronous processing features in Restlet
-API](/participate#/172-restlet/297-restlet.html).
+supporting the new asynchronous processing features in Restlet API.
 They are actually the only connectors for now, beside the GWT edition,
 supporting those new asynchronous capabilities which should be
 considered as a preview feature at this point. In version 2.1 we attempt

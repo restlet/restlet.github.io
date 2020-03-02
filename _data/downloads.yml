@@ -2,8 +2,8 @@ baseUrl: https://download.restlet.talend.com/
 
 currentVersion:
   branch: 2.4
-  release: 2.4.2
-  release_date: '2019-11-13'
+  release: 2.4.3
+  release_date: '2020-01-28'
 
 editions:
   - name: Java SE
@@ -25,6 +25,7 @@ versions:
       - {name: '3.0 M1', release_date: '2014-12-19', id: 3.0m1}
   '2.4':
     releases:
+      - {name: 2.4.3, release_date: '2020-01-28', id: 2.4.3}
       - {name: 2.4.2, release_date: '2019-11-13', id: 2.4.2}
       - {name: 2.4.0, release_date: '2018-01-09', id: 2.4.0}
   '2.3':

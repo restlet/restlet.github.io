@@ -7,6 +7,14 @@ layout: text
 Changes log
 ===========
 
+- 2.4.3 (01/28/2020)
+    - Bugs fixed
+      - Allow parsing of double values like "2.0" or "4.0" being received in
+        the Retry-After header. Issue #1355.
+        Reported by Brett Cooper.
+      - MemoryRealm.unmap method leads to ArrayOutOfBound exception. Issue #1358.
+        Reported by j-perrin.
+
 - 2.4.2 (11/13/2019)
     - Misc
       - Prepare the next release (2.5.0). The Apache HTTP Client extension is

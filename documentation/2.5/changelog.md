@@ -1,9 +1,7 @@
 ---
-
 title: Restlet Framework - Changelog 2.5
-
-## layout: text
-
+layout: text
+---
 ```
 ===========
 Changes log

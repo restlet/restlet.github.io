@@ -23,6 +23,9 @@ versions:
     releases:
       - {name: '3.0 Snapshot', release_date: '2014-12-19', id: 3.0snapshot}
       - {name: '3.0 M1', release_date: '2014-12-19', id: 3.0m1}
+  '2.5':
+    releases:
+      - {name: '2.5 M1', release_date: '2020-03-09', id: 2.5m1}
   '2.4':
     releases:
       - {name: 2.4.3, release_date: '2020-01-28', id: 2.4.3}

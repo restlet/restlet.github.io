@@ -6,7 +6,7 @@ Restlet Framework helps Java developers build better web APIs that follow the RE
 
 Thanks to Restlet Framework’s powerful routing and filtering capabilities, unified client and server Java API, developers can build secure and scalable RESTful web APIs. It is available for all major platforms (Java SE/EE, Google AppEngine, OSGi, GWT, Android) and offers numerous extensions to fit the needs of all developers.
 
-APIs built using Restlet Framework can be deployed on any platform but close integration with APISpark, the leading Platform-as-a-Service dedicated to web APIs, enables developers to save time in documenting and creating SDKs for their APIs, while maintaining the flexibility of working with the framework.
+Thanks to their low footprint, APIs built using Restlet Framework can be deployed almost anywhere.
 
 <div class="m-cta cta-darkblue">
     <svg xmlns="http://www.w3.org/2000/svg" id="elements" width="1040.95" height="255.89" viewBox="0 0 1040.95 255.89" class="svg replaced-svg">

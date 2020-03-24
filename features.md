@@ -453,12 +453,10 @@ Restlet Framework is not only a framework for building APIs but also for running
 # Extensive Connectors Set
 With its connectors, Restlet Framework covers numerous use cases. Connectors available by default include:
 
-- Multiple HTTP connectors, based on either [Eclipse Jetty](https://www.eclipse.org/jetty/), [Simple framework](http://www.simpleframework.org/), JDK [HttpURLConnection](http://java.sun.com/j2se/1.5.0/docs/api/java/net/HttpURLConnection.html) class or on [Apache HTTP Client](http://jakarta.apache.org/commons/httpclient/).
+- Multiple HTTP connectors, based on either [Eclipse Jetty](https://www.eclipse.org/jetty/), JDK [HttpURLConnection](https://docs.oracle.com/javase/1.5.0/docs/api/java/net/HttpURLConnection.html) class or on [Apache HTTP Client](http://hc.apache.org/).
 - Client FILE connector supporting GET, PUT and DELETE methods on files and directories, supporting also directory listings.
 - Client CLAP connector to access to the Classloader resources.
 - Client RIAP connector to access to the Restlet internal resources, directly inside the JVM.
-- Client SMTP, SMTPS, POP v3 and POPS v3 connectors, based on [JavaMail](https://java.sun.com/products/javamail/) and custom email XML format.
-- Client SOLR connector to call embedded Apache Solr search and indexing engine.
 
 <figure class="text-center">
   <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="back" x="0px" y="0px" width="235px" height="auto" viewBox="0 55.5 640 539" enable-background="new 0 55.5 640 539" xml:space="preserve" class="svg larger replaced-svg">
@@ -549,7 +547,6 @@ Fully aligned with Web standards, Restlet Framework provides the following repre
 - Transformer filter to easily apply XSLT stylesheets on XML representations. It is based on JDK's built-in XSLT engine.
 - Extensible set of core representations based on NIO and BIO classes. Support for Atom standard via a dedicated extension.
 - Support for Atom standard via a dedicated extension.
-- Integration with [Apache Lucene Tika](https://lucene.apache.org/tika/) to support metadata extraction from any representation.
 - Full RDF reading and writing support make Restlet Framework ready for the Semantic Web (Web 3.0).
 
 <figure class="text-center">

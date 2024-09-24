@@ -2,7 +2,7 @@
 title: Overview
 layout: homepage
 ---
-Restlet Framework helps Java developers build better web APIs that follow the REST architecture style. Adopted and supported by a large community of Java developers, Restlet Framework benefits from numerous resources available all over the Internet. Fully open source, it is freely downloadable and can be used under the terms of the Apache Software License.
+Restlet Framework helps Java developers build better WEB APIs that follow the REST architecture style. Adopted and supported by a large community of Java developers, Restlet Framework benefits from numerous resources available all over the Internet. Fully open source, it is freely downloadable and can be used under the terms of the Apache Software License.
 
 Thanks to Restlet Framework’s powerful routing and filtering capabilities, unified client and server Java API, developers can build secure and scalable RESTful web APIs. It is available for all major platforms (Java SE/EE, Google AppEngine, OSGi, GWT, Android) and offers numerous extensions to fit the needs of all developers.
 

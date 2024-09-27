@@ -14,6 +14,10 @@ $(document).ready(function () {
   RESTLET.base.init();
 });
 
+function getUrl (branch, release, edition) {
+  return '{{ site.data.downloads.baseUrl }}' + branch + '/restlet-' + edition + '-' + release + '.zip';
+}
+
 /***************************
  event handlers
  ****************************/

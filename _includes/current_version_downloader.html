@@ -25,7 +25,7 @@
         {% assign currentReleaseDate = site.data.downloads.currentVersion.release_date %}
 
         <form id="frmDownloadCurrent" action="." method="GET">
-          <button type="submit" class="m-button m-button-block m-button-flat-darkblue" style="margin-bottom: 20px;">Download</button>
+          <button type="submit" class="button-download m-button m-button-block m-button-flat-darkblue">Download</button>
           <p>Version {{ currentRelease }} Java SE</p>
           <p>Release date: {{ currentReleaseDate }}</p>
           <ul class="list-unstyled m-top-30 text-left">
@@ -57,7 +57,7 @@
       </div>
       <div class="card__body">
         <form id="frmDownloadEdition" action="." method="GET">
-          <button id="download-edition" class="m-button m-button-block m-button-flat-darkblue" style="margin-bottom: 20px;">Download</button>
+          <button id="download-edition" class="button-download m-button m-button-block m-button-flat-darkblue">Download</button>
           <select class="form-control" id="id_edition" name="edition">
             {% for edition in site.data.downloads.editions %}
             <option value="{{ edition.value }}">{{ edition.name }}</option>

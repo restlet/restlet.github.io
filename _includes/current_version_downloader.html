@@ -33,10 +33,6 @@
             <li class="doc"><a href="/documentation/user-guide/{{ currentBranch }}">Access User Guide</a></li>
           </ul>
           <script>
-            function getUrl (branch, release, edition) {
-              return '{{ site.data.downloads.baseUrl }}' + branch + '/restlet-' + edition + '-' + release + '.zip';
-            }
-
             (function currentDownloadIIFE() {
 
               document.querySelector('#frmDownloadCurrent').addEventListener('submit', function overrideSubmit(event) {

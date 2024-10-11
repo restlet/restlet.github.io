@@ -14,15 +14,15 @@ Restlet Framework is an Open Source project that is distributed under several li
 - [CDDL license 1.0](http://opensource.org/licenses/cddl1)
 - [EPL license 1.0](http://opensource.org/licenses/eclipse-1.0)
 
-In addition, we want to expressly mention that Talend S.A. is the sole copyright holder of the whole source code and has no intention to release future versions of the open source Restlet Framework under more restrictive licences (such as GPL). If we change our licensing policy in the future, it could only be to add less restrictive licenses.
+In addition, we want to expressly mention that Qlik is the sole copyright holder of the whole source code and has no intention to release future versions of the open source Restlet Framework under more restrictive licences (such as GPL). If we change our licensing policy in the future, it could only be to add less restrictive licenses.
 
 The CDDL license is based on the Mozilla Public License used for the Firefox browser. It is a flexible license approved by the Open Source Initiative (OSI) encouraging contributions back to the project. It is used by Sun Microsystems to distribute its OpenSolaris or GlassFish projects. If you have questions about this license, you can refer to their [CDDL FAQ](http://opensource.org/faq).
 
 The EPL license was defined by the Eclipse foundation and has properties similar to the LPGL and CDDL licenses. If you have questions about this license, you can refer to their [EPL FAQ](http://www.eclipse.org/legal/eplfaq.php).
 
-Licenses for special usages, like embedding in proprietary products without the constraint of giving access to the Restlet Framework source code found in the Open Source licenses, or commercial usage of the Restlet trademark can also be [discussed](https://www.talend.com/contact/) with Talend.
+Licenses for special usages, like embedding in proprietary products without the constraint of giving access to the Restlet Framework source code found in the Open Source licenses, or commercial usage of the Restlet trademark can also be [discussed](https://www.talend.com/contact/) with Qlik.
 
 ## Trademarks
-"Restlet" is a registered trademark of Talend S.A. and can't be used to endorse or promote products derived from this project without prior written permission from Talend.
+"Restlet" is a registered trademark of Qlik and can't be used to endorse or promote products derived from this project without prior written permission from Qlik.
 
 Products or services derived from this software may not be called "Restlet" nor may "Restlet" or similar confusing terms appear in their names without prior written permission.

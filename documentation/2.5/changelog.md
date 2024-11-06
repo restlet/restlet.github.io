@@ -7,6 +7,31 @@ layout: text
 Changes log
 ===========
 
+- 2.5 Release Candidate 1 (??-11-2024)
+    - Enhancements
+      - Changed the minimum requirements back to Java 8 like for Restlet Framework 2.4 to facilitate upgrade.
+      - Transitioned project to native Maven including code base, build and delivery.
+      - Artifacts are now published in Maven Central and Sonatype OSS repository for snapshots and only there.
+      - Updated all libraries used as dependency for various extensions.
+      - RestletFileUpload can now dynamically adapt to Java SE or Java EE environments.
+    - Bugs fixed
+      - Ensured that all 2.4.4 fixes have been ported forward to the 2.5 branch.
+      - Non-serializable internal attributes (status, request, and message) marked as transient,
+        this is to allow ResourceException to be serialized, passing over the message and stack-trace
+        (which is typically all that is needed to show the error or print it in the log).
+    - Misc
+      - Replaced separate Android, GAE, Java EE and OSGi editions by a single 'Java' edition
+        (tested to work in those various environments).
+      - Kept a distinct 'GWT' edition using a forked code base due to many GWT specificities.
+      - Removed incubator to rely instead on pull requests.
+      - Renamed extension Inject into Guice as it isn't truly generic.
+      - Updated the links in all Javadocs file for accuracy.
+      - Deprecated GAE, OSGi and RDF extensions for removal in next major release.
+      - Deprecated NIO flavor of Restlet API for removal in next major release, with plan to use
+        virtual threads instead to achieve additional scalability and reactive behavior.
+      - Removed code deprecated in version 2.4, including native Restlet XML configuration mechasism.
+        Please use Spring for an alternative approach if needed.
+
 - 2.5 Milestone 1 (03/09/2020)
     - Bugs fixed
       - Allow parsing of double values like "2.0" or "4.0" being received in

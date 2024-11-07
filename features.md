@@ -196,7 +196,7 @@ layout: homepage
 </figure>
                                     
 # Native REST Support
-Restlet Framework provides a reusable and extensible set of classes and interfaces that serves as a foundation on which you can construct your own API-driven applications more efficiently. Mapped to the REST and HTTP concepts, the framework can be used for both client and server-side development, using the same Java API which reduces both the learning curve and the software footprint.
+Restlet Framework provides a reusable and extensible set of classes and interfaces that serves as a foundation on which you can construct your own web applications more efficiently. Aligned with the REST and HTTP concepts and terminology, the Restlet API can be used for both client and server-side development. Using the same Java API which reduces both the learning curve and the software footprint and facilitate the development of applications acting as server and client at the same time.
 
 <figure class="text-center">
   <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="back" x="0px" y="0px" width="235px" height="auto" viewBox="60.5 150.5 526 336" enable-background="new 60.5 150.5 526 336" xml:space="preserve" class="svg larger replaced-svg">
@@ -370,7 +370,7 @@ Restlet Framework is not only a framework for building APIs but also for running
 - Conditional requests automatically supported for resources.
 - Partial requests automatically supported for resources to retrieve or update a range of a representation.
 - Static file serving, like the Apache HTTP Server, with metadata association based on file extensions and URI-based redirection.
-- Remote edition of files based on PUT and DELETE methods (WebDAV mode).
+- Optional remote edition of local files served based on PUT and DELETE methods.
 
 <figure class="text-center">
   <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="back" x="0px" y="0px" width="235px" height="auto" viewBox="0 169.5 640 376" enable-background="new 0 169.5 640 376" xml:space="preserve" class="svg larger replaced-svg">
@@ -536,16 +536,15 @@ With its connectors, Restlet Framework covers numerous use cases. Connectors ava
 </svg>
 </figure>
 
-
 # Available Representations
 Fully aligned with Web standards, Restlet Framework provides the following representations out of the box:
 
-- Automated marshalling and unmarshalling between POJOs and representations based on an extensible converter service. Uses [Jackson](https://github.com/FasterXML/jackson) for JSON, XML, YAML, CSV and more or GSON. Also works with a GWT and Java object serialization.
+- Automated marshalling and unmarshalling between POJOs and representations based on an extensible converter service. Uses [Jackson](https://github.com/FasterXML/jackson) for JSON, XML, YAML, CSV and more, as well as [Google's GSON](https://github.com/google/gson). Also works with a GWT and Java object serialization.
 - XML representations (JAXB, DOM or SAX based) with a simple XPath API based on JDK's built-in XPath engine.
-- Integration with the [FreeMarker](https://freemarker.apache.org/), [Velocity](https://velocity.apache.org/) and Thymeleaf template engines.
+- Integration with the [FreeMarker](https://freemarker.apache.org/), [Velocity](https://velocity.apache.org/) and [Thymeleaf](https://www.thymeleaf.org/) template engines.
 - Integration with [Apache FileUpload](https://jakarta.apache.org/commons/fileupload/) to support multi-part forms and easily handle large file uploads from browsers.
 - Transformer filter to easily apply XSLT stylesheets on XML representations. It is based on JDK's built-in XSLT engine.
-- Extensible set of core representations based on NIO and BIO classes. Support for Atom standard via a dedicated extension.
+- Extensible set of core representations based on BIO classes.
 - Support for Atom standard via a dedicated extension.
 - Full RDF reading and writing support make Restlet Framework ready for the Semantic Web (Web 3.0).
 

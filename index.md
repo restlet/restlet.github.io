@@ -2,11 +2,11 @@
 title: Overview
 layout: homepage
 ---
-Restlet Framework helps Java developers build better Web APIs that follow the REST architecture style. Adopted and supported by a large community of Java developers, Restlet Framework benefits from numerous resources available all over the Internet. Fully open source, it is freely downloadable and can be used under the terms of the Apache Software License.
+Launched in 2005, Restlet Framework is the first open source project that embraced REST in the Java world.
 
-Thanks to Restlet Framework’s powerful routing and filtering capabilities, unified client and server Java API, developers can build secure and scalable RESTful web APIs. It is available for all major platforms (Java SE/EE, Google AppEngine, OSGi, GWT, Android) and offers numerous extensions to fit the needs of all developers.
+Since its inception, its Java API has closely matched the concepts and terminology of the REST architecture stlye as well as the HTTP protocol. It includes powerful and dynamic routing and security features, as well as fully unified way to develop both web clients, web servers or both at the same time. Its power and maturity gives you an alternative to developping directly with the Servlet API or with the JAX-RS API.
 
-Thanks to their low footprint, APIs built using Restlet Framework can be deployed almost anywhere.
+While Restlet applications can be deployed in Servlet containers, they can also run directly in JVMs with minimal dependencies, resulting in a small footprint suitable for microservices. Restlet Framework is available in a Java edition compatible with Java SE/EE, GAE, OSGi and Android environments, as well as in a separate GWT edition. It offers several extensions for common use cases and can be easily extended if needed.
 
 <div class="m-cta cta-darkblue">
     <svg xmlns="http://www.w3.org/2000/svg" id="elements" width="1040.95" height="255.89" viewBox="0 0 1040.95 255.89" class="svg replaced-svg">

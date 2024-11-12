@@ -26,7 +26,6 @@ versions:
   '2.5':
     releases:
       - {name: '2.5 M1', release_date: '2020-03-09', id: 2.5m1}
-      - {name: '2.5 RC1', release_date: '2024-11-12', id: 2.5rc1}
   '2.4':
     releases:
       - {name: 2.4.4, release_date: '2024-06-20', id: 2.4.4}

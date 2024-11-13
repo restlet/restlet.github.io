@@ -25,7 +25,7 @@ configuration file by setting a system property like:
 </code></pre>
 
 For details on the configuration file format, please check the [JDK's
-LogManager](https://docs.oracle.com/javase/6/docs/api/java/util/logging/LogManager.html)
+LogManager](https://docs.oracle.com/javase/8/docs/api/java/util/logging/LogManager.html)
 class.
 
 You can also have a look at the [Restlet {{ page.version }} logging

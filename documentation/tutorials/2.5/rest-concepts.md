@@ -9,7 +9,7 @@ nav_order: 4
 Let's step back a little and consider typical web architectures from a
 REST point of view. In the diagram below, ports represent the connector
 that enables the communication between components which are represented
-by the larger boxes. The links represents the particular protocol (HTTP,
+by the larger boxes. The links represent the particular protocol (HTTP,
 SMTP, etc.) used for the actual communication.
 
 ![](images/tutorial04.png)
@@ -22,7 +22,7 @@ client connectors to send requests to Web Server A and the Mail Server.
 # Components, virtual hosts and applications
 
 In addition to supporting the standard REST software architecture
-elements as presented before, the Restlet framework also provides a set
+elements as presented before, Restlet Framework also provides a set
 of classes that greatly simplify the hosting of multiple applications
 within a single JVM. The goal is to provide a RESTful, portable and more
 flexible alternative to the existing Servlet API. In the diagram below,

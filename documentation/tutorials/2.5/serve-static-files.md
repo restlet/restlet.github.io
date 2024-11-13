@@ -6,7 +6,7 @@ nav_order: 5
 ---
 Do you have a part of your web application that serves static pages like
 Javadocs? Well, no need to setup an Apache server just for that, use
-instead the dedicated Directory class. See how simple it is to use it:
+instead the dedicated Directory class. See how simple it is to use:
 
 <pre class="language-java"><code class="language-java">// URI of the root directory.
 public static final String ROOT_URI = "file:///c:/restlet/docs/api/";

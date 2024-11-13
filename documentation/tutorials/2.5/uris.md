@@ -7,7 +7,7 @@ nav_order: 7
 ---
 # URI rewriting and redirection
 
-Another advantage of the Restlet framework is the built-in support for
+Another advantage of Restlet Framework is its built-in support for
 [cool URIs](http://www.w3.org/Provider/Style/URI). A good description of
 the importance of proper URI design is given by Jacob Nielsen in his
 [AlertBox](http://www.useit.com/alertbox/990321.html).

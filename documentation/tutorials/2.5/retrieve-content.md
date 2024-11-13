@@ -26,7 +26,7 @@ new ClientResource("https://restlet.org").get().write(System.out);
 Note that the example above uses a simplified way to issue calls via the
 ClientResource class. If you need multi-threading or more control it is
 still possible to manipulate use the Client connector class or the
-Request objects directly. The example below how to set some preferences
+Request objects directly. The example below explains how to set some preferences
 in your client call, like a referrer URI. It could also be the languages
 and media types you prefer to receive as a response:
 

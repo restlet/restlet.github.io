@@ -16,7 +16,7 @@ objects accessible from a
 [Response]({{ site.data.javadoc.baseUrl }}{{ page.version }}/jse/api/org/restlet/Response.html).
 
 There is another way based on the standard HTTP authentication
-mechanism. The Restlet Engine currently accepts credentials sent and
+mechanism. The Restlet Engine has built-in support for credentials sent and
 received in the Basic HTTP scheme and also the credentials sent in the
 Amazon Web Services scheme.
 

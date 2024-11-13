@@ -20,7 +20,7 @@ Here we will get the representation of an existing resource and output
 it in the JVM console:
 
 <pre class="language-java"><code class="language-java">// Outputting the content of a Web page
-new ClientResource("http://restlet.com").get().write(System.out);
+new ClientResource("https://restlet.org").get().write(System.out);
 </code></pre>
 
 Note that the example above uses a simplified way to issue calls via the
@@ -31,7 +31,7 @@ in your client call, like a referrer URI. It could also be the languages
 and media types you prefer to receive as a response:
 
 <pre class="language-java"><code class="language-java">// Create the client resource
-ClientResource resource = new ClientResource("http://restlet.com");
+ClientResource resource = new ClientResource("https://restlet.org");
 
 // Customize the referrer property
 resource.setReferrerRef("http://www.mysite.org");

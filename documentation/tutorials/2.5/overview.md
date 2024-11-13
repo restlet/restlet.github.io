@@ -6,7 +6,7 @@ nav_order: 1
 ---
 The Restlet framework is composed of two main parts. First, there is the
 "[Restlet API]({{ site.data.javadoc.baseUrl }}{{ page.version }}/jse/api/index.html)", a neutral API supporting
-the concepts of REST and facilitating the handling of calls for both
+the concepts of REST and HTTP and facilitating the handling of calls for both
 client-side and server-side applications. This API is backed by the
 Restlet Engine and both are now shipped in a single JAR
 ("org.restlet.jar").

@@ -14,7 +14,6 @@ Restlet Framework is mature and scalable, based on a small core and many optiona
 - Suitable for both client-side and server-side web applications. The innovation is that that it uses the same Java API, reducing the learning curve and the software footprint.
 - Concept of "URIs as UI" supported based on the URI Templates standard. This results in a very flexible yet simple routing with automatic extraction of URI variables into request attributes.
 - Tunnelling service lets browsers issue any HTTP method (PUT, DELETE, PATCH, etc.) through a simple HTTP POST. This service is transparent for Restlet applications.
-- Easy API documentation thanks to WADL support and Swagger integration.
 
 # Complete Web server
 
@@ -52,8 +51,6 @@ Restlet was initially an attempt to build a better Servlet API, aligned with the
 - Scalable  HTTP client connector based on [Apache HTTP Client](http://jakarta.apache.org/commons/httpclient/).
 - Compact internal HTTP client and server for development and light deployments based on java.net.HTTPUrlConnection class and com.sun.net.httpserver. No external dependency needed.
 - [AJP](http://tomcat.apache.org/connectors-doc/) server connector available to let you plug behind an Apache HTTP server or Microsoft IIS. It is based on Jetty's connector.
-- Client SMTP, SMTPS, POP v3 and POPS v3 connectors are provided based on [JavaMail](http://www.oracle.com/technetwork/java/javamail/index.html) and a custom email XML format.
-- Client JDBC connector based on the JDBC API, a custom request XML format and the JDBC [WebRowSet interface](http://docs.oracle.com/javase/7/docs/api/javax/sql/rowset/WebRowSet.html) for XML responses.
 - Client FILE connector supports GET, PUT and DELETE methods on files and directories. In addition, it is able to return directory listings.
 - Client CLAP connector to access to the Classloader resources.
 - Client and server [RIAP connectors](/documentation/user-guide/{{ page.version }}/core/base/connectors) to access to the Restlet internal resources, directly inside the JVM, relatively to the current application or virtual host or component.
@@ -62,14 +59,13 @@ Restlet was initially an attempt to build a better Servlet API, aligned with the
 
 - Built-in support for XML representations (JAX, JibX, DOM or SAX
   based) with a simple XPath API based on JDK's built-in XPath engine.
-- Integration with the [FreeMarker template engine](http://freemarker.org/)
+- Integration with the [FreeMarker template engine](https://freemarker.apache.org/)
 - Integration with the [Velocity template engine](http://velocity.apache.org/)
 - Integration with [Apache FileUpload](http://jakarta.apache.org/commons/fileupload/) to support multi-part forms and easily handle large file uploads from browsers
   to support multi-part forms and easily handle large file uploads from browsers
 - Transformer filter to easily apply XSLT stylesheets on XML representations. It is based on JDK's built-in XSLT engine.
 - Extensible set of core representations based on BIO input or output streams.
 - Support for Atom and JSON standards.
-- Integration with [Apache Lucene Tika](http://lucene.apache.org/tika/) to support metadata extraction from any representation.
 
 # Flexible configuration
 
@@ -84,8 +80,6 @@ Restlet was initially an attempt to build a better Servlet API, aligned with the
 - Supports HTTPS (HTTP over SSL)
 - Supports Amazon S3 authentication
 - Supports Microsoft Shared Key and Shared Key Lite authentication (client side)
-- Supports SMTPS (SMTP over SSL) and SMTP-STARTTLS
-- Supports POPS (POP over SSL)
 
 # Scalability
 
@@ -98,6 +92,6 @@ Restlet was initially an attempt to build a better Servlet API, aligned with the
 Is something important for you missing? Maybe we are already working on
 it or are planning to do so.
 
-We suggest that you have a look at [our public roadmap](https://github.com/restlet/restlet-framework-java/wiki) or at our [issue tracker on GitHub](https://github.com/restlet/restlet-framework-java/issues).
+We suggest that you have a look at [our public roadmap](https://github.com/restlet/restlet-framework-java/wiki/Roadmap) or at our [issue tracker on GitHub](https://github.com/restlet/restlet-framework-java/issues).
 
 Feel free to create some new ones if needed!

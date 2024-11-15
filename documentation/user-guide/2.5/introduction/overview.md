@@ -41,12 +41,12 @@ it is also a comprehensive REST framework for Java. It supports all REST
 concepts (Resource, Representation, Connector, Component, etc.) and is
 suitable for both client and server Web applications.
 
-It supports major Web standards like HTTP, SMTP, XML, JSON, OData, OAuth,
-RDF, RSS, and Atom.
+It supports major Web standards like HTTP, XML, JSON, OData,
+RDF, and Atom.
 
 Many extensions are also available to integrate
-with Servlet, Spring, Jetty, Simple, JAXB, JAX-RS, JiBX, Velocity,
-FreeMarker, ThymeLeaf, Jackson, SLF4J, GSON and many more!
+with Servlet, Spring, Jetty, JAXB, Velocity, FreeMarker,
+ThymeLeaf, Jackson, SLF4J, GSON and more!
 
 # Community support
 

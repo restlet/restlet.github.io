@@ -12,9 +12,7 @@ materialized in the Representation class which is used for response
 entities. 
 
 More concretely, we provide integrations with three popular template
-technologies : XSLT, FreeMarker and Apache Velocity. In addition,
-integration with Facelets has been achieved by a third party and it
-should be very easy to support any other reusable template technology.
+technologies : XSLT, Apache FreeMarker, Apache Velocity and Thymeleaf.
 
 The design idea of those extensions is to use a TemplateRepresentation
 that combines at generation time a data model with a template document.

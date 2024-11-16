@@ -25,7 +25,7 @@ output it in the JVM console:
 
 
 <pre class="language-java"><code class="language-java">// Outputting the content of a Web page  
-new ClientResource("http://restlet.com").get().write(System.out);  
+new ClientResource("https://restlet.talend.com").get().write(System.out);  
 </code></pre>
 
 
@@ -38,7 +38,7 @@ The next example sets some preferences in your client call, like a
 referrer URI:
 
 <pre class="language-java"><code class="language-java">// Create the client resource  
-ClientResource resource = new ClientResource("http://restlet.com");  
+ClientResource resource = new ClientResource("https://restlet.talend.com");  
 
 // Customize the referrer property  
 resource.setReferrerRef("http://www.mysite.org");  

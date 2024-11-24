@@ -54,7 +54,7 @@ Each Restlet Framework project needs at least one dependency: the Restlet core m
     <version>${restlet-version}</version>
   </dependency>
   <dependency>
-    <groupId>org.restlet.java</groupId>
+    <groupId>org.restlet</groupId>
     <artifactId>org.restlet.ext.jackson</artifactId>
     <version>${restlet-version}</version>
   </dependency>

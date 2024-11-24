@@ -40,7 +40,7 @@ Each Restlet Framework project needs at least one dependency: the Restlet core m
 
 
 ## Sample POM for version 2.5 RC1
-Each Restlet Framework project needs at least one dependency: the Restlet core module and we assume that you will use Jackson for JSON support. As Restlet is now published into the Maven Central repository, just edit the pom.xml file for your project and add the following lines of text:
+Each Restlet Framework project needs at least one dependency: the Restlet core module and we assume that you will use Jackson for JSON support. As Restlet is now published into the Maven Central repository, just edit the pom.xml file for your project and add the following lines of text. For the GWT edition, just use "org.restlet.gwt" for the groupId instead of "org.restlet":
 
 ```xml
 <properties>

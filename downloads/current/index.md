@@ -44,12 +44,12 @@ Each Restlet Framework project needs at least one dependency: the Restlet core m
 
 ```xml
 <properties>
-  <restlet-version>2.5-rc1</restlet-version>
+  <restlet-version>2.5.0-rc1</restlet-version>
 </properties>
 
 <dependencies>
   <dependency>
-    <groupId>org.restlet.java</groupId>
+    <groupId>org.restlet</groupId>
     <artifactId>org.restlet</artifactId>
     <version>${restlet-version}</version>
   </dependency>

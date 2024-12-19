@@ -175,15 +175,16 @@ edition of the Restlet Framework):
 
 
 <pre class="language-java"><code class="language-java">public interface ContactResourceProxy extends ClientProxy {
-    @Get
-    public void retrieve(Result<Contact> callback);
+   @Get
+   public void retrieve(Result<Contact> callback);
 
-   @Put
-    public void store(Contact contact, Result<Void> callback);
+   @Put
+   public void store(Contact contact, Result<Void> callback);
 
-    @Delete
-    public void remove(Result<Void> callback);
+   @Delete
+   public void remove(Result<Void> callback);
 }
+
 </code></pre>
 
 

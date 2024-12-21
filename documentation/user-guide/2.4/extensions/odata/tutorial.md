@@ -191,7 +191,7 @@ name: Le Petit Marly
 </code></pre>
 
 <pre class="language-java"><code class="language-java">TestAssociationOneToOneService service = new TestAssociationOneToOneService();
-Query<Cafe> query = service.createCafeQuery("/Cafes");
+Query&lt;Cafe&gt; query = service.createCafeQuery("/Cafes");
 
 for (Cafe Cafe : query) {
     System.out.println(“id: ” + Cafe.getID());
@@ -286,7 +286,7 @@ Content-Length: 2221
 
 Getting the set of defined “Item” is quite similar:
 
-<pre class="language-java"><code class="language-java">Query<Item> queryItem = service.createItemQuery("/Items");
+<pre class="language-java"><code class="language-java">Query&lt;Item&gt; queryItem = service.createItemQuery("/Items");
 
 for (Item Item : queryItem) {
     System.out.println(“id: ” + Item.getID());
@@ -310,7 +310,7 @@ code below should produce this output:
 name: Le Café Louis
 </code>
 
-<code class="language-java">Query<Cafe> query = service.createCafeQuery("/Cafes('1')");
+<code class="language-java">Query&lt;Cafe&gt; query = service.createCafeQuery("/Cafes('1')");
 
 Cafe Cafe = query.iterator().next();
 System.out.println(“id: ” + Cafe.getID());
@@ -385,7 +385,7 @@ of its properties. The sample code below illustrates this with the “Nom”
 property. It simply uses the “updateEntity” method. You can check that
 the value has really been taken into account by making a new query.
 
-<pre class="language-java"><code class="language-java">Query<Cafe> query = service.createCafeQuery("/Cafes('1')");
+<pre class="language-java"><code class="language-java">Query&lt;Cafe&gt; query = service.createCafeQuery("/Cafes('1')");
 
 Cafe Cafe = query.iterator().next();
 Cafe.setNom("Bar des sports");
@@ -403,7 +403,7 @@ Let's finish the tour of the basic operations with the deletion of an
 entity. You just need to wall the deleteEntity method as shown just
 below.
 
-<pre class="language-java"><code class="language-java">Query<Cafe> query = service.createCafeQuery("/Cafes('1')");
+<pre class="language-java"><code class="language-java">Query&lt;Cafe&gt; query = service.createCafeQuery("/Cafes('1')");
 Cafe Cafe = query.iterator().next();
 
 service.deleteEntity(Cafe);
@@ -432,7 +432,7 @@ id: 1
 Description: Poulet au curry
 </code></pre>
 
-<pre class="language-java"><code class="language-java">Query<Cafe> query = service.createCafeQuery("/Cafes('1')").expand("Item");
+<pre class="language-java"><code class="language-java">Query&lt;Cafe&gt; query = service.createCafeQuery("/Cafes('1')").expand("Item");
 
 Cafe Cafe = query.next();
 System.out.println("Cafe");
@@ -470,7 +470,7 @@ id: 1
 description: Poulet au curry
 </code></pre>
 
-<pre class="language-java"><code class="language-java">Query<Item> query = service.createItemQuery("/Items").orderby("Description");
+<pre class="language-java"><code class="language-java">Query&lt;Item&gt; query = service.createItemQuery("/Items").orderby("Description");
 
  for (Item Item : query) {
      System.out.println(“id: ” + Item.getID());
@@ -503,7 +503,7 @@ the console:
 nom: Le Café Louis
 </code></pre>
 
-<pre class="language-java"><code class="language-java">Query<Cafe> query = service.createCafeQuery("/Cafes").filter("Name eq 'Le Café Louis'");
+<pre class="language-java"><code class="language-java">Query&lt;Cafe&gt; query = service.createCafeQuery("/Cafes").filter("Name eq 'Le Café Louis'");
 
 for (Cafe Cafe : query) {
     System.out.println(“id: ” + Cafe.getID());
@@ -527,7 +527,7 @@ kind of trace at the console.
 name: Le Petit Marly
 </code></pre>
 
-<pre class="language-java"><code class="language-java">Query<Cafe> query = service.createCafeQuery("/Cafes").skip(1);
+<pre class="language-java"><code class="language-java">Query&lt;Cafe&gt; query = service.createCafeQuery("/Cafes").skip(1);
 
 for (Cafe Cafe : query) {
     System.out.println(“id: ” + Cafe.getID());
@@ -547,7 +547,7 @@ use is very simple as shown below:
 name: Le Café Louis
 </code></pre>
 
-<pre class="language-java"><code class="language-java">Query<Cafe> query = service.createCafeQuery("/Cafes").top(1);
+<pre class="language-java"><code class="language-java">Query&lt;Cafe&gt; query = service.createCafeQuery("/Cafes").top(1);
 
 for (Cafe Cafe : query) {
     System.out.println(“id: ” + Cafe.getID());
@@ -578,7 +578,7 @@ entities:
 name: Le Café Louis
 </code></pre>
 
-<pre class="language-java"><code class="language-java">Query<Cafe> query = service.createCafeQuery("/Cafes").top(1).select("Name");
+<pre class="language-java"><code class="language-java">Query&lt;Cafe&gt; query = service.createCafeQuery("/Cafes").top(1).select("Name");
 
 for (Cafe Cafe : query) {
     System.out.println(“id: ” + Cafe.getID());
@@ -598,7 +598,7 @@ id: null
 Description: Poulet au curry
 </code></pre>
 
-<pre class="language-java"><code class="language-java">Query<Cafe> query = service.createCafeQuery("/Cafes").top(1).expand("Item").select("Name,Item.Description");
+<pre class="language-java"><code class="language-java">Query&lt;Cafe&gt; query = service.createCafeQuery("/Cafes").top(1).expand("Item").select("Name,Item.Description");
 
 for (Cafe Cafe : query) {
     System.out.println(“id: ” + Cafe.getID());
@@ -639,7 +639,7 @@ segment (set the parameter to "false", this is the value by default).
 The following sample code illustrates how to get the count using the
 *inlinecount* query parameter.
 
-<pre class="language-java"><code class="language-java">Query<Cafe> query = service.createCafeQuery("/Cafes").inlineCount(true);
+<pre class="language-java"><code class="language-java">Query&lt;Cafe&gt; query = service.createCafeQuery("/Cafes").inlineCount(true);
 
 System.out.println("Number of entities: " + query.getCount());
 </code></pre>
@@ -698,7 +698,7 @@ to set the credentials:
     );
 </code></pre>
 
-<pre class="language-java"><code class="language-java">Query<Cafe> query = service.createCafeQuery("/Cafes").top(1);
+<pre class="language-java"><code class="language-java">Query&lt;Cafe&gt; query = service.createCafeQuery("/Cafes").top(1);
 
 for (Cafe Cafe : query) {
     System.out.println(“id: ” + Cafe.getID());

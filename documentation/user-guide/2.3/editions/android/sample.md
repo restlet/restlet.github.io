@@ -64,7 +64,7 @@ A new contact has been added
 <pre class="language-java"><code class="language-java">package org.restlet.example.android.service;
 
     interface IContactService {
-        List<FoafContact> getFriends(String foafUri);
+        List&lt;FoafContact&gt; getFriends(String foafUri);
 }
 </code></pre>
 
@@ -77,7 +77,7 @@ implement the Parcelable java interface.
     /**
      * Used to de-serialize a stream into a FoafContact.
      */
-    public static final Parcelable.Creator<FoafContact> CREATOR = new Parcelable.Creator<FoafContact>() {
+    public static final Parcelable.Creator&lt;FoafContact&gt; CREATOR = new Parcelable.Creator&lt;FoafContact&gt;() {
         public FoafContact createFromParcel(Parcel in) {
             return new FoafContact(in);
         }
@@ -197,9 +197,9 @@ It simply calls the contactService method "getFriends(String)".
 <pre class="language-java"><code class="language-java">private void loadFriends() {
     if (contactService != null) {
         try {
-            List<FoafContact> list = contactService.getFriends(this.contact.getFoafUri());
-            this.friends = new ArrayList<Contact>();
-            for (int i = 0; i < list.size(); i++) {
+            List&lt;FoafContact&gt; list = contactService.getFriends(this.contact.getFoafUri());
+            this.friends = new ArrayList&lt;Contact&gt;();
+            for (int i = 0; i &lt; list.size(); i++) {
                 Contact contact = new Contact();
                 contact.setFirstName(list.get(i).getFirstName());
                 contact.setLastName(list.get(i).getLastName());

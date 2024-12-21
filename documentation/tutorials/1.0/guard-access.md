@@ -30,8 +30,7 @@ interface. See below how we would modify the previous example to secure
 the access to the Directory:
 
 <pre class="language-java"><code class="language-java">// Create a Guard
-Guard guard = new Guard(getContext(),
-        ChallengeScheme.HTTP_BASIC, "Tutorial");
+Guard guard = new Guard(getContext(), ChallengeScheme.HTTP_BASIC, "Tutorial");
 guard.getSecrets().put("scott", "tiger".toCharArray());
 
 // Create a Directory able to return a deep hierarchy of files

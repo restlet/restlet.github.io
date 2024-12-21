@@ -204,6 +204,6 @@ Value | Description
 Here is the way to change the type of a variable:
 
 <pre class="language-java"><code class="language-java">TemplateRoute route = router.attach("/items/{itemName}", ItemResource);
-    Map<String, Variable> routeVariables = route.getTemplate().getVariables();
+    Map&lt;String, Variable&gt; routeVariables = route.getTemplate().getVariables();
     routeVariables.put("itemName", new Variable(Variable.TYPE_URI_WORD));
 </code></pre>

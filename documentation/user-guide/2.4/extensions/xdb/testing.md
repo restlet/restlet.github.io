@@ -35,7 +35,7 @@ GET /userapp/users/scott/orders/300 HTTP/1.0
 
 HTTP/1.1 200 OK
 MS-Author-Via: DAV
-DAV: 1,2,<http://www.oracle.com/xdb/webdav/props>
+DAV: 1,2,&lt;http://www.oracle.com/xdb/webdav/props&gt;
 Date: Tue, 03 Jun 2008 19:18:11 GMT
 Server: Noelios-Restlet-Engine/1.1.snapshot
 Content-Type: text/plain; charset=ISO-8859-1
@@ -121,9 +121,9 @@ END orders_calculator;
 As you can see OrderCalculator class is using JDK logging package, to get JDK logging working this grant is required:
 
 
-<pre class="language-sql"><code class="language-sql">SQL> exec dbms_java.grant_permission( 'SCOTT',
+<pre class="language-sql"><code class="language-sql">SQL&gt; exec dbms_java.grant_permission( 'SCOTT',
 'SYS:java.util.logging.LoggingPermission', 'control', '' );
-SQL> commit;
+SQL&gt; commit;
 </code></pre>
 
 
@@ -212,8 +212,7 @@ To boost your __REST WS__ performance you can change, for example, the expiratio
 
         if (variant.getMediaType().equals(MediaType.TEXT_PLAIN)) {
             result = new StringRepresentation("Order \"" + this.orderId  + "\" for user \"" + this.userName + "\"");
-       }
-
+        }
 
         Date expirationDate = new Date(System.currentTimeMillis()+10000);
 
@@ -234,21 +233,21 @@ __XMLDB Restlet Adapter__ can be tested with __Apache JMeter__, here some captur
 Test plan used with Users Restlet example:
 
 
-<pre class="language-bash"><code class="language-bash">Thread Group -> Thread Properties
+<pre class="language-bash"><code class="language-bash">Thread Group -&gt; Thread Properties
 Number of Threads (users): 10
 
 Ramp Up Period (in seconds): 0
 
 Loop Count: 200
 
-HTTP Request -> Web Server
+HTTP Request -&gt; Web Server
 Server Name or IP: localhost
-HTTP Request -> HTTP Request
+HTTP Request -&gt; HTTP Request
 Protocol: http
 Method: GET
 Path: /userapp/users/scott/orders/300
 
-Gaussian Random Timer -> Thread Delay Properties
+Gaussian Random Timer -&gt; Thread Delay Properties
 Deviation (in milliseconds): 100.0
 Constant Delay Offset (in milliseconds): 300
 
@@ -261,9 +260,9 @@ Test plan used with Users SOAP example:
 Ramp Up Period (in seconds): 0
 Loop Count: 200
 
-SOAP/XML-RPC Request -> Web Server
+SOAP/XML-RPC Request -&gt; Web Server
 Server Name or IP: localhost
-HTTP Request -> HTTP Request
+HTTP Request -&gt; HTTP Request
 URL: http://localhost:8080/orawsv/SCOTT/ORDERS_CALCULATOR/GETORDER
 
 Send SOAPAction: GETORDER
@@ -271,9 +270,9 @@ User KeepAlive: true
 SOAP/XML-RPC Data Filename: /tmp/soap-post-func.txt
 
 
-HTTP Header Manager -> Headers Stored in the Header Manager
+HTTP Header Manager -&gt; Headers Stored in the Header Manager
 Authorization: Basic c2NvdHQ6dGlnZXI=    (Base 64 encoding of scott/tiger)
-Gaussian Random Timer -> Thread Delay Properties
+Gaussian Random Timer -&gt; Thread Delay Properties
 Deviation (in milliseconds): 100.0
 Constant Delay Offset (in milliseconds): 300
 /tmp/soap-post-func.txt file content:

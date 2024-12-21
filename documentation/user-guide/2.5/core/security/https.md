@@ -160,7 +160,7 @@ options:
 
 The output should be:
 
-<pre class="language-bash"><code class="language-bash">Certificate stored in file \<serverX.cer\>
+<pre class="language-bash"><code class="language-bash">Certificate stored in file &lt;serverX.cer&gt;
 </code></pre>
 
 To explain each option:
@@ -263,10 +263,10 @@ public class SampleServer {
 
         // Add a new HTTPS server listening on port 8183
         Server server = component.getServers().add(Protocol.HTTPS, 8183);  
-        Series\<Parameter\> parameters = server.getContext().getParameters();
+        Series&lt;Parameter&gt; parameters = server.getContext().getParameters();
         parameters.add("sslContextFactory",
         "org.restlet.engine.ssl.DefaultSslContextFactory");
-        parameters.add("keyStorePath", "\<path\>serverX.jks");
+        parameters.add("keyStorePath", "&lt;path&gt;serverX.jks");
         parameters.add("keyStorePassword", "password");
         parameters.add("keyPassword", "password");
         parameters.add("keyStoreType", "JKS");
@@ -302,7 +302,7 @@ public class SampleClient {
         Reference samplesUri = new Reference("https://serverX:8183/sample";);
 
         // Create 9 new items
-        for (int i = 1; i \< 10; i++) {
+        for (int i = 1; i &lt; 10; i++) {
             Sample sample = new Sample(Integer.toString(i), "sample " + i, "this is
                 sample " + i + ".");
             Reference sampleUri = createSample(sample, client, samplesUri);

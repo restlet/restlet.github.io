@@ -49,11 +49,11 @@ option), and a Form object which is a collection of key/value pairs
 Here is sample code which helps to retrieve some attributes:
 
 <pre class="language-java"><code class="language-java">// Get the map of request attributes
-Map<String, Object> map = request.getAttributes();
+Map&lt;String, Object&gt; map = request.getAttributes();
 
 // Retrieve the "selectAttribute" value
 String stringValue = (String) map.get("selectAttribute");
-System.out.println(" value => " + stringValue);
+System.out.println(" value =&gt; " + stringValue);
 
 // Retrieve the "textAttribute" collection of parameters
 Object object = map.get("textAttribute");

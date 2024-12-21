@@ -60,7 +60,7 @@ with media type parameters:
 <pre class="language-java"><code class="language-java">public class MyResource extends ServerResource {
    @Get("html")
    public String toHtml() {
-      return "<html><body>hello, world</body></html>";
+      return "&lt;html&gt;&lt;body&gt;hello, world&lt;/body&gt;&lt;/html&gt;";
    }
 }
 </code></pre>

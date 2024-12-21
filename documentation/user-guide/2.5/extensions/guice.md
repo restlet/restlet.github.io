@@ -76,9 +76,9 @@ Instead of calling new FooApplication(...) when attaching an application in sett
 
      public static void main(String... args) {
            // Run as standalone component:
-           Injector injector = <em>... create injector ...</em>;
+           Injector injector = ... create injector ...;
            MyComponent comp = injector.getInstance(MyComponent.class);
-           // <em>... shutdown hooks, etc. ...</em>
+           // ... shutdown hooks, etc. ...
            comp.start();
        }
 

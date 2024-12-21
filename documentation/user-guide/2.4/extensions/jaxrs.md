@@ -65,9 +65,9 @@ public class EasyRootResource {
     @GET
     @Produces("text/html")
     public String getHtml() {
-        return "<html><head></head><body>\n"
+        return "&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;\n"
                 + "This is an easy resource (as html text).\n"
-                + "</body></html>";
+                + "&lt;/body&gt;&lt;/html&gt;";
     }
 
     @GET
@@ -93,8 +93,8 @@ import javax.ws.rs.core.Application;
 
 public class ExampleApplication extends Application {
 
-    public Set<Class<?>> getClasses() {
-        Set<Class<?>> rrcs = new HashSet<Class<?>>();
+    public Set&lt;Class&lt;?&gt;&gt; getClasses() {
+        Set&lt;Class&lt;?&gt;&gt; rrcs = new HashSet&lt;Class&lt;?&gt;&gt;();
         rrcs.add(EasyRootResource.class);
         return rrcs;
     }
@@ -132,7 +132,7 @@ public class ExampleServer {
             JaxRsApplication application = new JaxRsApplication(comp.getContext());
 
             // attach Application
-            application.add(new ExampleApplication());
+           application.add(new ExampleApplication());
 
             // Attach the application to the component and start it
             comp.getDefaultHost().attach(application);

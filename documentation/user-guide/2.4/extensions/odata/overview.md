@@ -154,7 +154,7 @@ The listing below shows how to rRetrieve the two first “BuildingPermits”
 entities:
 
 <pre class="language-java"><code class="language-java">OgdiDcSession session = new OgdiDcSession();
-Query<BuildingPermit> query =
+Query&lt;BuildingPermit&gt; query =
       session.createBuildingPermitQuery("/BuildingPermits").top(2);
 
 if (query != null) {

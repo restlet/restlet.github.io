@@ -91,7 +91,7 @@ simple, for example:
 <pre class="language-java"><code class="language-java">public class HelloWorldResource extends ConfigurableRestletResource {
     @Override
     public Representation get(Variant variant) {
-    Map<String, Object> dataModel = Collections.singletonMap("DATE", (Object) new Date());
+    Map&lt;String, Object&gt; dataModel = Collections.singletonMap("DATE", (Object) new Date());
     return createTemplateRepresentation(variant.getMediaType(), dataModel);
     }
 }

@@ -110,7 +110,7 @@ Host: localhost:8080
 
 HTTP/1.1 200 OK
 MS-Author-Via: DAV
-DAV: 1,2,<http://www.oracle.com/xdb/webdav/props>
+DAV: 1,2,&lt;http://www.oracle.com/xdb/webdav/props&gt;
 Date: Wed, 18 Jun 2008 23:08:06 GMT
 Server: Noelios-Restlet-Engine/1.1.snapshot
 Content-Type: application/atomsvc+xml; charset=ISO-8859-1
@@ -137,10 +137,10 @@ Expires: Wed, 18 Jun 2008 23:08:16 GMT
 Note that the Authorization header have a B64 encoding information of scott:tiger user/password, if your database have different values it will not work. Also we are using XMLDB default HTTP port (8080). The example shows that scott have one Lucene Domain Index named __SOURCE_BIG_LIDX__. This index was created using a table and index creation SQL script like:
 
 
-<pre class="language-sql"><code class="language-sql">SQL> create table test_source_big as (select * from all_source);
+<pre class="language-sql"><code class="language-sql">SQL&gt; create table test_source_big as (select * from all_source);
 
 
-SQL> create index source_big_lidx on test_source_big(text)
+SQL&gt; create index source_big_lidx on test_source_big(text)
 indextype is lucene.LuceneIndex
 parameters('AutoTuneMemory:true;Analyzer:org.apache.lucene.analysis.StopAnalyzer;\
 

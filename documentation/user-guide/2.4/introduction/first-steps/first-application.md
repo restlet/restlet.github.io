@@ -174,7 +174,7 @@ an interface that inherits on a specific interface (delivered by the GWT
 edition of the Restlet Framework):  
 
 
-<pre class="language-java"><code class="language-java">public interface ContactResourceProxy extends ClientProxy {
+<pre class="language-java"><code class="language-java">publica interface ContactResourceProxy extends ClientProxy {
    @Get
    public void retrieve(Result&lt;Contact&gt; callback);
 

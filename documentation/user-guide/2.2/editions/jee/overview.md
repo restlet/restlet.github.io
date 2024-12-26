@@ -132,7 +132,7 @@ Finally, package the whole as a WAR file called for example
 Once you have launched the Servlet container, open your favorite web
 browser, and enter the following URL:
 
-<pre class="language-bash"><code class="language-bash">http://<your server name>:<its port number>/firstStepsServlet/hello
+<pre class="language-bash"><code class="language-bash">http://&lt;your server name&gt;:&lt;its port number&gt;/firstStepsServlet/hello
 </code></pre>
 
 The server will happily welcome you with the expected "hello, world"

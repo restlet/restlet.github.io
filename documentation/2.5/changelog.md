@@ -7,7 +7,7 @@ layout: text
 Changes log
 ===========
 
-- 2.5.0 (?)
+- 2.5.0 (27-12-2024)
     - Security
        - Spring Framework before 6.0.0 suffers from a potential remote code execution (RCE) issue if used for Java deserialization
          of untrusted data. Depending on how the library is implemented within a product, this issue may or not occur, and

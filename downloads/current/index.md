@@ -13,7 +13,7 @@ Each Restlet Framework project needs at least one dependency: the Restlet core m
 
 ```xml
 <properties>
-  <restlet-version>2.5.0</restlet-version>
+  <restlet-version>2.5.1</restlet-version>
 </properties>
 
 <dependencies>

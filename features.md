@@ -365,10 +365,10 @@ APIs you build with Restlet Framework can be deployed to all common environments
 # A Complete Web Server
 Restlet Framework is not only a framework for building APIs but also for running them. Its built-in web server provides:
 - Automated content negotiation based on client preferences.
-- Encoding and decoding service that transparently compresses or uncompresses representations exchanged.
+- Encoding and decoding service that transparently compresses or uncompresses the representations exchanged.
 - Log service to write all accesses to applications in a standard fully customizable Web log file following the [W3C Extended Log File Format](http://www.w3.org/TR/WD-logfile.html).
-- Conditional requests automatically supported for resources.
-- Partial requests automatically supported for resources to retrieve or update a range of a representation.
+- Conditional requests are automatically supported for resources.
+- Partial requests are automatically supported for resources to retrieve or update a range of a representation.
 - Static file serving, like the Apache HTTP Server, with metadata association based on file extensions and URI-based redirection.
 - Optional remote edition of local files served based on PUT and DELETE methods.
 
@@ -451,7 +451,7 @@ Restlet Framework is not only a framework for building APIs but also for running
 </figure>
 
 # Extensive Connectors Set
-With its connectors, Restlet Framework covers numerous use cases. Connectors available by default include:
+With its connectors, Restlet Framework covers many use cases. Connectors available by default include:
 
 - Multiple HTTP connectors, based on either [Eclipse Jetty](https://www.eclipse.org/jetty/), JDK [HttpURLConnection](https://docs.oracle.com/javase/1.5.0/docs/api/java/net/HttpURLConnection.html) class or on [Apache HTTP Client](http://hc.apache.org/).
 - Client FILE connector supporting GET, PUT and DELETE methods on files and directories, supporting also directory listings.

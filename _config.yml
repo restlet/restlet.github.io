@@ -51,7 +51,7 @@ permalink: /:path/:title
 #  tutorial:
 #    permalink: "/documentation/tutorial/:version/:path
 
-default_doc_version: '2.4'
+default_doc_version: '2.5'
 
 defaults:
   - scope:

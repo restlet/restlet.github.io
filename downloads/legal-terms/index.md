@@ -6,7 +6,7 @@ layout: homepage
 
 ## Licenses
 
-Restlet Framework is an Open Source project that is distributed under the following open source license:
+Restlet Framework is an Open Source project distributed under the following open source license:
 
 - [Apache license 2.0](http://opensource.org/licenses/apache-2.0)
 

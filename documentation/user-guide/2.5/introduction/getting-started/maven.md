@@ -13,23 +13,8 @@ concept of POM (Project Object Model). One of the main advantages is the
 automated handling of project dependencies, including their download.
 For more information on Maven, check the [project home page](http://maven.apache.org/).
 
-The [Maven](http://maven.apache.org/)
-support appeared to be important for many Restlet users. The initial
-response was to automatically generate the POM files for each module JAR
-shipped within the Restlet distribution. This enabled users to upload
-those JAR files to a local Maven repository.
-
-But, this was clearly not easy enough and forced users to download the
-full distribution for each new version released, instead of just
-updating a couple of JARs. There also was issues with some third-party
-dependencies which aren't available in public Maven repositories, like
-the db4o, AsyncWeb or Simple.
-
-That's why it has been decided to launch our dedicated Maven repository.
-It is freely accessible from
-[{{ site.data.maven.baseUrl }}]({{ site.data.maven.baseUrl }}/)
-and contains all Restlet JARs and third party dependencies that aren't
-available in the main public Maven repository.
+Starting with version 2.5 of the Restlet Framework, all artifacts are 
+published to Maven Central.
 
 # Public repository configuration
 
@@ -44,41 +29,6 @@ You should have Maven installed.
     computer
 -   Add Maven bin folder to your PATH
 
-Declare the repository for your project or for a parent project by
-updating the *pom.xml* file and adding the following code to the
-\<repositories\> section:
-
-<pre class="language-markup"><code class="language-markup">&lt;repository&gt;
-&nbsp;&nbsp;&lt;id&gt;maven-restlet&lt;/id&gt;
-&nbsp;&nbsp;&lt;name&gt;Public&nbsp;online&nbsp;Restlet&nbsp;repository&lt;/name&gt;
-&nbsp;&nbsp;&lt;url&gt;{{ site.data.maven.baseUrl }}&lt;/url&gt;
-&lt;/repository&gt;
-</code></pre>
-
-As an alternative, you can also declare the repository for all of your
-projects. Go to the directory on the local computer where you just
-install Maven. Open and edit *conf/settings.xml* file. Add to the
-\<profiles\> section the following code:
-
-<pre class="language-markup"><code class="language-markup">&lt;profile&gt;&nbsp;
-&nbsp;&nbsp;&lt;id&gt;restlet&lt;/id&gt;
-&nbsp;&nbsp;&lt;repositories&gt;
-&nbsp;&nbsp;&nbsp;&nbsp;&lt;repository&gt;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;id&gt;maven-restlet&lt;/id&gt;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;name&gt;Public&nbsp;online&nbsp;Restlet&nbsp;repository&lt;/name&gt;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;url&gt;{{ site.data.maven.baseUrl }}&lt;/url&gt;
-&nbsp;&nbsp;&nbsp;&nbsp;&lt;/repository&gt;
-&nbsp;&nbsp;&lt;/repositories&gt;
-&lt;/profile&gt;
-</code></pre>
-
-Just after the \</profiles\> add the following:
-
-<pre class="language-markup"><code class="language-markup">    &lt;activeProfiles&gt;&nbsp;
-    &nbsp; &lt;activeProfile&gt;restlet&lt;/activeProfile&gt;
-    &lt;/activeProfiles&gt;
-</code></pre>
-
 # Available artifacts
 
 The following table lists the available artifacts and their group and
@@ -87,17 +37,13 @@ artifact ids. With the introduction of the
 for the Restlet framework, it is necessary to make a distinction between
 an extension for a given edition and the same extension for another
 extension simply because the code of the extension may change between
-each edition. This distinction is reflected in the group id of each
-artifacts which contains a reference to an edition.They are all set on
+each edition. This distinction is reflected in the group id of all
+artifacts which contains a reference to an edition. They are all set on
 the same pattern: "org.restlet.\<edition\>" where "\<edition\>" is
 three-letters code of an edition among:
 
--   jse (Java SE edition)
--   jee (Java EE edition),
--   gae (Google App Engine edition),
--   android (Android edition)
+-   java (Java edition)
 -   gwt (Google Web Toolkit edition),
--   osgi (OSGi Environments edition).
 
 You can find [here](/documentation/user-guide/{{ page.version }}/extensions/editions-matrix "Editions matrix")
 a full view of the list of extensions and the editions that ship them. 
@@ -107,8 +53,6 @@ artifactId | Description
 [org.restlet](/documentation/user-guide/{{ page.version }}/core/overview "restlet") | Restlet API
 [org.restlet.ext.atom](../../extensions/atom "atom")|Support for the Atom syndication and the AtomPub (Atom Publication Protocol) standards in their 1.0 version.
 [org.restlet.ext.crypto](../../extensions/crypto "crypto")|Support for cryptography.
-[org.restlet.ext.e4](../../extensions/e4 "e4")|Support for the WADL specification.
-[org.restlet.ext.emf](../../extensions/emf "emf")|Integration with Eclipse Modeling Framework.
 [org.restlet.ext.fileupload](../../extensions/fileupload "fileupload")|Integration with Apache FileUpload.
 [org.restlet.ext.freemarker](../../extensions/freemarker "freemarker")|Integration with FreeMarker.
 [org.restlet.ext.gae](../../extensions/gae "gae")|Integration to the Google App Engine UserService for the GAE edition.
@@ -118,35 +62,18 @@ artifactId | Description
 [org.restlet.ext.httpclient](../../extensions/httpclient "httpclient")|Integration with Apache Commons HTTP Client.
 [org.restlet.ext.jaas](../../extensions/jaas "jaas")|Support for JAAS based security.
 [org.restlet.ext.jackson](../../extensions/jackson "jackson")|Integration with Jackson.
-[org.restlet.ext.javamail](../../extensions/javamail "javamail")|Integration with JavaMail.
 [org.restlet.ext.jaxb](../../extensions/jaxb "jaxb")|Integration with Java XML Binding.
-[org.restlet.ext.jaxrs](../../extensions/jaxrs "jaxrs")|Implementation of JAX-RS (JSR-311)
-[org.restlet.ext.jdbc](../../extensions/jdbc "jdbc")|Integration with Java DataBase Connectivity (JDBC).
 [org.restlet.ext.jetty](/documentation/user-guide/{{ page.version }}/extensions/jetty "jetty")|Integration with Jetty.
-[org.restlet.ext.jibx](../../extensions/jibx "jibx")|Integration with JiBX.
 [org.restlet.ext.json](../../extensions/json "json")|Support for JSON representations.
-[org.restlet.ext.jsslutils](../../extensions/jsslutils "jsslutils")|Utilities to provide additional SSL support.
-[org.restlet.ext.lucene](../../extensions/lucene "lucene")|Integration with Apache Lucene, Solr and Tika sub-projects.
-[org.restlet.ext.nio](../../extensions/nio "nio")|Integration with java.nio package.
-[org.restlet.ext.oauth](../../extensions/oauth "oauth")|Support for OAuth HTTP authentication.
 [org.restlet.ext.odata](/documentation/user-guide/{{ page.version }}/extensions/odata/overview "odata")|Integration with OData services.
-[org.restlet.ext.openid](../../extensions/openid "openid")|Support for OpenID authentication.
 [org.restlet.ext.osgi](../../extensions/osgi "osgi")|Support for the OSGi specification.
 [org.restlet.ext.rdf](../../extensions/rdf "rdf")|Support for the RDF parsing and generation.
-[org.restlet.ext.rome](../../extensions/rome "rome")|Support for syndicated representations via the ROME library.
-[org.restlet.ext.sdc](../../extensions/sdc "sdc")|Integration with Google Secure Data Connector on the cloud side.
 [org.restlet.ext.servlet](../../extensions/servlet "servlet")|Integration with Servlet API.
-[org.restlet.ext.simple](../../extensions/simple "simple")|Integration with Simple framework.
-[org.restlet.ext.sip](../../extensions/sip "sip")|Support for Session Initiation Protocol (SIP).
 [org.restlet.ext.slf4j](../../extensions/slf4j "slf4j")|Support for the SLF4J logging bridge.
 [org.restlet.ext.spring](/documentation/user-guide/{{ page.version }}/extensions/spring/overview "spring")|Integration with Spring Framework.
-[org.restlet.ext.swagger](../../extensions/swagger "swagger")|Integration with Swagger.
 [org.restlet.ext.thymeleaf](../../extensions/thymeleaf "thymeleaf")|Integration with Thymeleaf.
 [org.restlet.ext.velocity](../../extensions/velocity "velocity")|Integration with Apache Velocity.
-[org.restlet.ext.wadl](../../extensions/wadl "wadl")|Support for the WADL specification.
-[org.restlet.ext.xdb](/documentation/user-guide/{{ page.version }}/extensions/xdb/overview "xdb")|Integration within OracleJVM via the Oracle XML DB feature.
 [org.restlet.ext.xml](../../extensions/xml "xml")|Support for the XML documents.
-[org.restlet.ext.xstream](../../extensions/xstream "xstream")|Integration with XStream.
 org.restlet.test | Test module
 
 # Sample dependencies declaration
@@ -161,13 +88,13 @@ repository, just open and edit the *pom.xml* file for your project and
 add the following lines of text into the \<dependencies\> section.
 
 <pre class="language-markup"><code class="language-markup">&lt;dependency&gt;
-&nbsp;&nbsp;&lt;groupId&gt;org.restlet.jse&lt;/groupId&gt;
+&nbsp;&nbsp;&lt;groupId&gt;org.restlet&lt;/groupId&gt;
 &nbsp;&nbsp;&lt;artifactId&gt;org.restlet&lt;/artifactId&gt;
-&nbsp;&nbsp;&lt;version&gt;2.2-RC4&lt;/version&gt;
+&nbsp;&nbsp;&lt;version&gt;2.5.1&lt;/version&gt;
 &lt;/dependency&gt;
 &lt;dependency&gt;
-&nbsp;&nbsp;&lt;groupId&gt;org.restlet.jse&lt;/groupId&gt;
-&nbsp;&nbsp;&lt;artifactId&gt;org.restlet.ext.simple&lt;/artifactId&gt;
-&nbsp;&nbsp;&lt;version&gt;2.2-RC4&lt;/version&gt;
+&nbsp;&nbsp;&lt;groupId&gt;org.restlet&lt;/groupId&gt;
+&nbsp;&nbsp;&lt;artifactId&gt;org.restlet.ext.jackson&lt;/artifactId&gt;
+&nbsp;&nbsp;&lt;version&gt;2.5.1&lt;/version&gt;
 &lt;/dependency&gt;
 </code></pre>

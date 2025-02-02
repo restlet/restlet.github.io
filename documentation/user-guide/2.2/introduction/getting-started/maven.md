@@ -21,8 +21,8 @@ those JAR files to a local Maven repository.
 
 But, this was clearly not easy enough and forced users to download the
 full distribution for each new version released, instead of just
-updating a couple of JARs. There also was issues with some third-party
-dependencies which aren't available in public Maven repositories, like
+updating a couple of JARs. There were also issues with some third-party
+dependencies that aren't available in public Maven repositories, like
 the db4o, AsyncWeb or Simple.
 
 That's why it has been decided to launch our dedicated Maven repository.
@@ -88,7 +88,7 @@ for the Restlet framework, it is necessary to make a distinction between
 an extension for a given edition and the same extension for another
 extension simply because the code of the extension may change between
 each edition. This distinction is reflected in the group id of each
-artifacts which contains a reference to an edition.They are all set on
+artifacts which contains a reference to an edition. They are all set on
 the same pattern: "org.restlet.\<edition\>" where "\<edition\>" is
 three-letters code of an edition among:
 

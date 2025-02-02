@@ -13,6 +13,6 @@ The following editions of Restlet Framework are available since version 2.5:
 
 More details are available in the [user guide](/documentation/user-guide/{{ site.default_doc_version }}).
 
-**Is there a complete documentation available for Restlet Framework?**
+**Is there complete documentation available for Restlet Framework?**
 
 Of course! Please visit the [User guide](/documentation/user-guide/{{ site.default_doc_version }}) in the Technical Resources section of this website. You can also check out [Tutorials](/documentation/tutorials/{{ site.default_doc_version }}) or access the [Javadocs](/documentation/javadocs/{{ site.default_doc_version }}/).

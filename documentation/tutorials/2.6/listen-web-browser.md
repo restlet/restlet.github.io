@@ -1,15 +1,15 @@
 ---
 title: Listen to web browsers
 section: tutorials
-version: '2.3'
+version: '2.6'
 nav_order: 3
 ---
-Now, we want to see how the Restlet framework can listen to client
+Now, we want to see how the Restlet Framework can listen to client
 requests and reply to them. We will use the internal Restlet HTTP server
 connector (even though it is possible to switch to others such as the
-one based on Mortbay's Jetty) and return a simple string representation
-"hello, world" as plain text. Note that the Part03 class extends the
-base ServerResource class provided by Restlet:
+one based on Eclipse Jetty for production workloads) and return a simple
+string representation "hello, world" as plain text. Note that the Part03
+class extends the base ServerResource class provided by Restlet:
 
 <pre class="language-java"><code class="language-java">public class Part03 extends ServerResource {
 

@@ -33,7 +33,7 @@ server from a different machine, you need to replace "localhost" by
 either the IP address of your server or its domain name if it has one
 defined.
 
-So far, we have mostly showed you the highest level of abstraction in
+So far, we have mostly shown you the highest level of abstraction in
 the Restlet API, with the ClientResource and ServerResource classes. But
 as we move forward, you will discover that those two classes are
 supported by a rich API, letting you manipulate all the REST artifacts.

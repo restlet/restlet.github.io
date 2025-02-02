@@ -146,7 +146,7 @@ Where:
 
  - -A scott:tiger is the HTTP authorization information (XMLDB Native WS do not accept anonymous login)
  - -H 'SOAPAction: "GETORDER" is a required HTTP header for SOAP
- - -p /tmp/soap-post-func.txt is file which have the POST XML message showed above
+ - -p /tmp/soap-post-func.txt is file which have the POST XML message shown above
  - and the URL is a default URL used to execute Native SOAP WS in XMLDB
 
 

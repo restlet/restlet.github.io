@@ -19,7 +19,7 @@
           <path d="M66.36,85.13A2.91,2.91,0,0,0,66.72,85h8.52c-0.75-1-9.84-16.4-10.72-17.48a13.63,13.63,0,0,0,6-4.38,12,12,0,0,0,2.09-7.35c0-4.86-1.72-8.23-5.17-10.54S59,42,52.56,42H41.3c-0.9,0-1.3.08-1.3,0.94V85H50V70H49.64L50,61.81V50h3.31c3.12,0,5.38.4,7,1.29a4.69,4.69,0,0,1,2.35,4.49,5.11,5.11,0,0,1-2.39,4.76C58.67,61.46,56,62,52.37,62H52.24c-1.42,0-1.9.61-1.32,2l3.51,5.61c0.71,0.85,6.85,10.57,9.14,14.33A3.43,3.43,0,0,0,66.36,85.13Z" fill="#fff"></path>
         </svg>
       </div>
-      <div class="card__body">
+      <div class="card__body" onload="currentDownloadIIFE();">
         {% assign currentBranch = site.data.downloads.currentVersion.branch %}
         {% assign currentRelease = site.data.downloads.currentVersion.release %}
         {% assign currentReleaseDate = site.data.downloads.currentVersion.release_date %}
@@ -32,21 +32,12 @@
             <li class="doc"><a href="/documentation/{{ currentBranch }}/changelog">View Change Log</a></li>
             <li class="doc"><a href="/documentation/user-guide/{{ currentBranch }}/">Access User Guide</a></li>
           </ul>
-          <script>
-            (function currentDownloadIIFE() {
-
-              document.querySelector('#frmDownloadCurrent').addEventListener('submit', function overrideSubmit(event) {
-                event.preventDefault();
-                window.location = getUrl('{{ currentBranch }}', '{{ currentRelease }}', 'jse');
-              });
-            })()
-          </script>
         </form>
 
       </div>
     </div>
   </div>
-  <div class="col-sm-6">
+  <div class="col-sm-6" onload="editionDownloadIIFE();">
     <div class="m-card m-card--square text-center">
       <div class="card__figure">
         <p class="text-uppercase abs-hv-center">Other Editions</p>
@@ -63,16 +54,6 @@
             <li><a href="/downloads/faq/" class="text-bostonblue">What are these editions?</a></li>
             <li><small>For access to previous releases, testing and unstable releases <a href="/downloads/past/">click here.</a></small></li>
           </ul>
-          <script>
-            (function editionDownloadIIFE() {
-              var editionSelect = document.querySelector('#id_edition');
-
-              document.querySelector('#frmDownloadEdition').addEventListener('submit', function overrideSubmit(event) {
-                event.preventDefault();
-                window.location = getUrl('{{ currentBranch }}', '{{ currentRelease }}', editionSelect.value);
-              });
-            })()
-          </script>
         </form>
       </div>
     </div>

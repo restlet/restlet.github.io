@@ -92,8 +92,8 @@ embedded Jetty server.
         &lt;groupId&gt;org.apache.maven.plugins&lt;/groupId&gt;
         &lt;artifactId&gt;maven-compiler-plugin&lt;/artifactId&gt;
         &lt;configuration&gt;
-          &lt;source&gt;1.5&lt;/source&gt;
-          &lt;target&gt;1.5&lt;/target&gt;
+          &lt;source&gt;17&lt;/source&gt;
+          &lt;target&gt;17&lt;/target&gt;
         &lt;/configuration&gt;
       &lt;/plugin&gt;
       &lt;plugin&gt;

@@ -71,13 +71,67 @@ layout: homepage
             <button type="button" class="m-button m-button-block m-button-flat-darkblue" id="download" onclick="downloadIIFE({{ site.data.downloads.preMavenCentral.versions | jsonify }}, '{{ site.data.downloads.preMavenCentral.baseUrl }}')">Download</button>
           </div>
 
-          <p>Release date: <span id="download_date">2014-12-19</span></p>
+          <p>Release date: <span id="download_date">2024-06-20</span></p>
 
         </form>
         <div>
           Starting from release 2.5, the Restlet Framework is available from Maven Central repository.
           Prior to version 2.5 of Restlet Framework, the Maven repository for Restlet is accessible from {{ site.data.maven.preMavenCentral.baseUrl }} and contains all Restlet JARs and third party dependencies that aren’t available in the main public Maven repository.
         </div>
+        <div>
+          Here is a sample pom file illustrating how to reference Restlet JARs and third party dependencies that aren’t available in the main public Maven repository:
+        </div>
+<pre class="language-markup"><code class="language-markup">
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;project xmlns=&quot;http://maven.apache.org/POM/4.0.0&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;
+         xsi:schemaLocation=&quot;http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd&quot;&gt;
+    &lt;modelVersion&gt;4.0.0&lt;/modelVersion&gt;
+    &lt;groupId&gt;org.example&lt;/groupId&gt;
+    &lt;artifactId&gt;myapplication&lt;/artifactId&gt;
+    &lt;version&gt;0.0.1-SNAPSHOT&lt;/version&gt;
+
+    &lt;properties&gt;
+        &lt;java.version&gt;1.8&lt;/java.version&gt;
+        &lt;restlet.version&gt;2.4.4&lt;/restlet.version&gt;
+    &lt;/properties&gt;
+
+
+    &lt;repositories&gt;
+        &lt;repository&gt;
+            &lt;id&gt;maven-restlet&lt;/id&gt;
+            &lt;name&gt;Restlet repository&lt;/name&gt;
+            &lt;url&gt;{{ site.data.maven.preMavenCentral.baseUrl }}&lt;/url&gt;
+        &lt;/repository&gt;
+    &lt;/repositories&gt;
+
+    &lt;dependencies&gt;
+        &lt;dependency&gt;
+            &lt;groupId&gt;org.restlet.jse&lt;/groupId&gt;
+            &lt;artifactId&gt;org.restlet&lt;/artifactId&gt;
+            &lt;version&gt;${restlet.version}&lt;/version&gt;
+        &lt;/dependency&gt;
+        &lt;dependency&gt;
+            &lt;groupId&gt;org.restlet.jse&lt;/groupId&gt;
+            &lt;artifactId&gt;org.restlet.ext.jackson&lt;/artifactId&gt;
+            &lt;version&gt;${restlet.version}&lt;/version&gt;
+        &lt;/dependency&gt;
+    &lt;/dependencies&gt;
+
+    &lt;build&gt;
+        &lt;plugins&gt;
+            &lt;plugin&gt;
+                &lt;artifactId&gt;maven-compiler-plugin&lt;/artifactId&gt;
+                &lt;version&gt;3.8.0&lt;/version&gt;
+                &lt;configuration&gt;
+                    &lt;release&gt;${java.version}&lt;/release&gt;
+                &lt;/configuration&gt;
+            &lt;/plugin&gt;
+        &lt;/plugins&gt;
+    &lt;/build&gt;
+
+&lt;/project&gt;
+</code></pre>
+
         <ul class="list-inline">
           <li class="doc"><a href="/documentation/{{ site.default_doc_version }}/changelog" id="change_log_link" target="_blank">View change log for version
             <span class="download_name">{{ site.default_doc_version }}</span></a></li>

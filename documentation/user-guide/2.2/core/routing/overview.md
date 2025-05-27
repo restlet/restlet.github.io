@@ -179,7 +179,7 @@ routing mode). A sample implementation is available
 By default, as said above, a template variable is meant to match a URI
 segment. Here is the list of all available type of variables. For
 additional details, see the [Javadocs of the Variable
-class]({{ site.data.javadoc.baseUrl }}{{ page.version }}/jse/api/org/restlet/routing/Variable.html):
+class]({{ site.data.javadoc.preMavenCentral.baseUrl }}{{ page.version }}/jse/api/org/restlet/routing/Variable.html):
 
 Value | Description
 ----- | -----------

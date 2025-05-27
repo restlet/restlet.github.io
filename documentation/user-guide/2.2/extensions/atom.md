@@ -39,7 +39,7 @@ For an usage example, check the source code of the
 org.restlet.example.book.restlet.ch8.resources.FeedResource class.
 
 For additional details, please consult  [the
-Javadocs]({{ site.data.javadoc.baseUrl }}{{ page.version }}/jse/ext/org/restlet/ext/atom/package-summary.html).
+Javadocs]({{ site.data.javadoc.preMavenCentral.baseUrl }}{{ page.version }}/jse/ext/org/restlet/ext/atom/package-summary.html).
 
 # Links
 

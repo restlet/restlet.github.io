@@ -9,4 +9,4 @@ nav_order: 10
 
 To be done.
 
-[Javadocs]({{ site.data.javadoc.baseUrl }}{{ page.version }}/jse/ext/org/restlet/ext/guice/package-summary.html).
+[Javadocs]({{ site.data.javadoc.preMavenCentral.baseUrl }}{{ page.version }}/jse/ext/org/restlet/ext/guice/package-summary.html).

@@ -15,7 +15,7 @@ nav_order: 0
 -   [XdbRepresentation class](./xdbRepresentation "Oracle XDB Restlet Adapter - XdbRepresentation")
 
 For additional details, please consult the
-[Javadocs]({{ site.data.javadoc.baseUrl }}{{ page.version }}/jee/ext/org/restlet/ext/xdb/package-summary.html).
+[Javadocs]({{ site.data.javadoc.preMavenCentral.baseUrl }}{{ page.version }}/jee/ext/org/restlet/ext/xdb/package-summary.html).
 
 # Using XDB Restlet Adapter within Maven projects
 

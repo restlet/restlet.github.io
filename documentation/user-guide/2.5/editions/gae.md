@@ -118,8 +118,8 @@ The Javadocs of the Restlet edition for GAE are available online as
 well:
 
 -   [Restlet
-    API]({{ site.data.javadoc.baseUrl }}{{ page.version }}/gae/api/index.html)
+    API]({{ site.data.javadoc.preMavenCentral.baseUrl }}{{ page.version }}/gae/api/index.html)
 -   [Restlet
-    Extensions]({{ site.data.javadoc.baseUrl }}{{ page.version }}/gae/ext/index.html)
+    Extensions]({{ site.data.javadoc.preMavenCentral.baseUrl }}{{ page.version }}/gae/ext/index.html)
 -   [Restlet
-    Engine]({{ site.data.javadoc.baseUrl }}{{ page.version }}/gae/engine/index.html)
+    Engine]({{ site.data.javadoc.preMavenCentral.baseUrl }}{{ page.version }}/gae/engine/index.html)

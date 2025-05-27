@@ -20,7 +20,7 @@ based on a JAAS pluggable authentication mechanism and more precisely
 based on JAAS login modules.
 
 For additional details, please consult the
-[Javadocs]({{ site.data.javadoc.baseUrl }}{{ page.version }}/jse/ext/org/restlet/ext/jaas/package-summary.html).
+[Javadocs]({{ site.data.javadoc.preMavenCentral.baseUrl }}{{ page.version }}/jse/ext/org/restlet/ext/jaas/package-summary.html).
 
 # Authenticating with LDAP
 

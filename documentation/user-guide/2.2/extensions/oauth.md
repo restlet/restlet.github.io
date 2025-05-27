@@ -49,4 +49,4 @@ Example 2. Creating a Proxies to access protected resources
 
 
 For additional details, please consult the
-[Javadocs]({{ site.data.javadoc.baseUrl }}{{ page.version }}/jse/ext/org/restlet/ext/oauth/package-summary.html).
+[Javadocs]({{ site.data.javadoc.preMavenCentral.baseUrl }}{{ page.version }}/jse/ext/org/restlet/ext/oauth/package-summary.html).

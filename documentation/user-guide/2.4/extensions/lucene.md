@@ -20,7 +20,7 @@ is to provide a TikaRepresentation leveraging Lucene Tika subproject to
 extract metadata from any Representation.
 
 For additional details, please consult the
-[Javadocs]({{ site.data.javadoc.baseUrl }}{{ page.version }}/jse/ext/org/restlet/ext/lucene/package-summary.html).
+[Javadocs]({{ site.data.javadoc.preMavenCentral.baseUrl }}{{ page.version }}/jse/ext/org/restlet/ext/lucene/package-summary.html).
 
 # Solr integration
 

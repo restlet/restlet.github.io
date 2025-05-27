@@ -24,7 +24,7 @@ header "XXX" is discouraged. Future versions of the Restlet API will
 directly support it".
 
 See details in the Javadocs of the
-[Message.getAttributes()]({{ site.data.javadoc.baseUrl }}{{ page.version }}/jse/api/org/restlet/Message.html#getAttributes%28%29)
+[Message.getAttributes()]({{ site.data.javadoc.preMavenCentral.baseUrl }}{{ page.version }}/jse/api/org/restlet/Message.html#getAttributes%28%29)
 method.
 
 # From HTTP headers to Restlet API

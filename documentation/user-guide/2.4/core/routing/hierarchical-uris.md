@@ -109,5 +109,5 @@ Template.MODE\_STARTS\_WITH constants.
 Please note that the values of the variables are directly extracted from
 the URI and are therefore not percent-decoded. In order to achieve such
 a task, have a look to the
-[Reference\#decode(String)]({{ site.data.javadoc.baseUrl }}{{ page.version }}/jse/api/org/restlet/data/Reference.html#decode%28java.lang.String%29)
+[Reference\#decode(String)]({{ site.data.javadoc.preMavenCentral.baseUrl }}{{ page.version }}/jse/api/org/restlet/data/Reference.html#decode%28java.lang.String%29)
 method.

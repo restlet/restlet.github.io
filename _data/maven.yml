@@ -1,1 +1,2 @@
-baseUrl: https://maven.restlet.talend.com
+preMavenCentral:
+  'baseUrl': https://maven.restlet.talend.com

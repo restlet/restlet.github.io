@@ -10,4 +10,4 @@ nav_order: 39
 This extension is an integration with Thymeleaf.
 
 For additional details, please consult the
-[Javadocs]({{ site.data.javadoc.baseUrl }}{{ page.version }}/jse/ext/org/restlet/ext/thymeleaf/package-summary.html).
+[Javadocs]({{ site.data.javadoc.preMavenCentral.baseUrl }}{{ page.version }}/jse/ext/org/restlet/ext/thymeleaf/package-summary.html).

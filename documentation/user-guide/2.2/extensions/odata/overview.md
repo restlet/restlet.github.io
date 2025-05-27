@@ -12,7 +12,7 @@ nav_order: 0
 
 # References
 
--   [Javadocs - Restlet extension for OData]({{ site.data.javadoc.baseUrl }}{{ page.version }}/jse/ext/org/restlet/ext/odata/package-summary.html)
+-   [Javadocs - Restlet extension for OData]({{ site.data.javadoc.preMavenCentral.baseUrl }}{{ page.version }}/jse/ext/org/restlet/ext/odata/package-summary.html)
 -   [Advanced tutorial on the OData extension](/documentation/user-guide/{{ page.version }}/extensions/odata/tutorial "Tutorial")
 -   [OData - Protocol specification](http://docs.oasis-open.org/odata/odata/v4.0/odata-v4.0-part1-protocol.html)
 -   [MSDN - WCF Data Services](http://msdn.microsoft.com/en-us/data/bb931106.aspx)

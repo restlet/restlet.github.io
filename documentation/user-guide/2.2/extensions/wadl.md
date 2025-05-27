@@ -16,7 +16,7 @@ application. It also knows how to convert this WADL/XML document into a
 user friendly HTML document.
 
 For additional details, please consult the
-[Javadocs]({{ site.data.javadoc.baseUrl }}{{ page.version }}/jse/ext/org/restlet/ext/wadl/package-summary.html).
+[Javadocs]({{ site.data.javadoc.preMavenCentral.baseUrl }}{{ page.version }}/jse/ext/org/restlet/ext/wadl/package-summary.html).
 
 # Usage example
 

@@ -23,10 +23,10 @@ When you need to secure the access to some Restlets, several options are
 available. A common way is to rely on cookies to identify clients (or
 client sessions) and to check a given user ID or session ID against your
 application state to determine if access should be granted. Restlets
-natively support cookies via the [Cookie]({{ site.data.javadoc.baseUrl }}{{ page.version }}/jse/api/org/restlet/data/Cookie.html)
-and [CookieSetting]({{ site.data.javadoc.baseUrl }}{{ page.version }}/jse/api/org/restlet/data/CookieSetting.html)
-objects accessible from a [Request]({{ site.data.javadoc.baseUrl }}{{ page.version }}/jse/api/org/restlet/Request.html)
-or a [Response]({{ site.data.javadoc.baseUrl }}{{ page.version }}/jse/api/org/restlet/Response.html).
+natively support cookies via the [Cookie]({{ site.data.javadoc.preMavenCentral.baseUrl }}{{ page.version }}/jse/api/org/restlet/data/Cookie.html)
+and [CookieSetting]({{ site.data.javadoc.preMavenCentral.baseUrl }}{{ page.version }}/jse/api/org/restlet/data/CookieSetting.html)
+objects accessible from a [Request]({{ site.data.javadoc.preMavenCentral.baseUrl }}{{ page.version }}/jse/api/org/restlet/Request.html)
+or a [Response]({{ site.data.javadoc.preMavenCentral.baseUrl }}{{ page.version }}/jse/api/org/restlet/Response.html).
 
 There is another way based on the standard HTTP authentication
 mechanism. By default, the Restlet Engine accepts credentials sent and
@@ -255,7 +255,7 @@ In addition to the parameters that are similar but specific to [each
 type of HTTPS server
 connector](/documentation/user-guide/{{ page.version }}/core/base/connectors),
 it is possible to configure the SSL connectors using an
-[SslContextFactory]({{ site.data.javadoc.baseUrl }}{{ page.version }}/jse/ext/org/restlet/ext/ssl/SslContextFactory.html),
+[SslContextFactory]({{ site.data.javadoc.preMavenCentral.baseUrl }}{{ page.version }}/jse/ext/org/restlet/ext/ssl/SslContextFactory.html),
 in a way that is common to all three types of HTTPS server connectors
 (Simple, Jetty and Grizzly). Configuring SSL is done in this order:
 
@@ -269,7 +269,7 @@ in a way that is common to all three types of HTTPS server connectors
     passed to its `init` method, so as to initialize the
     SslContextFactory instance via text parameters.\
      The
-    [org.restlet.engine.security.DefaultSslContextFactory]({{ site.data.javadoc.baseUrl }}{{ page.version }}/jse/engine/org/restlet/engine/ssl/DefaultSslContextFactory.html#init%28org.restlet.util.Series%29)
+    [org.restlet.engine.security.DefaultSslContextFactory]({{ site.data.javadoc.preMavenCentral.baseUrl }}{{ page.version }}/jse/engine/org/restlet/engine/ssl/DefaultSslContextFactory.html#init%28org.restlet.util.Series%29)
     is an SslContextFactory that supports a basic set of parameters, and
     will default to the values specified in the `javax.net.ssl.*` system
     properties (see [JSSE Reference guide](http://docs.oracle.com/javase/6/docs/technotes/guides/security/jsse/JSSERefGuide.html#SystemProps)).\

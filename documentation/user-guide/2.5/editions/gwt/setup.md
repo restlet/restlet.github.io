@@ -32,7 +32,7 @@ the [JSON](http://google-web-toolkit.googlecode.com/svn/javadoc/2.0/com/google/
 and
 [XML](http://google-web-toolkit.googlecode.com/svn/javadoc/2.0/com/google/gwt/xml/client/package-summary.html)
 modules. You can also check the [full Javadocs of the API
-online]({{ site.data.javadoc.baseUrl }}{{ page.version }}/gwt/api/index.html).
+online]({{ site.data.javadoc.preMavenCentral.baseUrl }}{{ page.version }}/gwt/api/index.html).
 
 # Server-side configuration
 

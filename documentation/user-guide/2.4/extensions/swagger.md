@@ -88,4 +88,4 @@ To display the Swagger-UI of your API, go on the page [https://petstore.swagger.
 You can also clone/fork the [project](https://github.com/wordnik/swagger-ui) and embed it.
 
 For additional details, please consult the
-[Javadocs]({{ site.data.javadoc.baseUrl }}{{ page.version }}/jse/ext/org/restlet/ext/swagger/package-summary.html).
+[Javadocs]({{ site.data.javadoc.preMavenCentral.baseUrl }}{{ page.version }}/jse/ext/org/restlet/ext/swagger/package-summary.html).

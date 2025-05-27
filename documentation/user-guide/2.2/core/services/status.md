@@ -14,16 +14,16 @@ if it is enabled.
 
 When an exception or an error is caught, the [getStatus(Throwable,
 Request,
-Response)]({{ site.data.javadoc.baseUrl }}{{ page.version }}/jse/api/org/restlet/service/StatusService.html#getStatus%28java.lang.Throwable,%20org.restlet.Request,%20org.restlet.Response%29)
+Response)]({{ site.data.javadoc.preMavenCentral.baseUrl }}{{ page.version }}/jse/api/org/restlet/service/StatusService.html#getStatus%28java.lang.Throwable,%20org.restlet.Request,%20org.restlet.Response%29)
 method is first invoked to obtain the status that you want to set on the
 response. If this method isn't overridden or returns null, the
-[Status.SERVER\_ERROR\_INTERNAL]({{ site.data.javadoc.baseUrl }}{{ page.version }}/jse/api/org/restlet/data/Status.html#SERVER_ERROR_INTERNAL)
+[Status.SERVER\_ERROR\_INTERNAL]({{ site.data.javadoc.preMavenCentral.baseUrl }}{{ page.version }}/jse/api/org/restlet/data/Status.html#SERVER_ERROR_INTERNAL)
 constant will be set by default.
 
 Also, when the status of a response returned is an error status (see
-[Status.isError()]({{ site.data.javadoc.baseUrl }}{{ page.version }}/jse/api/org/restlet/data/Status.html#isError%28%29),
+[Status.isError()]({{ site.data.javadoc.preMavenCentral.baseUrl }}{{ page.version }}/jse/api/org/restlet/data/Status.html#isError%28%29),
 the [getRepresentation(Status, Request,
-Response)]({{ site.data.javadoc.baseUrl }}{{ page.version }}/jse/api/org/restlet/service/StatusService.html#getRepresentation%28org.restlet.data.Status,%20org.restlet.Request,%20org.restlet.Response%29)
+Response)]({{ site.data.javadoc.preMavenCentral.baseUrl }}{{ page.version }}/jse/api/org/restlet/service/StatusService.html#getRepresentation%28org.restlet.data.Status,%20org.restlet.Request,%20org.restlet.Response%29)
 method is then invoked to give your service a chance to override the
 default error page.
 

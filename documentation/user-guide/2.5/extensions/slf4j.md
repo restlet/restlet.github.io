@@ -12,4 +12,4 @@ SLF4J for the Restlet engine, allowing bridges to alternate logging
 mechanisms such as Log4J or LogBack.
 
 For additional details, please consult the
-[Javadocs]({{ site.data.javadoc.baseUrl }}{{ page.version }}/jse/ext/org/restlet/ext/slf4j/package-summary.html).
+[Javadocs]({{ site.data.javadoc.preMavenCentral.baseUrl }}{{ page.version }}/jse/ext/org/restlet/ext/slf4j/package-summary.html).

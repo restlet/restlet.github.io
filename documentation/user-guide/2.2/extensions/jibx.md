@@ -18,4 +18,4 @@ extends the XmlRepresentation and is able to both serialize and
 deserialize a Java objects graph to/from an XML document.
 
 For additional details, please consult the
-[Javadocs]({{ site.data.javadoc.baseUrl }}{{ page.version }}/jse/ext/org/restlet/ext/jibx/package-summary.html).
+[Javadocs]({{ site.data.javadoc.preMavenCentral.baseUrl }}{{ page.version }}/jse/ext/org/restlet/ext/jibx/package-summary.html).

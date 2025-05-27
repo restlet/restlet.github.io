@@ -15,7 +15,7 @@
         <repository>
             <id>maven-restlet</id>
             <name>Restlet repository</name>
-            <url>{{ site.data.maven.baseUrl }}</url>
+            <url>{{ site.data.maven.preMavenCentral.baseUrl }}</url>
         </repository>
     </repositories>
 

@@ -41,7 +41,7 @@ example root resource class and then show how to get it running by the
 Restlet JAX-RS extension.
 
 For additional details, please consult the
-[Javadocs]({{ site.data.javadoc.baseUrl }}{{ page.version }}/jse/ext/org/restlet/ext/jaxrs/package-summary.html).
+[Javadocs]({{ site.data.javadoc.preMavenCentral.baseUrl }}{{ page.version }}/jse/ext/org/restlet/ext/jaxrs/package-summary.html).
 
 # Create JAX-RS example
 

@@ -16,8 +16,8 @@ Now, here is the hierarchy with the core Representation classes:
 ![](images/representations.png)
 
 Beside this tutorial, your best source of information will be the
-Javadocs available for the [Restlet API]({{ site.data.javadoc.baseUrl }}{{ page.version }}/jse/api/index.html), the [Restlet
-Extensions]({{ site.data.javadoc.baseUrl }}{{ page.version }}/jse/ext/index.html) and the [Restlet]({{ site.data.javadoc.baseUrl }}{{ page.version }}/jse/api/index.html?org/restlet/Restlet.html). Have also a look at the
+Javadocs available for the [Restlet API]({{ site.data.javadoc.preMavenCentral.baseUrl }}{{ page.version }}/jse/api/index.html), the [Restlet
+Extensions]({{ site.data.javadoc.preMavenCentral.baseUrl }}{{ page.version }}/jse/ext/index.html) and the [Restlet]({{ site.data.javadoc.preMavenCentral.baseUrl }}{{ page.version }}/jse/api/index.html?org/restlet/Restlet.html). Have also a look at the
 [connectors](connectors) section that lists all available client and
 server connectors and explain how to use and configure them, and the
 [integrations](integrations) section for a list of all available

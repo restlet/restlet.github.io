@@ -8,12 +8,12 @@ nav_order: 24
 # Introduction
 
 The SSL extension provides concrete implementations of the
-[SslContextFactory]({{ site.data.javadoc.baseUrl }}{{ page.version }}/jse/engine/org/restlet/engine/ssl/SslContextFactory.html)
+[SslContextFactory]({{ site.data.javadoc.preMavenCentral.baseUrl }}{{ page.version }}/jse/engine/org/restlet/engine/ssl/SslContextFactory.html)
 that rely on
 [jSSLutils](http://code.google.com/p/jsslutils/).
 
 For additional details, please consult the
-[Javadocs]({{ site.data.javadoc.baseUrl }}{{ page.version }}/jse/ext/org/restlet/ext/jsslutils/package-summary.html).
+[Javadocs]({{ site.data.javadoc.preMavenCentral.baseUrl }}{{ page.version }}/jse/ext/org/restlet/ext/jsslutils/package-summary.html).
 
 # Description
 

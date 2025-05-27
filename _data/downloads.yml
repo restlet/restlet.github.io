@@ -4,6 +4,11 @@ currentVersion:
   release: 2.5.1
   release_date: '2025-01-28'
 
+'2_5':
+  latestVersion: 2.5.1
+'2_6':
+  latestVersion: 2.6.0-rc1
+
 editions:
   - name: Java SE
     value: jse

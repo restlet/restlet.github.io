@@ -22,7 +22,7 @@ Here is a very simple code illustrating a component that guards its
 applications with the BASIC authentication scheme.
 
 The whole code can be downloaded
-[here]({{ site.data.downloads.baseUrl }}technical-resources/restlet-framework/archives/examples/authentication/{{ page.version }}/sample.zip "testHttpBasic") (application/force-download, 1.2 kB).
+[here]({{ site.data.downloads.preMavenCentral.baseUrl }}technical-resources/restlet-framework/archives/examples/authentication/{{ page.version }}/sample.zip "testHttpBasic") (application/force-download, 1.2 kB).
 
 ## Description of the server side
 
@@ -126,7 +126,7 @@ Here is a very simple code illustrating a component that guards its
 applications with the DIGEST authentication scheme.
 
 The whole code can be downloaded
-[here]({{ site.data.downloads.baseUrl }}technical-resources/restlet-framework/archives/examples/authentication/{{ page.version }}/httpDigestSample.zip "Sample code illustrating Digest authentication") (application/force-download, 1.6 kB).
+[here]({{ site.data.downloads.preMavenCentral.baseUrl }}technical-resources/restlet-framework/archives/examples/authentication/{{ page.version }}/httpDigestSample.zip "Sample code illustrating Digest authentication") (application/force-download, 1.6 kB).
 
 ## Description of the server side
 

@@ -15,7 +15,7 @@ $(document).ready(function () {
 });
 
 function getUrl (branch, release, edition) {
-  return '{{ site.data.downloads.baseUrl }}' + branch + '/restlet-' + edition + '-' + release + '.zip';
+  return '{{ site.data.downloads.preMavenCentral.baseUrl }}' + branch + '/restlet-' + edition + '-' + release + '.zip';
 }
 
 /***************************

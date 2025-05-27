@@ -336,5 +336,5 @@ consult the documentation for the finer details.
 
 This archive contains all the source code described in this document.
 
-[restlet-basecamp]({{ site.data.downloads.baseUrl }}technical-resources/restlet-framework/archives/examples/maven-spring/{{ page.version }}/restlet-basecamp.zip "restlet-basecamp")
+[restlet-basecamp]({{ site.data.downloads.preMavenCentral.baseUrl }}technical-resources/restlet-framework/archives/examples/maven-spring/{{ page.version }}/restlet-basecamp.zip "restlet-basecamp")
 (application/zip, 8.4 kB)

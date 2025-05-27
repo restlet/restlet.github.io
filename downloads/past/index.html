@@ -35,7 +35,7 @@ layout: homepage
           <div class="form-group">
             <label for="id_branch">Branch:</label>
             <select class="form-control" id="id_branch" name="branch">
-              {% for version in site.data.downloads.versions %}
+              {% for version in site.data.downloads.preMavenCentral.versions %}
               <option value="{{ version[0] }}">{{ version[0] }}</option>
               {% endfor %}
             </select>
@@ -44,7 +44,7 @@ layout: homepage
           <div class="form-group">
             <label for="id_release">Release:</label>
             <select class="form-control" id="id_release" name="release">
-              {% for version in site.data.downloads.versions %}
+              {% for version in site.data.downloads.preMavenCentral.versions %}
                 {% for release in version[1]["releases"] %}
                   <option value="{{ release['id'] }}">{{ release["name"] }}</option>
                 {% endfor %}
@@ -68,7 +68,7 @@ layout: homepage
           </div>
 
           <div class="form-group">
-            <button type="button" class="m-button m-button-block m-button-flat-darkblue" id="download" onclick="downloadIIFE({{ site.data.downloads.versions | jsonify }}, '{{ site.data.downloads.baseUrl }}')">Download</button>
+            <button type="button" class="m-button m-button-block m-button-flat-darkblue" id="download" onclick="downloadIIFE({{ site.data.downloads.preMavenCentral.versions | jsonify }}, '{{ site.data.downloads.preMavenCentral.baseUrl }}')">Download</button>
           </div>
 
           <p>Release date: <span id="download_date">2014-12-19</span></p>

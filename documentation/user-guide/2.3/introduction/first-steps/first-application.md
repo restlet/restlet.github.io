@@ -65,7 +65,7 @@ The "contact" object has the following attributes:
 # <a name="archive-content"></a>Archive content
 
 The full source code (without the required archives) is available here:
-[firstapplication.zip]({{ site.data.downloads.baseUrl }}technical-resources/restlet-framework/archives/examples/firstApplication/{{ page.version }}/firstapplication.zip "firstapplication.zip")
+[firstapplication.zip]({{ site.data.downloads.preMavenCentral.baseUrl }}technical-resources/restlet-framework/archives/examples/firstApplication/{{ page.version }}/firstapplication.zip "firstapplication.zip")
 (application/zip, 1.0 MB)
 
 It contains the full source code of three Eclipse projects with:

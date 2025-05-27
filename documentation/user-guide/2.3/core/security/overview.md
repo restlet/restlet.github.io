@@ -403,4 +403,4 @@ the cookies from being used by script in all modern browsers.
 
 # Sample code
 
-[Security sample]({{ site.data.downloads.baseUrl }}technical-resources/restlet-framework/archives/examples/authentication/{{ page.version }}/sample.zip "Security sample") (application/zip, 2.9 kB)
+[Security sample]({{ site.data.downloads.preMavenCentral.baseUrl }}technical-resources/restlet-framework/archives/examples/authentication/{{ page.version }}/sample.zip "Security sample") (application/zip, 2.9 kB)

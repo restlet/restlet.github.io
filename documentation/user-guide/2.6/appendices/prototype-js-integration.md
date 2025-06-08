@@ -16,7 +16,7 @@ in,we should review some knowledge if you never know or forget it:
 -   [How to use db4o to simplify persistence?](http://db4o.com/about/productinformation/resources/db4o-6.3-tutorial-java.pdf)
 -   [How to use JSON in Prototype.js?](http://www.prototypejs.org/learn/json)
 
-This example needs to be updated for Restlet Framework 2.1. Help welcome
+This example needs to be updated for Restlet Framework {{ page.version }}. Help welcome
 
 # Demo construction
 
@@ -25,11 +25,11 @@ This example needs to be updated for Restlet Framework 2.1. Help welcome
 -   Server side: uses db4o to work as store service provider, and expose
     data in RESTful way.
 -   Server handle process:
-    [Application]({{ site.data.javadoc.preMavenCentral.baseUrl }}{{ page.version }}/jse/api/org/restlet/Application.html)
+    [Application](https://javadoc.io/doc/org.restlet/org.restlet/{{ page.version }}/org/restlet/Application.html)
     dispatches request to
-    [Router]({{ site.data.javadoc.preMavenCentral.baseUrl }}{{ page.version }}/jse/api/org/restlet/routing/Router.html),
+    [Router](https://javadoc.io/doc/org.restlet/org.restlet/latest/org/restlet/routing/Router.html),
     Router finds corresponding reource,
-    [Resource]({{ site.data.javadoc.preMavenCentral.baseUrl }}{{ page.version }}/jse/api/org/restlet/resource/Resource.html)
+    [Resource](https://javadoc.io/doc/org.restlet/org.restlet/latest/org/restlet/resource/Resource.html)
     handles request and returns representation.
 
 ## DB4OSimpler.Class
@@ -615,7 +615,7 @@ function callJSON() {
 
 # Links
 
--   [Router]({{ site.data.javadoc.preMavenCentral.baseUrl }}{{ page.version }}/jse/api/org/restlet/routing/Router.html)
--   [Application]({{ site.data.javadoc.preMavenCentral.baseUrl }}{{ page.version }}/jse/api/org/restlet/Application.html)
--   [Resource]({{ site.data.javadoc.preMavenCentral.baseUrl }}{{ page.version }}/jse/api/org/restlet/resource/Resource.html)
+-   [Application](https://javadoc.io/doc/org.restlet/org.restlet/latest/org/restlet/Application.html)
+-   [Router](https://javadoc.io/doc/org.restlet/org.restlet/latest/org/restlet/routing/Router.html)
+-   [Resource](https://javadoc.io/doc/org.restlet/org.restlet/latest/org/restlet/resource/Resource.html)
 -   [db4o](http://www.db4o.com/)

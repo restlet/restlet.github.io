@@ -17,5 +17,5 @@ This extension lets you generate Representations based on the [Velocity
 template
 engine](http://velocity.apache.org/engine/).
 
-For additional details, please consult the
-[Javadocs]({{ site.data.javadoc.preMavenCentral.baseUrl }}{{ page.version }}/jse/ext/org/restlet/ext/velocity/package-summary.html).
+For additional details, please consult [the
+Javadocs](https://javadoc.io/doc/org.restlet/org.restlet.ext.velocity/{{ page.version }}/org/restlet/ext/velocity/package-summary.html).

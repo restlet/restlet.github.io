@@ -15,23 +15,22 @@ the first HTTP server connector developed for the Restlet Framework.
 
 # Description
 
-This connector supports the following protocols: HTTP, HTTPS and SPDY on the server-side and HTTP, HTTPS
-on the client-side.
+This connector supports the following protocols: HTTP (with or without TLS, aka HTTPS), HTTP2 (with or without TLS), HTTP3 on the server-side and client-side.
 
 The list of supported specific parameters is available in the javadocs:
 
--   [Jetty server common parameters]({{ site.data.javadoc.preMavenCentral.baseUrl }}{{ page.version }}/jse/ext/org/restlet/ext/jetty/JettyServerHelper.html)
--   [HTTP server specific parameters]({{ site.data.javadoc.preMavenCentral.baseUrl }}{{ page.version }}/jse/ext/org/restlet/ext/jetty/HttpServerHelper.html)
--   [HTTPS server specific parameters]({{ site.data.javadoc.preMavenCentral.baseUrl }}{{ page.version }}/jse/ext/org/restlet/ext/jetty/HttpsServerHelper.html)
--   [Jetty client common parameters]({{ site.data.javadoc.preMavenCentral.baseUrl }}{{ page.version }}/jse/ext/org/restlet/ext/jetty/HttpClientHelper.html)
+-   [Jetty server common parameters](https://javadoc.io/doc/org.restlet/org.restlet.ext.jetty/{{ page.version }}/org/restlet/ext/jetty/JettyServerHelper.html)
+-   [HTTP server specific parameters](https://javadoc.io/doc/org.restlet/org.restlet.ext.jetty/{{ page.version }}/org/restlet/ext/jetty/HttpServerHelper.html)
+-   [HTTPS server specific parameters](https://javadoc.io/doc/org.restlet/org.restlet.ext.jetty/{{ page.version }}/org/restlet/ext/jetty/HttpsServerHelper.html)
+-   [Jetty client common parameters](https://javadoc.io/doc/org.restlet/org.restlet.ext.jetty/{{ page.version }}/org/restlet/ext/jetty/HttpClientHelper.html)
 
 Here is the list of dependencies of this connector:
 
 -   [Jetty](http://www.eclipse.org/jetty/)
 -   [Java Servlet](http://www.oracle.com/technetwork/java/javaee/servlet/index.html)
 
-For additional details, please consult the
-[Javadocs]({{ site.data.javadoc.preMavenCentral.baseUrl }}{{ page.version }}/jse/ext/org/restlet/ext/jetty/package-summary.html).
+For additional details, please consult [the
+Javadocs](https://javadoc.io/doc/org.restlet/org.restlet.ext.jetty/{{ page.version }}/org/restlet/ext/jetty/package-summary.html).
 
 # Usage example
 
@@ -50,8 +49,35 @@ server.getContext().getParameters().add("keystorePassword", "&lt;your-password&g
 server.getContext().getParameters().add("keyPassword", "&lt;your-password&gt;");
 </code></pre>
 
-## SPDY
+## HTTP2, HTTP3 on server side
 
-The support for SPDY is disabled by default. In order to use it, you need to add the "spdy.version" parameter to your Jetty HTTPS server configuration with a value of "3" add a special NPN JAR file to the the boot classpath of your JRE 7. See [the instructions here](https://wiki.eclipse.org/Jetty/Feature/NPN).
+The support for HTTP2 and HTTP3 is disabled by default. In order to use it, you need to complete the server configuration.
 
-Additional information on Jetty support for SPDY can be found in [this chapter](https://wiki.eclipse.org/Jetty/Feature/SPDY) of Jetty's user guide.
+There are two cases, according you are configuring a HTTP or a HTTP server
+
+### HTTP server
+
+In this case, HTTP3 is not supported. Just provide the `HTTP2` value to the `http.transport.mode` to the server's configuration.
+
+<pre><code class="language-java">Server server = myComponent.getServers().add(Protocol.HTTP, 8182);
+server.getContext().getParameters().add("http.transport.mode", "HTTP2");
+</code></pre>
+
+
+HTTP1.1 will be still be supported.
+
+### HTTPS server
+
+In this case, HTTP3 is supported. The `http.transport.protocols` parameter allows to specify the list of protocol versions supported.
+
+<pre><code class="language-java">Server server = myComponent.getServers().add(Protocol.HTTPS, 8183);
+server.getContext().getParameters().add("http.transport.protocols", "HTTP1_1,HTTP2,HTTP3");
+</code></pre>
+
+## HTTP2, HTTP3 on client side
+
+In this case, you can either ask to support only HTTP1.1, HTTP2, HTTP3, or support all of them using the DYNAMIC value, as follow:
+
+<pre><code class="language-java">CLient client = myComponent.getClient().add(Protocol.HTTPS);
+client.getContext().getParameters().add("httpClientTransportMode", "DYNAMIC");
+</code></pre>

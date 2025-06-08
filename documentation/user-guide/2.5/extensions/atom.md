@@ -38,8 +38,8 @@ parsing via the constructors accepting a Representation parameter.
 For an usage example, check the source code of the
 org.restlet.example.book.restlet.ch8.resources.FeedResource class.
 
-For additional details, please consult  [the
-Javadocs]({{ site.data.javadoc.preMavenCentral.baseUrl }}{{ page.version }}/jse/ext/org/restlet/ext/atom/package-summary.html).
+For additional details, please consult [the
+Javadocs](https://javadoc.io/doc/org.restlet/org.restlet.ext.atom/{{ page.version }}/org/restlet/ext/atom/package-summary.html).
 
 ## Links
 

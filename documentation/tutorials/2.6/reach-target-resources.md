@@ -15,8 +15,7 @@ So far, we introduced features that go beyond the traditional Servlet
 API and introduced our support for REST that justify our Restlet name!
 If haven't done so already, you can learn more about the REST
 architecture style and the best practices to follow when applying it to
-a Web application. There is a related [FAQ entry](/documentation/user-guide/{{ page.version }}/appendices/faq#how-to-use-restlet-in-an-applet) that
-will give you some starting pointers. If you have some experience with a
+a Web application. If you have some experience with a
 traditional MVC framework, you can read more about the relationship to
 Restlet in this other [FAQ
 entry](/documentation/user-guide/{{ page.version }}/appendices/faq#how-do-i-implement-the-traditional-mvc-pattern).

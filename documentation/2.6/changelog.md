@@ -1,11 +1,24 @@
 ---
-title: Restlet Framework - Changelog 2.5
+title: Restlet Framework - Changelog 2.6
 layout: text
 ---
 ```
 ===========
 Changes log
 ===========
+
+- 2.6 Release Candidate 1 (28-04-2025)
+    - Enhancements
+      - Added MultiPartRepresentation to the Jetty extension to support generation and parsing.
+      - Added support for the "charset" parameter in HTTP BASIC challenges. Reported by Marc Lafon.
+      - Added MediaType constructors to help with cloning and customization needs.
+      - Added support for HTTP2 and HTTP3 protocols by the Jetty HTTP server connector.
+      - Added support for HTTP2 and HTTP3 protocols by the Jetty HTTP client connector.
+    - Misc
+      - Upgraded Thymeleaf library to 3.1.3.RELEASE.
+      - Upgraded Slf4j library to 5.12.0.
+      - Upgraded GWT libraries to version 2.12.2.
+      - Upgraded Jetty library to version 2.0.17.
 
 - 2.6 Milestone 2 (02-03-2025)
     - Enhancements

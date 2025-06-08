@@ -20,18 +20,18 @@ on the client-side.
 
 The list of supported specific parameters is available in the javadocs:
 
--   [Jetty server common parameters]({{ site.data.javadoc.preMavenCentral.baseUrl }}{{ page.version }}/jse/ext/org/restlet/ext/jetty/JettyServerHelper.html)
--   [HTTP server specific parameters]({{ site.data.javadoc.preMavenCentral.baseUrl }}{{ page.version }}/jse/ext/org/restlet/ext/jetty/HttpServerHelper.html)
--   [HTTPS server specific parameters]({{ site.data.javadoc.preMavenCentral.baseUrl }}{{ page.version }}/jse/ext/org/restlet/ext/jetty/HttpsServerHelper.html)
--   [Jetty client common parameters]({{ site.data.javadoc.preMavenCentral.baseUrl }}{{ page.version }}/jse/ext/org/restlet/ext/jetty/HttpClientHelper.html)
+-   [Jetty server common parameters](https://javadoc.io/doc/org.restlet/org.restlet.ext.jetty/{{ page.version }}/org/restlet/ext/jetty/JettyServerHelper.html)
+-   [HTTP server specific parameters](https://javadoc.io/doc/org.restlet/org.restlet.ext.jetty/{{ page.version }}/org/restlet/ext/jetty/HttpServerHelper.html)
+-   [HTTPS server specific parameters](https://javadoc.io/doc/org.restlet/org.restlet.ext.jetty/{{ page.version }}/org/restlet/ext/jetty/HttpsServerHelper.html)
+-   [Jetty client common parameters](https://javadoc.io/doc/org.restlet/org.restlet.ext.jetty/{{ page.version }}/org/restlet/ext/jetty/HttpClientHelper.html)
 
 Here is the list of dependencies of this connector:
 
 -   [Jetty](http://www.eclipse.org/jetty/)
 -   [Java Servlet](http://www.oracle.com/technetwork/java/javaee/servlet/index.html)
 
-For additional details, please consult the
-[Javadocs]({{ site.data.javadoc.preMavenCentral.baseUrl }}{{ page.version }}/jse/ext/org/restlet/ext/jetty/package-summary.html).
+For additional details, please consult [the
+Javadocs](https://javadoc.io/doc/org.restlet/org.restlet.ext.jetty/{{ page.version }}/org/restlet/ext/jetty/package-summary.html).
 
 # Usage example
 

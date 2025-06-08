@@ -114,4 +114,5 @@ Using the @Named qualifier trades some type-safety for convenience:
 MyComponent(@Named(FOO) Application fooApp, @Named(BAR) Application barApp) ...
 </code></pre>
 
-[Javadocs]({{ site.data.javadoc.preMavenCentral.baseUrl }}{{ page.version }}/jse/ext/org/restlet/ext/guice/package-summary.html).
+For additional details, please consult [the
+Javadocs](https://javadoc.io/doc/org.restlet/org.restlet.ext.guice/{{ page.version }}/org/restlet/ext/guice/package-summary.html).

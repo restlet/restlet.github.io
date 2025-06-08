@@ -14,7 +14,7 @@ nav_order: 3
 The internal HTTP connectors can be configured with several sets of
 parameters:
 
-* [Base parameters]({{ site.data.javadoc.preMavenCentral.baseUrl }}{{ page.version }}/jse/engine/index.html?org/restlet/engine/connector/BaseHelper.html)
-* [Connection parameters]({{ site.data.javadoc.preMavenCentral.baseUrl }}{{ page.version }}/jse/engine/index.html?org/restlet/engine/connector/ConnectionHelper.html)
-* [Client parameters]({{ site.data.javadoc.preMavenCentral.baseUrl }}{{ page.version }}/jse/engine/index.html?org/restlet/engine/connector/ClientConnectionHelper.html)
-* [Server parameters]({{ site.data.javadoc.preMavenCentral.baseUrl }}{{ page.version }}/jse/engine/index.html?org/restlet/engine/connector/ServerConnectionHelper.html)
+* [Base parameters](https://javadoc.io/static/org.restlet/org.restlet/{{ site.data.versions[page.version].latestVersion }}/org/restlet/engine/RestletHelper.html)
+* [Connection parameters](https://javadoc.io/static/org.restlet/org.restlet/{{ site.data.versions[page.version].latestVersion }}/org/restlet/engine/connector/ConnectorHelper.html)
+* [Client parameters](https://javadoc.io/static/org.restlet/org.restlet/{{ site.data.versions[page.version].latestVersion }}/org/restlet/engine/connector/ClientHelper.html)
+* [Server parameters](https://javadoc.io/static/org.restlet/org.restlet/{{ site.data.versions[page.version].latestVersion }}/org/restlet/engine/connector/ServerHelper.html)

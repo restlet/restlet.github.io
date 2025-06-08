@@ -15,7 +15,7 @@ For this purpose, we recommend the book "RESTful Web Services" from O'Reilly (mo
  We even wrote a part of it covering Restlet usage.
 
 For a more detailed presentation of the API, we recommend that you have
-a close look at its [Javadocs]({{ site.data.javadoc.preMavenCentral.baseUrl }}{{ page.version }}/jse/api/index.html)
+a close look at its [Javadocs](https://javadoc.io/doc/org.restlet/org.restlet/{{ page.version }}/index.html)
 available on the Restlet Web site. Below is a hierarchy diagram showing
 the main concepts of the API and their relationships:
 

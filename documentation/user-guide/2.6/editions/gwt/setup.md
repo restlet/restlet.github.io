@@ -11,7 +11,7 @@ nav_order: 6
 To use Restlet on the client side of your GWT application:
 
 ​1) Create an application
-[normally](http://code.google.com/webtoolkit/gettingstarted.html)
+[normally](https://www.gwtproject.org/gettingstarted-v2.html)
 with the applicationCreator and/or projectCreator scripts supplied with
 GWT, or using your favorite GWT design or IDE plugins.
 
@@ -26,13 +26,13 @@ GWT to the project classpath *^[explain]^*
 
 This will make the Restlet API available to your GWT compiled code.  The
 Restlet module in turn inherits the GWT standard
-[HTTP](http://google-web-toolkit.googlecode.com/svn/javadoc/2.0/com/google/gwt/http/client/package-summary.html).
+[HTTP](https://www.gwtproject.org/javadoc/latest/com/google/gwt/http/client/package-summary.html).
 Two Restlet extensions are also provided based on
-the [JSON](http://google-web-toolkit.googlecode.com/svn/javadoc/2.0/com/google/gwt/json/client/package-summary.html),
+the [JSON](https://www.gwtproject.org/javadoc/latest/com/google/gwt/json/client/package-summary.html),
 and
-[XML](http://google-web-toolkit.googlecode.com/svn/javadoc/2.0/com/google/gwt/xml/client/package-summary.html)
+[XML](https://www.gwtproject.org/javadoc/latest/com/google/gwt/xml/client/package-summary.html)
 modules. You can also check the [full Javadocs of the API
-online]({{ site.data.javadoc.preMavenCentral.baseUrl }}{{ page.version }}/gwt/api/index.html).
+online](https://javadoc.io/doc/org.restlet.gwt/org.restlet.gwt/{{ page.version }}/index.html).
 
 # Server-side configuration
 

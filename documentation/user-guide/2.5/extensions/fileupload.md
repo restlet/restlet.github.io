@@ -20,8 +20,8 @@ to parse the posted entity (which is actually an instance of the
 item corresponding to one file uploaded in the posted request, typically
 from a Web form.
 
-For additional details, please consult the
-[Javadocs]({{ site.data.javadoc.preMavenCentral.baseUrl }}{{ page.version }}/jse/ext/org/restlet/ext/fileupload/package-summary.html).
+For additional details, please consult [the
+Javadocs](https://javadoc.io/doc/org.restlet/org.restlet.ext.fileupload/{{ page.version }}/org/restlet/ext/fileupload/package-summary.html).
 
 Here is the list of dependencies for this extension:
 

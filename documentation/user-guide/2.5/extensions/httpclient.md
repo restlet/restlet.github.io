@@ -22,7 +22,7 @@ This connector supports the following protocols: HTTP, HTTPS. The list
 of supported specific parameters is available in the Javadocs:
 
 -   [HTTP client
-    parameters]({{ site.data.javadoc.preMavenCentral.baseUrl }}{{ page.version }}/jse/ext/org/restlet/ext/httpclient/HttpClientHelper.html)
+    parameters](https://javadoc.io/static/org.restlet/org.restlet.ext.httpclient/2.5.1/org/restlet/ext/httpclient/HttpClientHelper.html)
 
-For additional details, please consult the
-[Javadocs]({{ site.data.javadoc.preMavenCentral.baseUrl }}{{ page.version }}/jse/ext/org/restlet/ext/httpclient/package-summary.html).
+For additional details, please consult [the
+Javadocs](https://javadoc.io/doc/org.restlet/org.restlet.ext.httpclient/{{ page.version }}/org/restlet/ext/httpclient/package-summary.html).

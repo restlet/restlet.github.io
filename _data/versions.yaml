@@ -1,0 +1,9 @@
+currentVersion:
+  branch: 2.5
+  release: 2.5.1
+  release_date: '2025-01-28'
+
+'2.5':
+  latestVersion: 2.5.1
+'2.6':
+  latestVersion: 2.6.0-rc1

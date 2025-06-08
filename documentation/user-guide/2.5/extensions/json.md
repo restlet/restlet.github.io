@@ -18,5 +18,5 @@ defined by JSON: objects and arrays, and to make the reverse conversion.
 JsonRepresentations can also be generated from String and any kind of
 Representation.
 
-For additional details, please consult the
-[Javadocs]({{ site.data.javadoc.preMavenCentral.baseUrl }}{{ page.version }}/jse/ext/org/restlet/ext/json/package-summary.html).
+For additional details, please consult [the
+Javadocs](https://javadoc.io/doc/org.restlet/org.restlet.ext.json/{{ page.version }}/org/restlet/ext/json/package-summary.html).

@@ -227,7 +227,7 @@ In addition to the internal authentication helpers, additional schemes
 can be supported using pluggable extensions. Currently, there is an
 org.restlet.ext.crypto extension available for:
 
--   HTTP Digestjavadocs://jse/engine/org/restlet/engine/ssl/SslContextFactory.html
+-   HTTP Digest
 -   HTTP Amazon S3 (client)
 -   HTTP Azure SharedKey
 

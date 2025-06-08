@@ -1,12 +1,3 @@
-function editionDownloadIIFE() {
-  var editionSelect = document.querySelector('#id_edition');
-
-  document.querySelector('#frmDownloadEdition').addEventListener('submit', function overrideSubmit(event) {
-    event.preventDefault();
-    window.location = getUrl('{{ currentBranch }}', '{{ currentRelease }}', editionSelect.value);
-  });
-};
-
 function downloadIIFE (versions, baseUrl) {
 
   function getUrl (branch, release, edition) {

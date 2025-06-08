@@ -24,10 +24,10 @@ create this new classloader:
 
 <pre class="language-java"><code class="language-java">public class AppletEngine extends Engine {
 
-    @Override
-    protected ClassLoader createClassLoader() {
-        return getClass().getClassLoader();
-    }
+    @Override
+    protected ClassLoader createClassLoader() {
+        return getClass().getClassLoader();
+    }
 
 }
 </code></pre>
@@ -75,35 +75,17 @@ project. Did you reference the archive of the right Restlet extension
 (such as the Jackson extension) and the archives of its library
 dependencies?
 
-# <a name="how-to-trace-the-internal-client-and-server-connectors"></a>How to trace the nio client and server connectors?
+# <a name="how-to-trace-the-internal-client-and-server-connectors"></a>How to trace the client and server connectors?
 
-These connectors are configured via the parameter called "tracing" of
-their context (see the
-[javadocs]({{ site.data.javadoc.preMavenCentral.baseUrl }}{{ page.version }}/jse/ext/org/restlet/ext/nio/BaseHelper.html)).
+The simplest way is to set the log level of the underlying Engine:
 
-Here is a sample code that illustrates how to configure the HTTP  server
-connector of a Component:
-
-<pre class="language-java"><code class="language-java">Component c = new Component();
-Server s = new Server(Protocol.HTTP, 8182);
-c.getServers().add(s);
-s.getContext().getParameters().add("tracing", "true");
+<pre class="language-java"><code class="language-java">Engine.setLogLevel(Level.FINE);
 </code></pre>
-
-Here is a sample code that illustrates how to configure the HTTP  client
-connector of a resource:
-
-```java
-Client client = new Client(new Context(), Protocol.HTTP);
-client.getContext().getParameters().add("tracing", "true");
-ClientResource resource = new ClientResource("http://localhost:8182/<resource>");
-resource.setNext(client);
-```
 
 # <a name="how-do-i-implement-the-traditional-mvc-pattern"></a>How do I implement the traditional MVC pattern?
 
 There is only a rough correspondence between the [MVC pattern](http://en.wikipedia.org/wiki/Model-view-controller) and the Restlet framework; some [debate](http://restlet-discuss.1400322.n2.nabble.com/Restlet-MVC-td1560691.html) exists as to whether it should be employed at all. For those who wish to follow the MVC pattern with Restlet, here is the basic proposition:
 
  * Controller == Restlets (mainly Filters, Routers, Finders). You can visualize the controller as a sort of processing chain, where the last node should be a Finder with all the information necessary to locate the target Resource for the call. Note that Finders are generally implicitely created when attaching Resource classes to a Router.
- * Model == Resource + Domain Objects. Just start from the [org.restlet.resource.Resource class]({{ site.data.javadoc.preMavenCentral.baseUrl }}{{ page.version }}/jse/api/org/restlet/resource/Resource.html) and load the related Domain Objects in the constructor based on the request attributes (ex: identifier extracted from the URI). Then you can declare the available variants with getVariants() and override methods like represent(Variant) for GET, acceptRepresentation(Representation) for POST, removeRepresentations() for DELETE or storeRepresentation(Representation) for PUT.
+ * Model == Resource + Domain Objects. Just start from the [org.restlet.resource.Resource class](https://javadoc.io/static/org.restlet/org.restlet/{{ site.data.versions[page.version].latestVersion }}/org/restlet/resource/Resource.html) and load the related Domain Objects in the constructor based on the request attributes (ex: identifier extracted from the URI). Then you can declare the available variants with getVariants() and override methods like represent(Variant) for GET, acceptRepresentation(Representation) for POST, removeRepresentations() for DELETE or storeRepresentation(Representation) for PUT.
  * View == Representation. To expose views of your model, you create new Representations for your Resources. You can leverage on one of the numerous Representation subclasses (InputRepresentation for example) available in the org.restlet.resource package or in extension packages like for JSON documents, FreeMarker and Velocity templates.

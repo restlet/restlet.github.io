@@ -125,7 +125,7 @@ Now, let's launch our component, using Jetty as our HTTP server:
 3.  Deselect all bundles and select the "OsgiUsageTest2" and the
     "org.restlet.ext.jetty" bundles
 4.  Click on the "Add Required Bundles" button to add all dependencies
-5.  Configure the start order of the bundles:  "org.restlet" must start
+5.  Configure the start order of the bundles: "org.restlet" must start
     first, give it a start level of "1" and leave the rest to "default"
 6.  Click on the "Run" button
 7.  Open your browser at the "http://localhost:8182/users/scott" URI
@@ -167,11 +167,11 @@ longer description you can see
 your actual equinox bundle version for "3.X.X"):
 
 <pre class="language-bash"><code class="language-bash">my\_equinox/\
-     org.eclipse.osgi\_3.X.X.jar\
-     fileinstall-1.3.4.jar\
-     load/\
-         configuration/ \
-             config.ini
+    org.eclipse.osgi\_3.X.X.jar\
+    fileinstall-1.3.4.jar\
+    load/\
+        configuration/ \
+            config.ini
 </code></pre>
 
 "load/" is an empty dir, where you will later put the bundles you wish

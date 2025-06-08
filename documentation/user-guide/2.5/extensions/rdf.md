@@ -18,4 +18,5 @@ Support for the RDF parsing and generation, either in DOM-like mode or in SAX-li
 
 # References
 
-For additional details, please consult the [Javadocs]({{ site.data.javadoc.preMavenCentral.baseUrl }}{{ page.version }}/jse/ext/org/restlet/ext/rdf/package-summary.html).
+For additional details, please consult [the
+Javadocs](https://javadoc.io/doc/org.restlet/org.restlet.ext.rdf/{{ page.version }}/org/restlet/ext/rdf/package-summary.html).

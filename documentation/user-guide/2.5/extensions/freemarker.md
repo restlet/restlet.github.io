@@ -18,5 +18,5 @@ stylesheet), you just need to create an instance of the
 TemplateRepresentation class with the matching parameters and to set it
 as the response entity.
 
-For additional details, please consult the
-[Javadocs]({{ site.data.javadoc.preMavenCentral.baseUrl }}{{ page.version }}/jse/ext/org/restlet/ext/freemarker/package-summary.html).
+For additional details, please consult [the
+Javadocs](https://javadoc.io/doc/org.restlet/org.restlet.ext.freemarker/{{ page.version }}/org/restlet/ext/freemarker/package-summary.html).

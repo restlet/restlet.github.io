@@ -53,24 +53,19 @@ artifactId | Description
 [org.restlet](/documentation/user-guide/{{ page.version }}/core/overview "restlet") | Restlet API
 [org.restlet.ext.atom](../../extensions/atom "atom")|Support for the Atom syndication and the AtomPub (Atom Publication Protocol) standards in their 1.0 version.
 [org.restlet.ext.crypto](../../extensions/crypto "crypto")|Support for cryptography.
-[org.restlet.ext.fileupload](../../extensions/fileupload "fileupload")|Integration with Apache FileUpload.
 [org.restlet.ext.freemarker](../../extensions/freemarker "freemarker")|Integration with FreeMarker.
-[org.restlet.ext.gae](../../extensions/gae "gae")|Integration to the Google App Engine UserService for the GAE edition.
 [org.restlet.ext.gson](../../extensions/gson "gson")|Support for GSON representations.
+[org.restlet.ext.guice](../../extensions/guice "guice")|Server-side integration with Guice.
 [org.restlet.ext.gwt](../../extensions/gwt "gwt")|Server-side integration with GWT.
-[org.restlet.ext.html](../../extensions/html "html")|Support for the HTML (HyperText Markup Language) standard in its 4.0 version and above.
-[org.restlet.ext.httpclient](../../extensions/httpclient "httpclient")|Integration with Apache Commons HTTP Client.
 [org.restlet.ext.jaas](../../extensions/jaas "jaas")|Support for JAAS based security.
 [org.restlet.ext.jackson](../../extensions/jackson "jackson")|Integration with Jackson.
 [org.restlet.ext.jaxb](../../extensions/jaxb "jaxb")|Integration with Java XML Binding.
-[org.restlet.ext.jetty](/documentation/user-guide/{{ page.version }}/extensions/jetty "jetty")|Integration with Jetty.
+[org.restlet.ext.jetty](../../extensions/jetty "jetty")|Integration with Jetty.
 [org.restlet.ext.json](../../extensions/json "json")|Support for JSON representations.
-[org.restlet.ext.odata](/documentation/user-guide/{{ page.version }}/extensions/odata/overview "odata")|Integration with OData services.
-[org.restlet.ext.osgi](../../extensions/osgi "osgi")|Support for the OSGi specification.
-[org.restlet.ext.rdf](../../extensions/rdf "rdf")|Support for the RDF parsing and generation.
+[org.restlet.ext.odata](../../extensions/odata/overview "odata")|Integration with OData services.
 [org.restlet.ext.servlet](../../extensions/servlet "servlet")|Integration with Servlet API.
 [org.restlet.ext.slf4j](../../extensions/slf4j "slf4j")|Support for the SLF4J logging bridge.
-[org.restlet.ext.spring](/documentation/user-guide/{{ page.version }}/extensions/spring/overview "spring")|Integration with Spring Framework.
+[org.restlet.ext.spring](../../extensions/spring/overview "spring")|Integration with Spring Framework.
 [org.restlet.ext.thymeleaf](../../extensions/thymeleaf "thymeleaf")|Integration with Thymeleaf.
 [org.restlet.ext.velocity](../../extensions/velocity "velocity")|Integration with Apache Velocity.
 [org.restlet.ext.xml](../../extensions/xml "xml")|Support for the XML documents.
@@ -90,11 +85,11 @@ add the following lines of text into the \<dependencies\> section.
 <pre class="language-markup"><code class="language-markup">&lt;dependency&gt;
 &nbsp;&nbsp;&lt;groupId&gt;org.restlet&lt;/groupId&gt;
 &nbsp;&nbsp;&lt;artifactId&gt;org.restlet&lt;/artifactId&gt;
-&nbsp;&nbsp;&lt;version&gt;2.6.0-m1&lt;/version&gt;
+&nbsp;&nbsp;&lt;version&gt;{{ site.data.versions[page.version].latestVersion }}&lt;/version&gt;
 &lt;/dependency&gt;
 &lt;dependency&gt;
 &nbsp;&nbsp;&lt;groupId&gt;org.restlet&lt;/groupId&gt;
 &nbsp;&nbsp;&lt;artifactId&gt;org.restlet.ext.jackson&lt;/artifactId&gt;
-&nbsp;&nbsp;&lt;version&gt;2.6.0-m1&lt;/version&gt;
+&nbsp;&nbsp;&lt;version&gt;{{ site.data.versions[page.version].latestVersion }}&lt;/version&gt;
 &lt;/dependency&gt;
 </code></pre>

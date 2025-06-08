@@ -24,7 +24,7 @@ java.util.logging framework by modifying the Component's "logService"
 property. In order to fully configure the logging, you need to declare a
 configuration file by setting a system property like:
 
-<pre class="language-java"><code class="language-java">System.setProperty("java.util.logging.config.file", "/your/path/logging.config"); 
+<pre class="language-java"><code class="language-java">System.setProperty("java.util.logging.config.file", "/your/path/logging.config");
 </code></pre>
 
 For details on the configuration file format, please check the [JDK's
@@ -68,7 +68,7 @@ command:
 
 You can update the log format by setting the "responseLogFormat" attribute of the logging service.
 This is a simple template which leverages the variables listed here
-[Template]({{ site.data.javadoc.preMavenCentral.baseUrl }}{{ page.version }}/jse/api/org/restlet/util/Resolver.html#createResolver%28org.restlet.data.Request,%20org.restlet.data.Response%29).
+[Template](https://javadoc.io/static/org.restlet/org.restlet/{{ site.data.versions[page.version].latestVersion }}/org/restlet/util/Resolver.html#createResolver%28org.restlet.data.Request,%20org.restlet.data.Response%29).
 
 Here is a sample template and a sample log trace.
 
@@ -105,5 +105,5 @@ For example:
 
 As you may have noticed, the log template does not handle data such as the response time, the date of reception of the request.
 In this case, you can programmatically write your own log trace.
-In order to do so, just inherit from the LogService class and override the [getResponseLogMessage(Response, int) method]({{ site.data.javadoc.preMavenCentral.baseUrl }}{{ page.version }}/jse/api/org/restlet/service/LogService.html#getResponseLogMessage%28org.restlet.Response,%20int%29).
+In order to do so, just inherit from the LogService class and override the [getResponseLogMessage(Response, int) method](https://javadoc.io/static/org.restlet/org.restlet/{{ site.data.versions[page.version].latestVersion }}/org/restlet/service/LogService.html#getResponseLogMessage%28org.restlet.Response,%20int%29).
 The first parameter is the Response object (wich gives your access to the Request object), and the duration of the call.

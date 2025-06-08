@@ -14,5 +14,5 @@ The extension is composed of just one class, the JaxbRepresentation that
 extends the OutputRepresentation and is able to both serialize and
 deserialize a Java objects graph to/from an XML document.
 
-For additional details, please consult the
-[Javadocs]({{ site.data.javadoc.preMavenCentral.baseUrl }}{{ page.version }}/jse/ext/org/restlet/ext/jaxb/package-summary.html).
+For additional details, please consult [the
+Javadocs](https://javadoc.io/doc/org.restlet/org.restlet.ext.jaxb/{{ page.version }}/org/restlet/ext/jaxb/package-summary.html).

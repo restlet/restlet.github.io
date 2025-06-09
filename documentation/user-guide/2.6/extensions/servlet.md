@@ -16,5 +16,5 @@ in your preferred Servlet container such as Apache Tomcat.
 It enables you to run a Restlet based application inside any Servlet
 container such as Tomcat.
 
-For additional details, please consult the
-[Javadocs]({{ site.data.javadoc.preMavenCentral.baseUrl }}{{ page.version }}/jee/ext/org/restlet/ext/servlet/package-summary.html).
+For additional details, please consult [the
+Javadocs](https://javadoc.io/doc/org.restlet/org.restlet.ext.servlet/{{ page.version }}/org/restlet/ext/servlet/package-summary.html).

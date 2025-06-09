@@ -9,4 +9,5 @@ nav_order: 10
 
 To be done.
 
-[Javadocs]({{ site.data.javadoc.preMavenCentral.baseUrl }}{{ page.version }}/jse/ext/org/restlet/ext/gson/package-summary.html).
+For additional details, please consult [the
+Javadocs](https://javadoc.io/doc/org.restlet/org.restlet.ext.gson/{{ page.version }}/org/restlet/ext/gson/package-summary.html).

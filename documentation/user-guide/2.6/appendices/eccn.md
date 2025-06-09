@@ -7,11 +7,10 @@ nav_order: 4
 # Introduction
 
 This page gives some information to help you obtain an ECCN ([Export
-Control Classification
-Number](http://en.wikipedia.org/wiki/Export_Control_Classification_Number))
+Control Classification Number](http://en.wikipedia.org/wiki/Export_Control_Classification_Number))
 for your Restlet based application.
 
-What are aware of several organizations that attempted to obtain such a
+We are aware of several organizations that attempted to obtain such a
 number for their Restlet-based application but we don't think that there
 is a single ECCN for Restlet. Depending on the actual Restlet extensions
 that you are using and redistributing, this classification could change.
@@ -24,12 +23,11 @@ questions related to the classification process.
 ## Does Restlet include any encryption technology?
 
 The Restlet Framework has a [cryptographic
-extension]({{ site.data.javadoc.preMavenCentral.baseUrl }}{{ page.version }}/jee/ext/org/restlet/ext/crypto/package-summary.html)
+extension](https://javadoc.io/doc/org.restlet/org.restlet.ext.crypto/{{ page.version }}/index.html)
 (org.restlet.ext.crypto.jar file) that includes all cryptographic
 related features. It is based on regular Java Cryptography APIs
-(javax.crypto) and used for authentication purpose only (so far): 
-
- In addition, we can take advantage of SSL/HTTPS features to encrypt
+(javax.crypto) and used for authentication purpose only (so far): 
+In addition, we can take advantage of SSL/HTTPS features to encrypt
 communications.
 
 ### **1) org.restlet.security package**
@@ -40,7 +38,7 @@ specific schemes.
 
 However, pluggable authenticator helpers can be registered in the
 Restlet engine, such as these ones in the [crypto
-extension](https://github.com/restlet/restlet-framework-java/tree/{{ page.version }}/modules/org.restlet.ext.crypto/src/main/java/org/restlet/ext/crypto/internal)
+extension](https://github.com/restlet/restlet-framework-java/tree/{{ page.version }}/org.restlet.java/org.restlet.ext.crypto/src/main/java/org/restlet/ext/crypto/internal)
 (note the "internal" packages are hidden from public Javadocs).
 
 ### **2) org.restlet.engine.http.security package**
@@ -59,7 +57,7 @@ extension:
 
 When we encrypt authentication data in a cookie, we give the option to
 change the algorithm and the secret key, [see details
-here]({{ site.data.javadoc.preMavenCentral.baseUrl }}{{ page.version }}/jee/ext/org/restlet/ext/crypto/CookieAuthenticator.html).
+here](https://javadoc.io/static/org.restlet/org.restlet.ext.crypto/{{ page.version }}/org/restlet/ext/crypto/CookieAuthenticator.html).
 
 For the HTTPS support in connectors, the DefaultSslContextFactory uses :
 
@@ -116,8 +114,8 @@ contain or rely on any encryption algorithm:
 -   SslUtils is only providing utility method to extract the length of
     the key used and parse parameters
 
- So, only DefaultSslContextFactory is interesting here ([see source code
-here](https://github.com/restlet/restlet-framework-java/tree/{{ page.version }}/modules/org.restlet/src/main/java/org/restlet/engine/ssl/DefaultSslContextFactory.java?view=markup)).
+So, only DefaultSslContextFactory is interesting here ([see source code
+here](https://github.com/restlet/restlet-framework-java/blob/{{ page.version }}/org.restlet.java/org.restlet/src/main/java/org/restlet/engine/ssl/DefaultSslContextFactory.java)).
 
 ## Is there both object and source code for the encryption technology?
 

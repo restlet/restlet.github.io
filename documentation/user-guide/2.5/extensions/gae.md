@@ -15,9 +15,9 @@ page](http://code.google.com/appengine/).
 
 At the time of writing, this extension provides an Authenticator filter
 that integrates the GAE UserService and detect if the current request is
-auithenticated using a Google account. For additional details, please
-consult the
-[Javadocs]({{ site.data.javadoc.preMavenCentral.baseUrl }}{{ page.version }}/gae/ext/org/restlet/ext/gae/package-summary.html).
+auithenticated using a Google account. For additional details, please consult [the
+Javadocs](https://javadoc.io/doc/org.restlet/org.restlet.ext.gae/{{ page.version }}/org/restlet/ext/gae/package-summary.html).
+
 
 # User example
 

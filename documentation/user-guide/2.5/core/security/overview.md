@@ -11,7 +11,7 @@ The **org.restlet.security** package contains classes related to
 security. As there are numerous protocols (like HTTP, SMTP, etc.) that
 we want to support and as each one has various ways to authenticate
 requests (HTTP Basic, HTTP Digest, SMTP Plain, etc.), the Restlet API
-provides a flexible mechanism to support them all in a unified way. 
+provides a flexible mechanism to support them all in a unified way.
 
 In this section, we will start off with an example explaing how to guard
 sensitive resources and then describe with more details the security
@@ -24,13 +24,13 @@ available. A common way is to rely on cookies to identify clients (or
 client sessions) and to check a given user ID or session ID against your
 application state to determine if access should be granted. Restlets
 natively support cookies via the
-[Cookie]({{ site.data.javadoc.preMavenCentral.baseUrl }}{{ page.version }}/jse/api/org/restlet/data/Cookie.html)
+[Cookie](https://javadoc.io/static/org.restlet/org.restlet/{{ site.data.versions[page.version].latestVersion }}/org/restlet/data/Cookie.html)
 and
-[CookieSetting]({{ site.data.javadoc.preMavenCentral.baseUrl }}{{ page.version }}/jse/api/org/restlet/data/CookieSetting.html)
+[CookieSetting](https://javadoc.io/static/org.restlet/org.restlet/{{ site.data.versions[page.version].latestVersion }}/org/restlet/data/CookieSetting.html)
 objects accessible from a
-[Request]({{ site.data.javadoc.preMavenCentral.baseUrl }}{{ page.version }}/jse/api/org/restlet/Request.html)
+[Request](https://javadoc.io/static/org.restlet/org.restlet/{{ site.data.versions[page.version].latestVersion }}/org/restlet/Request.html)
 or a
-[Response]({{ site.data.javadoc.preMavenCentral.baseUrl }}{{ page.version }}/jse/api/org/restlet/Response.html).
+[Response](https://javadoc.io/static/org.restlet/org.restlet/{{ site.data.versions[page.version].latestVersion }}/org/restlet/Response.html).
 
 There is another way based on the standard HTTP authentication
 mechanism. By default, the Restlet Engine accepts credentials sent and
@@ -227,7 +227,7 @@ In addition to the internal authentication helpers, additional schemes
 can be supported using pluggable extensions. Currently, there is an
 org.restlet.ext.crypto extension available for:
 
--   HTTP Digestjavadocs://jse/engine/org/restlet/engine/ssl/SslContextFactory.html
+-   HTTP Digest
 -   HTTP Amazon S3 (client)
 -   HTTP Azure SharedKey
 
@@ -260,7 +260,7 @@ In addition to the parameters that are similar but specific to [each
 type of HTTPS server
 connector](../base/connectors#05),
 it is possible to configure the SSL connectors using an
-[SslContextFactory]({{ site.data.javadoc.preMavenCentral.baseUrl }}{{ page.version }}/jse/engine/org/restlet/engine/ssl/SslContextFactory.html	),
+[SslContextFactory](https://javadoc.io/doc{{ page.version }}/jse/engine/org/restlet/engine/ssl/SslContextFactory.html	),
 in a way that is common to all three types of HTTPS server connectors
 (Simple, Jetty and Grizzly). Configuring SSL is done in this order:
 
@@ -274,7 +274,7 @@ in a way that is common to all three types of HTTPS server connectors
     passed to its `init` method, so as to initialize the
     SslContextFactory instance via text parameters.\
      The
-    [org.restlet.engine.ssl.DefaultSslContextFactory]({{ site.data.javadoc.preMavenCentral.baseUrl }}{{ page.version }}/jse/engine/org/restlet/engine/ssl/DefaultSslContextFactory.html#init%28org.restlet.util.Series%29)
+    [org.restlet.engine.ssl.DefaultSslContextFactory](https://javadoc.io/doc{{ page.version }}/jse/engine/org/restlet/engine/ssl/DefaultSslContextFactory.html#init%28org.restlet.util.Series%29)
     is an SslContextFactory that supports a basic set of parameters, and
     will default to the values specified in the `javax.net.ssl.*` system
     properties (see [JSSE Reference

@@ -11,4 +11,4 @@ This extension includes the HTTP\_DIGEST, Amazon S3 and Windows Azure
 client authentication.
 
 For additional details, please consult [the
-Javadocs]({{ site.data.javadoc.preMavenCentral.baseUrl }}{{ page.version }}/jse/ext/org/restlet/ext/crypto/package-summary.html).
+Javadocs](https://javadoc.io/doc/org.restlet/org.restlet.ext.crypto/{{ page.version }}/org/restlet/ext/crypto/package-summary.html).

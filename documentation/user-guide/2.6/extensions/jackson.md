@@ -83,5 +83,5 @@ Note that our Customer and Address classes are just regular serializablecbeans, 
 
 What is nice is that the automatically generated representations can be customized via Jackson annotations on the serialized beans. More details on annotations are [available in Jackson documentation](http://wiki.fasterxml.com/JacksonInFiveMinutes).
 
-For additional details, please consult the
-[Javadocs]({{ site.data.javadoc.preMavenCentral.baseUrl }}{{ page.version }}/jse/ext/org/restlet/ext/jackson/package-summary.html).
+For additional details, please consult [the
+Javadocs](https://javadoc.io/doc/org.restlet/org.restlet.ext.jackson/{{ page.version }}/org/restlet/ext/jackson/package-summary.html).

@@ -24,5 +24,5 @@ mechanism of Dependency Injection mostly based on JavaBean setters
 and the conceptual choices of the Restlet Framework that didn't
 systematize the use of simple POJOs. 
 
-For additional details, please consult the
-[Javadocs]({{ site.data.javadoc.preMavenCentral.baseUrl }}{{ page.version }}/jse/ext/org/restlet/ext/spring/package-summary.html).
+For additional details, please consult [the
+Javadocs](https://javadoc.io/doc/org.restlet/org.restlet.ext.spring/{{ page.version }}/org/restlet/ext/spring/package-summary.html).

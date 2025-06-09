@@ -38,7 +38,7 @@ By staying agnostic to all presentation technologies (React, AngularJS, VueJSm A
 
 REST principles have no limit, they can be applied everywhere the Web is and even in places where there is no Internet but needs for communication or effective decoupling. Currently, the Restlet Framework is available in two editions:
 
-- Edition for Java, to run your Restlet applications in regular JVMs, Servlet containers, Android devices, GAE or OSGi environments
+- Edition for Java, to run your Restlet applications in regular JVMs, Servlet containers, Android devices, GAE environments
 - Edition for GWT, to run your Web browser clients, without plugins.
 
 # Servlet compatible

@@ -49,7 +49,7 @@ single compact line, reducing confusion while debugging.
 
 It is also possible to define the calls to log based on a URI template
 by calling the
-LogService\#[setLoggableTemplate]({{ site.data.javadoc.preMavenCentral.baseUrl }}{{ page.version }}/jee/api/org/restlet/service/LogService.html#setLoggableTemplate%28java.lang.String%29)(...)
+LogService\#[setLoggableTemplate](https://javadoc.io/static/org.restlet/org.restlet/{{ site.data.versions[page.version].latestVersion }}/org/restlet/service/LogService.html#setLoggableTemplate%28java.lang.String%29)(...)
 method.
 
 # Logger names

@@ -11,13 +11,13 @@ In order to simplify even more the learning and deployment of Restlet
 applications, the Restlet API and its implementation (ie. the Restlet
 Engine) have been merged into a single module (ie. JAR, bundle). All
 engine classes were moved to
-[org.restlet.engine]({{ site.data.javadoc.preMavenCentral.baseUrl }}{{ page.version }}/jse/engine/index.html).
+[org.restlet.engine](https://javadoc.io/doc{{ page.version }}/jse/engine/index.html).
 
 In addition, all extensions are now located under a
-[org.restlet.ext]({{ site.data.javadoc.preMavenCentral.baseUrl }}{{ page.version }}/jse/ext/index.html)
+[org.restlet.ext](https://javadoc.io/doc{{ page.version }}/jse/ext/index.html)
 root package. This means that all extensions previously under
 "com.noelios.restlet.ext" have been moved. Note that some classes from
-the [core Restlet API]({{ site.data.javadoc.preMavenCentral.baseUrl }}{{ page.version }}/jse/api/index.html)
+the [core Restlet API](https://javadoc.io/doc{{ page.version }}/jse/api/index.html)
 have been moved to the Restlet Engine such as:
 
 -   org.restlet.util.Engine moved to org.restlet.engine.Engine

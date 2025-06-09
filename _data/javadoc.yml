@@ -1,4 +1,2 @@
 preMavenCentral:
   'baseUrl': https://javadocs.restlet.talend.com/
-mavenCentral:
-  'baseUrl': https://javadoc.io/doc

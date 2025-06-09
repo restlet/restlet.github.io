@@ -16,4 +16,3 @@ them.
 -   [Google Web Toolkit](./gwt/overview "Restlet edition for Google Web Toolkit")
 -   [Java EE](./jee/overview "Restlet edition for Java EE")
 -   [Java SE](./jse/overview "Restlet edition for Java SE")
--   [OSGi](./osgi "Restlet edition for Java SE")

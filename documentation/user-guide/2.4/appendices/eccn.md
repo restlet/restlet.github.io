@@ -11,7 +11,7 @@ Control Classification
 Number](http://en.wikipedia.org/wiki/Export_Control_Classification_Number))
 for your Restlet based application.
 
-What are aware of several organizations that attempted to obtain such a
+We are aware of several organizations that attempted to obtain such a
 number for their Restlet-based application but we don't think that there
 is a single ECCN for Restlet. Depending on the actual Restlet extensions
 that you are using and redistributing, this classification could change.

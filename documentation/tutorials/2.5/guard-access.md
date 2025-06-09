@@ -9,11 +9,11 @@ available. A common way is to rely on cookies to identify clients (or
 client sessions) and to check a given user ID or session ID against your
 application state to determine if access should be granted. Restlets
 natively support cookies via the
-[Cookie]({{ site.data.javadoc.preMavenCentral.baseUrl }}{{ page.version }}/jse/api/org/restlet/data/Cookie.html) and
-[CookieSetting]({{ site.data.javadoc.preMavenCentral.baseUrl }}{{ page.version }}/jse/api/org/restlet/data/CookieSetting.html)
+[Cookie](https://javadoc.io/static/org.restlet/org.restlet/{{ site.data.versions[page.version].latestVersion }}/org/restlet/data/Cookie.html) and
+[CookieSetting](https://javadoc.io/static/org.restlet/org.restlet/{{ site.data.versions[page.version].latestVersion }}/org/restlet/data/CookieSetting.html)
 objects accessible from a
-[Request]({{ site.data.javadoc.preMavenCentral.baseUrl }}{{ page.version }}/jse/api/org/restlet/Request.html) or a
-[Response]({{ site.data.javadoc.preMavenCentral.baseUrl }}{{ page.version }}/jse/api/org/restlet/Response.html).
+[Request](https://javadoc.io/static/org.restlet/org.restlet/{{ site.data.versions[page.version].latestVersion }}/org/restlet/Request.html) or a
+[Response](https://javadoc.io/static/org.restlet/org.restlet/{{ site.data.versions[page.version].latestVersion }}/org/restlet/Response.html).
 
 There is another way based on the standard HTTP authentication
 mechanism. The Restlet Engine has built-in support for credentials sent and

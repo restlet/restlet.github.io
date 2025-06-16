@@ -1,19 +1,3 @@
-var RESTLET = window.RESTLET || {};
-var RESTLET = (function ($) {
-  return {
-    base : {
-      //initialize base object @function init
-      init : function () {
-
-      },
-    }
-  }
-})(jQuery);
-
-$(document).ready(function () {
-  RESTLET.base.init();
-});
-
 function getUrl (branch, release, edition) {
   return '{{ site.data.downloads.preMavenCentral.baseUrl }}' + branch + '/restlet-' + edition + '-' + release + '.zip';
 }

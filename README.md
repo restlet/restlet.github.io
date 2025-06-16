@@ -13,7 +13,7 @@ cd /path/to/restlet.github.io
 docker run --rm --volume="$PWD:/srv/jekyll:Z" --publish 4000:4000 jekyll/jekyll jekyll serve
 ```
 
-- If you think you can install ruby and so on easily:
+- If you think you can easily install ruby and so on:
   - install ruby according to the requirements [here](https://jekyllrb.com/docs/)
   - run `bundle install`
   - run `bundle exec jekyll serve` and go to http://127.0.0.1:4000/

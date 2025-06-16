@@ -68,7 +68,7 @@ layout: homepage
           </div>
 
           <div class="form-group">
-            <button type="button" class="m-button m-button-block m-button-flat-darkblue" id="download" onclick="downloadIIFE({{ site.data.downloads.preMavenCentral.versions | jsonify }}, '{{ site.data.downloads.preMavenCentral.baseUrl }}')">Download</button>
+            <button type="button" class="m-button m-button-block m-button-flat-darkblue" id="download" onclick="downloadIIFE(JSON.parse('{{ site.data.downloads.preMavenCentral.versions | jsonify }}'), '{{ site.data.downloads.preMavenCentral.baseUrl }}')">Download</button>
           </div>
 
           <p>Release date: <span id="download_date">2024-06-20</span></p>

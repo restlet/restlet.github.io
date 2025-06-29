@@ -1,7 +1,3 @@
-_site
-.sass-cache
-.jekyll-metadata
-.idea/*
-*.lock
-*.iml
 .DS_Store
+public/
+resources/

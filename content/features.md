@@ -53,7 +53,7 @@ Fully aligned with Web standards, Restlet Framework provides the following repre
 - Support for Atom standard via a dedicated extension.
 - Full RDF reading and writing support make Restlet Framework ready for the Semantic Web (Web 3.0).
 
-<figure class="text-center"><img src="/images/features/gears.svg"></figure>
+<figure class="text-center"><img alt="gears" src="/images/features/gears.svg"></figure>
 
 # Flexible Configuration
 Restlet Framework can be entirely configured in Java via the Restlet API. Configuration standards supported include:

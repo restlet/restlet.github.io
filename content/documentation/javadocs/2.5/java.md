@@ -37,4 +37,4 @@ weight: 1
         <li><a href="https://javadoc.io/doc/org.restlet/org.restlet.ext.xml/{{% param version %}}/">XML extension</a></li>
     </li>
   </ul>
-</p>
+</div>

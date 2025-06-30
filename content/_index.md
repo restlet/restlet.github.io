@@ -8,6 +8,6 @@ Since its start, its Java API has closely matched the concepts and terminology o
 While Restlet applications can be deployed in Servlet containers, they can also run directly in JVMs with minimal dependencies, resulting in a small footprint suitable for microservices. Restlet Framework is available in a Java edition compatible with Java SE/EE, GAE, OSGi and Android environments, as well as in a separate GWT edition. It offers several extensions for common use cases and can be easily extended if needed.
 
 <div class="m-cta cta-darkblue">
-    <img style="width: 173px" src="/images/restlet-framework.svg" alt="Restlet Framework">
+    <img class="home-logo" src="/images/restlet-framework.svg" alt="Restlet Framework">
     <a href="/downloads/current/" class="m-button m-button-border">Download</a>
 </div>

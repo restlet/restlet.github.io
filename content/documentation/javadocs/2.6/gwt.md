@@ -13,6 +13,7 @@ weight: 2
       <ul>
         <li><a href="https://javadoc.io/doc/org.restlet.gwt/org.restlet.gwt.ext.json/{{% param version %}}/">JSON extension</a></li>
         <li><a href="https://javadoc.io/doc/org.restlet.gwt/org.restlet.gwt.ext.xml/{{% param version %}}/">XML extension</a></li>
+      </ul>
     </li>
   </ul>
 </div>

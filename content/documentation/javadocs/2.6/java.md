@@ -29,6 +29,7 @@ weight: 1
         <li><a href="https://javadoc.io/doc/org.restlet/org.restlet.ext.thymeleaf/{{% param version %}}/">Thymeleaf extension</a></li>
         <li><a href="https://javadoc.io/doc/org.restlet/org.restlet.ext.velocity/{{% param version %}}/">Velocity extension</a></li>
         <li><a href="https://javadoc.io/doc/org.restlet/org.restlet.ext.xml/{{% param version %}}/">XML extension</a></li>
+      </ul>
     </li>
   </ul>
 </div>

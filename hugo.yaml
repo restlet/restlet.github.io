@@ -26,6 +26,8 @@ security:
   enableInlineShortcodes: true
 
 markup:
+  highlight:
+    noClasses: false
   goldmark:
     duplicateResourceFiles: false
     extensions:

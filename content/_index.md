@@ -1,7 +1,7 @@
 ---
 title: 'Overview'
 ---
-Launched in 2005, Restlet Framework is the first open source project that embraced `REST` in the Java world.
+Launched in 2005, Restlet Framework is the first open source project that embraced REST in the Java world.
 
 Since its start, its Java API has closely matched the concepts and terminology of the REST architecture style as well as the HTTP protocol. It includes powerful and dynamic routing and security features, as well as fully unified way to develop both web clients, web servers or both at the same time. Its power and maturity gives you an alternative to developing directly with the Servlet API or with the JAX-RS API.
 

@@ -493,8 +493,7 @@ pre code {
   }
 }
 
-.download,
-.downloads-past {
+.download {
   select {
     appearance: none;
     background-image: url(../images/shared/select-toggle.png);
@@ -518,41 +517,10 @@ pre code {
   }
 }
 
-.downloads-past {
-  svg {
-    max-width: 316px;
-  }
-
-  form {
-    max-width: 215px;
-
-    .m-button {
-      margin-bottom: 20px;
-    }
-
-    p {
-      margin-bottom: 17px;
-    }
-  }
-
-  p>small {
-    color: $mako;
-  }
-}
-
 .framework-index  {
 
   .icon-block {
     padding: 0 0 30px;
-
-    svg {
-      width: 187px;
-      height: auto;
-      &.larger {
-        width: 235px;
-        height: auto;
-      }
-    }
   }
 }
 

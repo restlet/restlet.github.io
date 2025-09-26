@@ -1,9 +1,8 @@
 ---
 title: Google App Engine
 longTitle: Restlet edition for Google App Engine
-weight: 3
+weight: 5
 ---
-# Introduction
 
 Google provides App Engine (GAE) which a
 PaaS (Platform as a Service) solution that offers massive and flexible

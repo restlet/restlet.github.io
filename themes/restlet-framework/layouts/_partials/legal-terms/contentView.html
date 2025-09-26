@@ -1,0 +1,14 @@
+<div class="content-wrapper section-bg-white">
+  {{- partial "documentation/installFramework.html" . }}
+  {{- partial "documentation/mobileNav.html" . }}
+  <div class="row">
+    <div class="col-md-3"></div>
+    <div class="col-md-9">
+      <div class="documentation-content">
+
+        <h1>{{ default .Title .Params.longTitle }}</h1>
+        {{ .Content }}
+      </div>
+    </div>
+  </div>
+</div>

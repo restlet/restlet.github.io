@@ -1,5 +1,5 @@
 baseURL: 
-languageCode: en-us
+locale: en-us
 title: Restlet framework
 theme: restlet-framework
 
@@ -9,11 +9,11 @@ module:
 
 params:
   versions:
-    stable: 2.6
+    stable: 2.7
     '2.5':
       'latestRelease': 2.5.2
     '2.6':
-      'latestRelease': 2.6.1
+      'latestRelease': 2.6.0
     '2.7':
       'latestRelease': 2.7.0-m2
 
@@ -80,9 +80,9 @@ markup:
       wrapStandAloneImageWithinParagraph: true
     renderHooks:
       image:
-        enableDefault: false
+        useEmbedded: never
       link:
-        enableDefault: false
+        useEmbedded: never
     renderer:
       hardWraps: false
       unsafe: true

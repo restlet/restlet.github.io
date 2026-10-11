@@ -16,6 +16,8 @@ params:
       'latestRelease': 2.6.0
     '2.7':
       'latestRelease': 2.7.0-m2
+    '3.0':
+      'latestRelease': 3.0.0-m1
 
 disableKinds:
    - rss

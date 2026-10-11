@@ -3,6 +3,7 @@ cascade:
   params:
     section: javadocs
     versions:
+      - '3.0'
       - '2.7'
       - '2.6'
       - '2.5'
